@@ -21,12 +21,31 @@ if (fs.existsSync(checkpointFile)) {
   for (let i = checkpoint.lastIndex; i < links.length; i++) {
     const link = links[i];
     console.log(`Scraping ${link.name}: ${link.href}`);
-
+    const blacklist = [
+      "Tentang Kami",
+      "Karier",
+      "Hubungi Kami",
+      "Tim Editorial",
+      "Langganan",
+      "Syarat & Ketentuan",
+      "Privasi",
+      "Iklan",
+      "Gabung di Tim Dokter",
+      "Daftarkan Rumah Sakit Anda",
+      "alomedika.com"
+    ];
     try {
       await page.goto(link.href, { waitUntil: 'networkidle' });
 
-      const paragraphs = await page.$$eval('p', (elements) => elements.map((el) => el.innerText.trim()));
-
+      const paragraphs = await page.$$eval(
+        'p',
+        (elements, blacklist) =>
+          elements
+            .map((el) => el.innerText.trim())
+            .filter((text) => text.length > 0 && !blacklist.includes(text)),
+        blacklist 
+      );
+    
       penyakitData.push({
         name: link.name,
         href: link.href,
