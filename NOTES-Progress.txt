@@ -1,5 +1,0 @@
-1. Scraper berhasil mendapatkan links penyakit, dan disimpan pada penyakit-links.json.
-2. Pengujian scraper telah dijalankan untuk beberapa link dan disimpan pada checkpoint.json.
-3. Masih ada beberapa tantangan pada pengambilan tag p, seperti tag p yang ada pada footer.
-   Seharusnya tinggal difilter untuk scrape tag p pada container konten tentang penyakitnya saja.
-4. Langkah selanjutnya menyelesaikan pengumpulan data sebelum digunakan untuk membangun chatbot RAG.
