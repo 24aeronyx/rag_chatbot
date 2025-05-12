@@ -1,2 +1,3 @@
 node_modules
-embeddings
+embeddings/
+data/penyakit-data-chunked.json
