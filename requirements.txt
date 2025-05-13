@@ -1,4 +1,8 @@
-llama
+ollama
 chromadb
 numpy
 scikit-learn
+playwright
+sentencetransformer
+tqdm
+nltk
