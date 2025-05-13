@@ -1,102 +1,102 @@
 [
   {
-    "question": "Apa itu Puting Gatal?",
-    "ground_truth": "Puting Gatal"
+    "question": "Apa itu Nyeri Testis?",
+    "ground_truth": "Nyeri Testis"
   },
   {
-    "question": "Apa penyebab dari Kutil?",
-    "ground_truth": "Kutil"
+    "question": "Apa komplikasi yang mungkin terjadi akibat Hidrosefalus?",
+    "ground_truth": "Hidrosefalus"
   },
   {
-    "question": "Apa itu Plantar Fasciitis?",
-    "ground_truth": "Plantar Fasciitis"
+    "question": "Apakah Diabetes Gestasional berbahaya?",
+    "ground_truth": "Diabetes Gestasional"
   },
   {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Perikarditis?",
-    "ground_truth": "Perikarditis"
+    "question": "Bagaimana diagnosis untuk Gangguan Mental?",
+    "ground_truth": "Gangguan Mental"
   },
   {
-    "question": "Apa itu Malformasi Arteri Vena?",
-    "ground_truth": "Malformasi Arteri Vena"
+    "question": "Apa komplikasi yang mungkin terjadi akibat Gangguan Panik?",
+    "ground_truth": "Gangguan Panik"
   },
   {
-    "question": "Bagaimana cara mengobati Pingsan?",
-    "ground_truth": "Pingsan"
+    "question": "Bagaimana diagnosis untuk Gusi Bengkak?",
+    "ground_truth": "Gusi Bengkak"
   },
   {
-    "question": "Apa saja gejala Percobaan Bunuh Diri?",
-    "ground_truth": "Percobaan Bunuh Diri"
+    "question": "Bagaimana cara mengobati Abses Hati?",
+    "ground_truth": "Abses Hati"
   },
   {
-    "question": "Apakah Konjungtivitis berbahaya?",
-    "ground_truth": "Konjungtivitis"
+    "question": "Apa penyebab dari Hantavirus?",
+    "ground_truth": "Hantavirus"
   },
   {
-    "question": "Apa itu Pneumonia Aspirasi?",
-    "ground_truth": "Pneumonia Aspirasi"
+    "question": "Apa itu Hirsutisme?",
+    "ground_truth": "Hirsutisme"
   },
   {
-    "question": "Bagaimana diagnosis untuk Kwashiorkor?",
-    "ground_truth": "Kwashiorkor"
+    "question": "Apa itu Hernia Epigastrik?",
+    "ground_truth": "Hernia Epigastrik"
   },
   {
-    "question": "Bagaimana diagnosis untuk Polio?",
-    "ground_truth": "Polio"
+    "question": "Apakah Chlamydia berbahaya?",
+    "ground_truth": "Chlamydia"
   },
   {
-    "question": "Apa itu Kostokondritis?",
-    "ground_truth": "Kostokondritis"
+    "question": "Apa saja gejala Flek Hitam?",
+    "ground_truth": "Flek Hitam"
   },
   {
-    "question": "Bagaimana diagnosis untuk Limfoma Hodgkin?",
-    "ground_truth": "Limfoma Hodgkin"
+    "question": "Apa penyebab dari DIC?",
+    "ground_truth": "DIC"
   },
   {
-    "question": "Apa saja gejala Prediabetes?",
-    "ground_truth": "Prediabetes"
+    "question": "Apa itu Ataksia Friedreich?",
+    "ground_truth": "Ataksia Friedreich"
   },
   {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Klaudikasio Intermiten?",
-    "ground_truth": "Klaudikasio Intermiten"
+    "question": "Apa itu Abses Gigi?",
+    "ground_truth": "Abses Gigi"
   },
   {
-    "question": "Apa penyebab dari Infeksi Gigi?",
-    "ground_truth": "Infeksi Gigi"
+    "question": "Apa penyebab dari Cacar Monyet?",
+    "ground_truth": "Cacar Monyet"
   },
   {
-    "question": "Apa saja gejala Disfagia?",
-    "ground_truth": "Disfagia"
-  },
-  {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Perut Buncit?",
-    "ground_truth": "Perut Buncit"
+    "question": "Apa saja gejala Fraktur Colles?",
+    "ground_truth": "Fraktur Colles"
   },
   {
     "question": "Bagaimana diagnosis untuk Campak?",
     "ground_truth": "Campak"
   },
   {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Bau Mulut?",
-    "ground_truth": "Bau Mulut"
+    "question": "Apa saja gejala Hiperkolesterolemia?",
+    "ground_truth": "Hiperkolesterolemia"
   },
   {
-    "question": "Bagaimana cara mengobati Penyakit Infeksi?",
-    "ground_truth": "Penyakit Infeksi"
+    "question": "Apa komplikasi yang mungkin terjadi akibat Disentri?",
+    "ground_truth": "Disentri"
   },
   {
-    "question": "Apa penyebab dari Demam Berdarah?",
-    "ground_truth": "Demam Berdarah"
+    "question": "Apa komplikasi yang mungkin terjadi akibat Gangguan Penyimpanan Lisosom?",
+    "ground_truth": "Gangguan Penyimpanan Lisosom"
   },
   {
-    "question": "Apakah Bronkitis berbahaya?",
-    "ground_truth": "Bronkitis"
+    "question": "Apa komplikasi yang mungkin terjadi akibat Gangguan Metabolik?",
+    "ground_truth": "Gangguan Metabolik"
   },
   {
-    "question": "Apa penyebab dari Penyakit Mieloproliferatif?",
-    "ground_truth": "Penyakit Mieloproliferatif"
+    "question": "Apa saja gejala Cachexia?",
+    "ground_truth": "Cachexia"
   },
   {
-    "question": "Bagaimana cara mengobati Berat Badan Berlebih?",
-    "ground_truth": "Berat Badan Berlebih"
+    "question": "Bagaimana cara mengobati Ebola?",
+    "ground_truth": "Ebola"
+  },
+  {
+    "question": "Apa saja gejala Hamil Lewat Bulan?",
+    "ground_truth": "Hamil Lewat Bulan"
   }
 ]
