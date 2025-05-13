@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Bagaimana diagnosis untuk Hipoksia?",
+    "ground_truth": "Hipoksia"
+  },
+  {
+    "question": "Apakah Restless Legs Syndrome berbahaya?",
+    "ground_truth": "Restless Legs Syndrome"
+  },
+  {
+    "question": "Bagaimana diagnosis untuk Penyakit Celiac?",
+    "ground_truth": "Penyakit Celiac"
+  },
+  {
+    "question": "Apa penyebab dari Kolesterol?",
+    "ground_truth": "Kolesterol"
+  },
+  {
+    "question": "Bagaimana cara mengobati Mastitis?",
+    "ground_truth": "Mastitis"
+  },
+  {
+    "question": "Apa komplikasi yang mungkin terjadi akibat Phlebitis?",
+    "ground_truth": "Phlebitis"
+  },
+  {
+    "question": "Apakah Neuropati Diabetik berbahaya?",
+    "ground_truth": "Neuropati Diabetik"
+  },
+  {
+    "question": "Apakah Osgood-Schlatter Disease berbahaya?",
+    "ground_truth": "Osgood-Schlatter Disease"
+  },
+  {
+    "question": "Bagaimana cara mengobati Miokarditis?",
+    "ground_truth": "Miokarditis"
+  },
+  {
+    "question": "Apa penyebab dari Penyakit Behcet?",
+    "ground_truth": "Penyakit Behcet"
+  },
+  {
+    "question": "Apa saja gejala Mycoplasma pneumoniae?",
+    "ground_truth": "Mycoplasma pneumoniae"
+  },
+  {
+    "question": "Apa itu Limfoma non-Hodgkin?",
+    "ground_truth": "Limfoma non-Hodgkin"
+  },
+  {
+    "question": "Apa komplikasi yang mungkin terjadi akibat Limfoma Mata?",
+    "ground_truth": "Limfoma Mata"
+  },
+  {
+    "question": "Apa saja gejala Leukemia Limfoblastik Akut?",
+    "ground_truth": "Leukemia Limfoblastik Akut"
+  },
+  {
+    "question": "Apa penyebab dari Neuritis Optik?",
+    "ground_truth": "Neuritis Optik"
+  },
+  {
+    "question": "Apa komplikasi yang mungkin terjadi akibat Mendengkur?",
+    "ground_truth": "Mendengkur"
+  },
+  {
+    "question": "Bagaimana cara mengobati Polio?",
+    "ground_truth": "Polio"
+  },
+  {
+    "question": "Apakah Pilek berbahaya?",
+    "ground_truth": "Pilek"
+  },
+  {
+    "question": "Apa komplikasi yang mungkin terjadi akibat Oligospermia?",
+    "ground_truth": "Oligospermia"
+  },
+  {
+    "question": "Apa komplikasi yang mungkin terjadi akibat Polip Hidung?",
+    "ground_truth": "Polip Hidung"
+  },
+  {
+    "question": "Bagaimana cara mengobati Penyakit Charcot-Marie-Tooth?",
+    "ground_truth": "Penyakit Charcot-Marie-Tooth"
+  },
+  {
+    "question": "Apakah Malaria berbahaya?",
+    "ground_truth": "Malaria"
+  },
+  {
+    "question": "Bagaimana diagnosis untuk Pinta?",
+    "ground_truth": "Pinta"
+  },
+  {
+    "question": "Apa saja gejala Mata Malas?",
+    "ground_truth": "Mata Malas"
+  },
+  {
+    "question": "Apa penyebab dari Nyeri Otot (Myalgia)?",
+    "ground_truth": "Nyeri Otot (Myalgia)"
+  }
+]

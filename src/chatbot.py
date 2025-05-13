@@ -59,6 +59,8 @@ def main():
 
         docs, metas = query_to_chroma(question)
         prompt = build_prompt(question, docs)
+        print("\n🤔 Sedang berpikir...")
+
         answer = ask_llama_via_api(prompt)
 
         print("\n💬 Jawaban Chatbot:")
