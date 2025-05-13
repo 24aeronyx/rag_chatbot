@@ -1,102 +1,102 @@
 [
   {
-    "question": "Bagaimana diagnosis untuk Hipoksia?",
-    "ground_truth": "Hipoksia"
+    "question": "Apa itu Puting Gatal?",
+    "ground_truth": "Puting Gatal"
   },
   {
-    "question": "Apakah Restless Legs Syndrome berbahaya?",
-    "ground_truth": "Restless Legs Syndrome"
+    "question": "Apa penyebab dari Kutil?",
+    "ground_truth": "Kutil"
   },
   {
-    "question": "Bagaimana diagnosis untuk Penyakit Celiac?",
-    "ground_truth": "Penyakit Celiac"
+    "question": "Apa itu Plantar Fasciitis?",
+    "ground_truth": "Plantar Fasciitis"
   },
   {
-    "question": "Apa penyebab dari Kolesterol?",
-    "ground_truth": "Kolesterol"
+    "question": "Apa komplikasi yang mungkin terjadi akibat Perikarditis?",
+    "ground_truth": "Perikarditis"
   },
   {
-    "question": "Bagaimana cara mengobati Mastitis?",
-    "ground_truth": "Mastitis"
+    "question": "Apa itu Malformasi Arteri Vena?",
+    "ground_truth": "Malformasi Arteri Vena"
   },
   {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Phlebitis?",
-    "ground_truth": "Phlebitis"
+    "question": "Bagaimana cara mengobati Pingsan?",
+    "ground_truth": "Pingsan"
   },
   {
-    "question": "Apakah Neuropati Diabetik berbahaya?",
-    "ground_truth": "Neuropati Diabetik"
+    "question": "Apa saja gejala Percobaan Bunuh Diri?",
+    "ground_truth": "Percobaan Bunuh Diri"
   },
   {
-    "question": "Apakah Osgood-Schlatter Disease berbahaya?",
-    "ground_truth": "Osgood-Schlatter Disease"
+    "question": "Apakah Konjungtivitis berbahaya?",
+    "ground_truth": "Konjungtivitis"
   },
   {
-    "question": "Bagaimana cara mengobati Miokarditis?",
-    "ground_truth": "Miokarditis"
+    "question": "Apa itu Pneumonia Aspirasi?",
+    "ground_truth": "Pneumonia Aspirasi"
   },
   {
-    "question": "Apa penyebab dari Penyakit Behcet?",
-    "ground_truth": "Penyakit Behcet"
+    "question": "Bagaimana diagnosis untuk Kwashiorkor?",
+    "ground_truth": "Kwashiorkor"
   },
   {
-    "question": "Apa saja gejala Mycoplasma pneumoniae?",
-    "ground_truth": "Mycoplasma pneumoniae"
-  },
-  {
-    "question": "Apa itu Limfoma non-Hodgkin?",
-    "ground_truth": "Limfoma non-Hodgkin"
-  },
-  {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Limfoma Mata?",
-    "ground_truth": "Limfoma Mata"
-  },
-  {
-    "question": "Apa saja gejala Leukemia Limfoblastik Akut?",
-    "ground_truth": "Leukemia Limfoblastik Akut"
-  },
-  {
-    "question": "Apa penyebab dari Neuritis Optik?",
-    "ground_truth": "Neuritis Optik"
-  },
-  {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Mendengkur?",
-    "ground_truth": "Mendengkur"
-  },
-  {
-    "question": "Bagaimana cara mengobati Polio?",
+    "question": "Bagaimana diagnosis untuk Polio?",
     "ground_truth": "Polio"
   },
   {
-    "question": "Apakah Pilek berbahaya?",
-    "ground_truth": "Pilek"
+    "question": "Apa itu Kostokondritis?",
+    "ground_truth": "Kostokondritis"
   },
   {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Oligospermia?",
-    "ground_truth": "Oligospermia"
+    "question": "Bagaimana diagnosis untuk Limfoma Hodgkin?",
+    "ground_truth": "Limfoma Hodgkin"
   },
   {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Polip Hidung?",
-    "ground_truth": "Polip Hidung"
+    "question": "Apa saja gejala Prediabetes?",
+    "ground_truth": "Prediabetes"
   },
   {
-    "question": "Bagaimana cara mengobati Penyakit Charcot-Marie-Tooth?",
-    "ground_truth": "Penyakit Charcot-Marie-Tooth"
+    "question": "Apa komplikasi yang mungkin terjadi akibat Klaudikasio Intermiten?",
+    "ground_truth": "Klaudikasio Intermiten"
   },
   {
-    "question": "Apakah Malaria berbahaya?",
-    "ground_truth": "Malaria"
+    "question": "Apa penyebab dari Infeksi Gigi?",
+    "ground_truth": "Infeksi Gigi"
   },
   {
-    "question": "Bagaimana diagnosis untuk Pinta?",
-    "ground_truth": "Pinta"
+    "question": "Apa saja gejala Disfagia?",
+    "ground_truth": "Disfagia"
   },
   {
-    "question": "Apa saja gejala Mata Malas?",
-    "ground_truth": "Mata Malas"
+    "question": "Apa komplikasi yang mungkin terjadi akibat Perut Buncit?",
+    "ground_truth": "Perut Buncit"
   },
   {
-    "question": "Apa penyebab dari Nyeri Otot (Myalgia)?",
-    "ground_truth": "Nyeri Otot (Myalgia)"
+    "question": "Bagaimana diagnosis untuk Campak?",
+    "ground_truth": "Campak"
+  },
+  {
+    "question": "Apa komplikasi yang mungkin terjadi akibat Bau Mulut?",
+    "ground_truth": "Bau Mulut"
+  },
+  {
+    "question": "Bagaimana cara mengobati Penyakit Infeksi?",
+    "ground_truth": "Penyakit Infeksi"
+  },
+  {
+    "question": "Apa penyebab dari Demam Berdarah?",
+    "ground_truth": "Demam Berdarah"
+  },
+  {
+    "question": "Apakah Bronkitis berbahaya?",
+    "ground_truth": "Bronkitis"
+  },
+  {
+    "question": "Apa penyebab dari Penyakit Mieloproliferatif?",
+    "ground_truth": "Penyakit Mieloproliferatif"
+  },
+  {
+    "question": "Bagaimana cara mengobati Berat Badan Berlebih?",
+    "ground_truth": "Berat Badan Berlebih"
   }
 ]

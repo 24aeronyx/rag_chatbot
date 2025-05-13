@@ -1,43 +1,61 @@
-import numpy as np
+import json
+from tqdm import tqdm
+from chromadb import PersistentClient
+from sentence_transformers import SentenceTransformer
 
-def evaluate(query, ground_truth, predicted):
-    """
-    Evaluate chatbot using mAP and MRR metrics.
-    Parameters:
-    - query: Input query string
-    - ground_truth: List of expected responses (list of lists, each containing relevant documents)
-    - predicted: List of predicted responses from chatbot (list of lists, each containing predicted documents)
-    """
-    # Mean Average Precision (mAP) calculation
-    ap_scores = []
-    for gt, pred in zip(ground_truth, predicted):
-        # Calculate average precision for this query
-        relevant_docs = [1 if doc in gt else 0 for doc in pred]  # Mark relevant docs as 1, others as 0
-        precision_at_k = np.cumsum(relevant_docs) / (np.arange(len(pred)) + 1)  # Precision at each rank
-        ap = np.mean(precision_at_k * relevant_docs)  # Average Precision
-        ap_scores.append(ap)
+# Setup
+PERSIST_DIR = './embeddings'
+COLLECTION_NAME = 'penyakit_embeddings'
+TOP_K = 5
+QUESTIONS_FILE = 'data/generated-questions.json'
 
-    map_score = np.mean(ap_scores)  # Mean Average Precision
+# Init
+client = PersistentClient(path=PERSIST_DIR)
+collection = client.get_or_create_collection(name=COLLECTION_NAME)
+embedder = SentenceTransformer('all-MiniLM-L6-v2')
 
-    # Mean Reciprocal Rank (MRR) calculation
-    mrr_scores = []
-    for gt, pred in zip(ground_truth, predicted):
-        rank = next((i for i, doc in enumerate(pred) if doc in gt), None)
+def query_to_chroma(question, top_k=TOP_K):
+    embedding = embedder.encode(question).tolist()
+    results = collection.query(query_embeddings=[embedding], n_results=top_k)
+    return results['metadatas'][0]
+
+def compute_metrics(questions):
+    average_precisions = []
+    reciprocal_ranks = []
+
+    for item in tqdm(questions):
+        q = item['question']
+        gt = item['ground_truth'].lower()
+
+        metadatas = query_to_chroma(q)
+        names = [m['name'].lower() for m in metadatas]
+
+        # Calculate MRR (Mean Reciprocal Rank)
+        rank = next((i for i, name in enumerate(names) if gt in name), None)
         if rank is not None:
-            mrr_scores.append(1 / (rank + 1))  # Reciprocal Rank (1-based index)
+            reciprocal_ranks.append(1 / (rank + 1))
+
+        # Calculate MAP (Mean Average Precision)
+        relevant_at_positions = [1 if gt in name else 0 for name in names]
+        
+        if sum(relevant_at_positions) > 0:  # Check if there are any relevant documents
+            average_precision = sum([relevant_at_positions[i] / (i + 1) for i in range(len(relevant_at_positions))]) / sum(relevant_at_positions)
+            average_precisions.append(average_precision)
         else:
-            mrr_scores.append(0)
+            average_precisions.append(0)
 
-    mrr_score = np.mean(mrr_scores)  # Mean Reciprocal Rank
+    mrr = sum(reciprocal_ranks) / len(reciprocal_ranks) if reciprocal_ranks else 0
+    map_score = sum(average_precisions) / len(average_precisions) if average_precisions else 0
 
-    return map_score, mrr_score
+    return map_score, mrr
 
 
 if __name__ == "__main__":
-    # Contoh evaluasi
-    query = "Apa itu abetalipoproteinemia?"
-    ground_truth = [["Abetalipoproteinemia adalah kelainan bawaan langka..."]]
-    predicted = [["Abetalipoproteinemia adalah kelainan bawaan langka..."]]
-    
-    map_score, mrr_score = evaluate(query, ground_truth, predicted)
-    print(f"mAP: {map_score}, MRR: {mrr_score}")
+    with open(QUESTIONS_FILE, 'r', encoding='utf-8') as f:
+        questions = json.load(f)
+
+    map_score, mrr = compute_metrics(questions)
+
+    print(f"\n📊 Hasil Evaluasi Retrieval:")
+    print(f"MAP (Mean Average Precision): {map_score:.4f}")
+    print(f"MRR (Mean Reciprocal Rank): {mrr:.4f}")
