@@ -1,102 +1,102 @@
 [
   {
-    "question": "Apa itu Nyeri Testis?",
-    "ground_truth": "Nyeri Testis"
+    "question": "Apa saja gejala Hiperparatiroidisme?",
+    "ground_truth": "Hiperparatiroidisme"
   },
   {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Hidrosefalus?",
-    "ground_truth": "Hidrosefalus"
+    "question": "Apa saja gejala Lichen Sclerosus?",
+    "ground_truth": "Lichen Sclerosus"
   },
   {
-    "question": "Apakah Diabetes Gestasional berbahaya?",
-    "ground_truth": "Diabetes Gestasional"
+    "question": "Apa saja gejala Demam Kelenjar (Glandular Fever)?",
+    "ground_truth": "Demam Kelenjar (Glandular Fever)"
   },
   {
-    "question": "Bagaimana diagnosis untuk Gangguan Mental?",
-    "ground_truth": "Gangguan Mental"
+    "question": "Bagaimana diagnosis untuk Kanker Pembuluh Darah?",
+    "ground_truth": "Kanker Pembuluh Darah"
   },
   {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Gangguan Panik?",
-    "ground_truth": "Gangguan Panik"
+    "question": "Apakah Hiperventilasi berbahaya?",
+    "ground_truth": "Hiperventilasi"
   },
   {
-    "question": "Bagaimana diagnosis untuk Gusi Bengkak?",
-    "ground_truth": "Gusi Bengkak"
+    "question": "Bagaimana cara mengobati Amenore?",
+    "ground_truth": "Amenore"
   },
   {
-    "question": "Bagaimana cara mengobati Abses Hati?",
-    "ground_truth": "Abses Hati"
+    "question": "Bagaimana cara mengobati Kifosis?",
+    "ground_truth": "Kifosis"
   },
   {
-    "question": "Apa penyebab dari Hantavirus?",
-    "ground_truth": "Hantavirus"
+    "question": "Apakah Amebiasis berbahaya?",
+    "ground_truth": "Amebiasis"
   },
   {
-    "question": "Apa itu Hirsutisme?",
-    "ground_truth": "Hirsutisme"
+    "question": "Bagaimana diagnosis untuk Cacing Hati?",
+    "ground_truth": "Cacing Hati"
   },
   {
-    "question": "Apa itu Hernia Epigastrik?",
-    "ground_truth": "Hernia Epigastrik"
+    "question": "Apa komplikasi yang mungkin terjadi akibat Hammer Toe?",
+    "ground_truth": "Hammer Toe"
   },
   {
-    "question": "Apakah Chlamydia berbahaya?",
-    "ground_truth": "Chlamydia"
+    "question": "Apa saja gejala Anemia Defisiensi Besi?",
+    "ground_truth": "Anemia Defisiensi Besi"
   },
   {
-    "question": "Apa saja gejala Flek Hitam?",
-    "ground_truth": "Flek Hitam"
+    "question": "Apa penyebab dari Ascariasis?",
+    "ground_truth": "Ascariasis"
   },
   {
-    "question": "Apa penyebab dari DIC?",
-    "ground_truth": "DIC"
+    "question": "Bagaimana diagnosis untuk Alergi Obat?",
+    "ground_truth": "Alergi Obat"
   },
   {
-    "question": "Apa itu Ataksia Friedreich?",
-    "ground_truth": "Ataksia Friedreich"
+    "question": "Apakah Herpes Bibir berbahaya?",
+    "ground_truth": "Herpes Bibir"
   },
   {
-    "question": "Apa itu Abses Gigi?",
-    "ground_truth": "Abses Gigi"
+    "question": "Apakah Frambusia berbahaya?",
+    "ground_truth": "Frambusia"
   },
   {
-    "question": "Apa penyebab dari Cacar Monyet?",
-    "ground_truth": "Cacar Monyet"
+    "question": "Apakah Hipertiroidisme berbahaya?",
+    "ground_truth": "Hipertiroidisme"
   },
   {
-    "question": "Apa saja gejala Fraktur Colles?",
-    "ground_truth": "Fraktur Colles"
+    "question": "Apa komplikasi yang mungkin terjadi akibat Hemiparesis?",
+    "ground_truth": "Hemiparesis"
   },
   {
-    "question": "Bagaimana diagnosis untuk Campak?",
-    "ground_truth": "Campak"
+    "question": "Apa komplikasi yang mungkin terjadi akibat Kanker Hati?",
+    "ground_truth": "Kanker Hati"
   },
   {
-    "question": "Apa saja gejala Hiperkolesterolemia?",
+    "question": "Apakah Hernia Nukleus Pulposus berbahaya?",
+    "ground_truth": "Hernia Nukleus Pulposus"
+  },
+  {
+    "question": "Bagaimana diagnosis untuk Herpes Genital (Herpes Simplex)?",
+    "ground_truth": "Herpes Genital (Herpes Simplex)"
+  },
+  {
+    "question": "Apa penyebab dari Keratosis Seboroik?",
+    "ground_truth": "Keratosis Seboroik"
+  },
+  {
+    "question": "Apa itu Kandung Kemih Turun?",
+    "ground_truth": "Kandung Kemih Turun"
+  },
+  {
+    "question": "Apa itu Keracunan Obat?",
+    "ground_truth": "Keracunan Obat"
+  },
+  {
+    "question": "Apakah Andropause berbahaya?",
+    "ground_truth": "Andropause"
+  },
+  {
+    "question": "Bagaimana cara mengobati Hiperkolesterolemia?",
     "ground_truth": "Hiperkolesterolemia"
-  },
-  {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Disentri?",
-    "ground_truth": "Disentri"
-  },
-  {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Gangguan Penyimpanan Lisosom?",
-    "ground_truth": "Gangguan Penyimpanan Lisosom"
-  },
-  {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Gangguan Metabolik?",
-    "ground_truth": "Gangguan Metabolik"
-  },
-  {
-    "question": "Apa saja gejala Cachexia?",
-    "ground_truth": "Cachexia"
-  },
-  {
-    "question": "Bagaimana cara mengobati Ebola?",
-    "ground_truth": "Ebola"
-  },
-  {
-    "question": "Apa saja gejala Hamil Lewat Bulan?",
-    "ground_truth": "Hamil Lewat Bulan"
   }
 ]

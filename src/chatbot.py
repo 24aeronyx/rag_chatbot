@@ -23,19 +23,24 @@ def query_to_chroma(question, top_k=5):
     metadatas = results['metadatas'][0]
     return documents, metadatas
 
-def build_prompt(question, documents):
+def build_prompt_with_history(history, current_question, documents):
     context = "\n".join(documents)
+    history_text = ""
+    for turn in history:
+        history_text += f"Pengguna: {turn['question']}\nAsisten: {turn['answer']}\n"
+    history_text += f"Pengguna: {current_question}\nAsisten:"
+
     prompt = f"""
 Berikut ini adalah informasi dari berbagai artikel kesehatan:
 
 {context}
 
-Berdasarkan informasi di atas, jawablah pertanyaan berikut secara jelas dan informatif:
+Gunakan informasi di atas untuk menjawab pertanyaan secara akurat dan informatif.
 
-Pertanyaan: {question}
+{history_text}
+    """.strip()
 
-Jawaban:"""
-    return prompt.strip()
+    return prompt
 
 def ask_llama_via_api(prompt):
     response = requests.post(OLLAMA_URL, json={
@@ -51,6 +56,8 @@ def ask_llama_via_api(prompt):
 
 def main():
     print("🤖 Chatbot Kesehatan Alodokter + LLaMA (Ketik 'exit' untuk keluar)")
+    history = []
+
     while True:
         question = input("\n🧑‍⚕️ Pertanyaan Anda: ").strip()
         if question.lower() in {"exit", "quit"}:
@@ -58,18 +65,25 @@ def main():
             break
 
         docs, metas = query_to_chroma(question)
-        prompt = build_prompt(question, docs)
-        print("\n🤔 Sedang berpikir...")
+        prompt = build_prompt_with_history(history, question, docs)
 
+        print("\n🤔 Sedang berpikir...")
         answer = ask_llama_via_api(prompt)
 
         print("\n💬 Jawaban Chatbot:")
         print(answer)
 
+        # Simpan riwayat
+        history.append({
+            "question": question,
+            "answer": answer
+        })
+
         print("\n📚 Sumber Terkait:")
         for i, (doc, meta) in enumerate(zip(docs, metas), 1):
             print(f"\n{i}. {meta['name']} — {meta['href']}")
-            print(f"   📄: {doc[:100]}...")  # tampilkan preview isi
+            print(f"   📄: {doc[:100]}...")
+
 
 if __name__ == "__main__":
     main()

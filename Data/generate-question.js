@@ -1,43 +1,44 @@
 const fs = require('fs');
+const path = require('path');
+const seedrandom = require('seedrandom');
 
-// Baca data JSON
-const data = JSON.parse(fs.readFileSync('./data/penyakit-links.json', 'utf-8'));
+// ===== KONFIGURASI =====
+const inputPath = path.join(__dirname, 'penyakit-links.json');
+const outputPath = path.join(__dirname, 'generated-questions.json');
+const jumlahPertanyaan = 25;
+const randomSeed = 42; // seed tetap untuk hasil acak yang konsisten
 
-// Template pertanyaan
+// ===== TEMPLATE PERTANYAAN =====
 const templates = [
-  "Apa itu [NAME]?",
-  "Apa penyebab dari [NAME]?",
-  "Apa saja gejala [NAME]?",
-  "Bagaimana cara mengobati [NAME]?",
-  "Apakah [NAME] berbahaya?",
-  "Bagaimana diagnosis untuk [NAME]?",
-  "Apa komplikasi yang mungkin terjadi akibat [NAME]?"
+  "Apa penyebab dari {name}?",
+  "Bagaimana cara mengobati {name}?",
+  "Apa saja gejala {name}?",
+  "Apakah {name} berbahaya?",
+  "Bagaimana diagnosis untuk {name}?",
+  "Apa komplikasi yang mungkin terjadi akibat {name}?",
+  "Apa itu {name}?"
 ];
 
-// Fungsi untuk merandom elemen dari array
-function getRandomElement(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
+// ===== LOGIKA UTAMA =====
+function generateQuestions(data, seed) {
+  const rng = seedrandom(seed);
+  const selected = data.slice().sort(() => rng() - 0.5).slice(0, jumlahPertanyaan);
+  
+  return selected.map(entry => {
+    const template = templates[Math.floor(rng() * templates.length)];
+    const question = template.replace("{name}", entry.name);
+    return {
+      question,
+      ground_truth: entry.name
+    };
+  });
 }
 
-// Fungsi untuk membuat pertanyaan dari name
-function generateQuestion(name) {
-  const template = getRandomElement(templates);
-  return template.replace('[NAME]', name);
-}
+// ===== JALANKAN =====
+const raw = fs.readFileSync(inputPath, 'utf8');
+const penyakitList = JSON.parse(raw);
 
-// Ambil 25 penyakit unik secara acak
-const shuffled = data.sort(() => 0.5 - Math.random());
-const selected = shuffled.slice(0, 25);
+const result = generateQuestions(penyakitList, randomSeed);
+fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
 
-// Generate pertanyaan
-const questions = selected.map(item => {
-  return {
-    question: generateQuestion(item.name),
-    ground_truth: item.name
-  };
-});
-
-// Simpan ke file JSON
-fs.writeFileSync('./data/generated-questions.json', JSON.stringify(questions, null, 2), 'utf-8');
-
-console.log("✅ 25 pertanyaan berhasil disimpan ke generated-questions.json");
+console.log(`✅ Berhasil generate ${jumlahPertanyaan} pertanyaan ke: ${outputPath}`);
