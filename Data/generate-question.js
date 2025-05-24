@@ -28,11 +28,11 @@ function generateQuestions(data, seed) {
     const template = templates[Math.floor(rng() * templates.length)];
     const question = template.replace("{name}", entry.name);
     return {
-      question,
-      ground_truth: entry.name
+      question
     };
   });
 }
+
 
 // ===== JALANKAN =====
 const raw = fs.readFileSync(inputPath, 'utf8');

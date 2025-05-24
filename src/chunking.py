@@ -1,34 +1,28 @@
 import json
-import os
-import nltk
-from nltk.tokenize import sent_tokenize
-
-# Download tokenizer untuk pertama kali
-nltk.download('punkt_tab')
 
 # Konfigurasi
 INPUT_FILE = './data/penyakit-data-processed.json'
 OUTPUT_FILE = './data/penyakit-data-chunked.json'
+MIN_CHARS = 100
 MAX_CHARS = 800
-OVERLAP_SENTENCES = 1
 
-def chunk_paragraph(paragraph, max_chars=MAX_CHARS, overlap_sentences=OVERLAP_SENTENCES):
-    sentences = sent_tokenize(paragraph)
+def chunk_paragraphs(paragraphs, min_chars=MIN_CHARS, max_chars=MAX_CHARS):
     chunks = []
-    current_chunk = []
+    current_chunk = ""
 
-    for sentence in sentences:
-        temp_chunk = " ".join(current_chunk + [sentence])
-        if len(temp_chunk) <= max_chars:
-            current_chunk.append(sentence)
+    for para in paragraphs:
+        if len(current_chunk) + len(para) + 1 <= max_chars:
+            current_chunk += " " + para if current_chunk else para
         else:
-            if current_chunk:
-                chunks.append(" ".join(current_chunk))
-            # Mulai chunk baru dengan overlap kalimat sebelumnya
-            current_chunk = current_chunk[-overlap_sentences:] + [sentence]
+            if len(current_chunk) >= min_chars:
+                chunks.append(current_chunk.strip())
+                current_chunk = para
+            else:
+                # Jika current_chunk terlalu pendek, tetap tambahkan para
+                current_chunk += " " + para
 
-    if current_chunk:
-        chunks.append(" ".join(current_chunk))
+    if current_chunk.strip():
+        chunks.append(current_chunk.strip())
 
     return chunks
 
@@ -42,16 +36,18 @@ def chunk_data(input_path, output_path):
         name = entry["name"]
         href = entry["href"]
         paragraphs = entry["paragraphs"]
-        
-        chunked_paragraphs = []
-        for paragraph in paragraphs:
-            chunks = chunk_paragraph(paragraph)
-            chunked_paragraphs.extend(chunks)
+
+        # Hapus paragraf terakhir (biasanya referensi)
+        if paragraphs:
+            paragraphs = paragraphs[:-1]
+
+        # Gabungkan paragraf ke dalam chunk berdasarkan panjang karakter
+        chunks = chunk_paragraphs(paragraphs)
 
         chunked_data.append({
             "name": name,
             "href": href,
-            "chunks": chunked_paragraphs
+            "chunks": chunks
         })
 
     with open(output_path, 'w', encoding='utf-8') as f:

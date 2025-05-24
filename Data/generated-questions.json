@@ -1,102 +1,77 @@
 [
   {
-    "question": "Apa saja gejala Hiperparatiroidisme?",
-    "ground_truth": "Hiperparatiroidisme"
+    "question": "Apa saja gejala Hiperparatiroidisme?"
   },
   {
-    "question": "Apa saja gejala Lichen Sclerosus?",
-    "ground_truth": "Lichen Sclerosus"
+    "question": "Apa saja gejala Lichen Sclerosus?"
   },
   {
-    "question": "Apa saja gejala Demam Kelenjar (Glandular Fever)?",
-    "ground_truth": "Demam Kelenjar (Glandular Fever)"
+    "question": "Apa saja gejala Demam Kelenjar (Glandular Fever)?"
   },
   {
-    "question": "Bagaimana diagnosis untuk Kanker Pembuluh Darah?",
-    "ground_truth": "Kanker Pembuluh Darah"
+    "question": "Bagaimana diagnosis untuk Kanker Pembuluh Darah?"
   },
   {
-    "question": "Apakah Hiperventilasi berbahaya?",
-    "ground_truth": "Hiperventilasi"
+    "question": "Apakah Hiperventilasi berbahaya?"
   },
   {
-    "question": "Bagaimana cara mengobati Amenore?",
-    "ground_truth": "Amenore"
+    "question": "Bagaimana cara mengobati Amenore?"
   },
   {
-    "question": "Bagaimana cara mengobati Kifosis?",
-    "ground_truth": "Kifosis"
+    "question": "Bagaimana cara mengobati Kifosis?"
   },
   {
-    "question": "Apakah Amebiasis berbahaya?",
-    "ground_truth": "Amebiasis"
+    "question": "Apakah Amebiasis berbahaya?"
   },
   {
-    "question": "Bagaimana diagnosis untuk Cacing Hati?",
-    "ground_truth": "Cacing Hati"
+    "question": "Bagaimana diagnosis untuk Cacing Hati?"
   },
   {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Hammer Toe?",
-    "ground_truth": "Hammer Toe"
+    "question": "Apa komplikasi yang mungkin terjadi akibat Hammer Toe?"
   },
   {
-    "question": "Apa saja gejala Anemia Defisiensi Besi?",
-    "ground_truth": "Anemia Defisiensi Besi"
+    "question": "Apa saja gejala Anemia Defisiensi Besi?"
   },
   {
-    "question": "Apa penyebab dari Ascariasis?",
-    "ground_truth": "Ascariasis"
+    "question": "Apa penyebab dari Ascariasis?"
   },
   {
-    "question": "Bagaimana diagnosis untuk Alergi Obat?",
-    "ground_truth": "Alergi Obat"
+    "question": "Bagaimana diagnosis untuk Alergi Obat?"
   },
   {
-    "question": "Apakah Herpes Bibir berbahaya?",
-    "ground_truth": "Herpes Bibir"
+    "question": "Apakah Herpes Bibir berbahaya?"
   },
   {
-    "question": "Apakah Frambusia berbahaya?",
-    "ground_truth": "Frambusia"
+    "question": "Apakah Frambusia berbahaya?"
   },
   {
-    "question": "Apakah Hipertiroidisme berbahaya?",
-    "ground_truth": "Hipertiroidisme"
+    "question": "Apakah Hipertiroidisme berbahaya?"
   },
   {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Hemiparesis?",
-    "ground_truth": "Hemiparesis"
+    "question": "Apa komplikasi yang mungkin terjadi akibat Hemiparesis?"
   },
   {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Kanker Hati?",
-    "ground_truth": "Kanker Hati"
+    "question": "Apa komplikasi yang mungkin terjadi akibat Kanker Hati?"
   },
   {
-    "question": "Apakah Hernia Nukleus Pulposus berbahaya?",
-    "ground_truth": "Hernia Nukleus Pulposus"
+    "question": "Apakah Hernia Nukleus Pulposus berbahaya?"
   },
   {
-    "question": "Bagaimana diagnosis untuk Herpes Genital (Herpes Simplex)?",
-    "ground_truth": "Herpes Genital (Herpes Simplex)"
+    "question": "Bagaimana diagnosis untuk Herpes Genital (Herpes Simplex)?"
   },
   {
-    "question": "Apa penyebab dari Keratosis Seboroik?",
-    "ground_truth": "Keratosis Seboroik"
+    "question": "Apa penyebab dari Keratosis Seboroik?"
   },
   {
-    "question": "Apa itu Kandung Kemih Turun?",
-    "ground_truth": "Kandung Kemih Turun"
+    "question": "Apa itu Kandung Kemih Turun?"
   },
   {
-    "question": "Apa itu Keracunan Obat?",
-    "ground_truth": "Keracunan Obat"
+    "question": "Apa itu Keracunan Obat?"
   },
   {
-    "question": "Apakah Andropause berbahaya?",
-    "ground_truth": "Andropause"
+    "question": "Apakah Andropause berbahaya?"
   },
   {
-    "question": "Bagaimana cara mengobati Hiperkolesterolemia?",
-    "ground_truth": "Hiperkolesterolemia"
+    "question": "Bagaimana cara mengobati Hiperkolesterolemia?"
   }
 ]
