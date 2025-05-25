@@ -1,8 +1,8 @@
 const { chromium } = require("playwright");
 const fs = require("fs");
 
-const links = JSON.parse(fs.readFileSync("./data/penyakit-links.json"));
-const checkpointFile = "./data/checkpoint.json";
+const links = JSON.parse(fs.readFileSync("Data/penyakit-links.json"));
+const checkpointFile = "Data/checkpoint.json";
 let checkpoint = { lastIndex: 0, penyakitData: [] };
 if (fs.existsSync(checkpointFile)) {
   checkpoint = JSON.parse(fs.readFileSync(checkpointFile));
@@ -17,18 +17,43 @@ if (fs.existsSync(checkpointFile)) {
   const penyakitData = checkpoint.penyakitData;
 
   const blacklistKeywords = [
-    "Beranda", "Chat Bersama Dokter", "Penyakit A-Z", "Obat A-Z",
-    "Tentang Kami", "Karier", "Hubungi Kami", "Tim Editorial", 
-    "Langganan", "Syarat & Ketentuan", "Privasi", "Iklan", 
-    "Gabung di Tim Dokter", "Daftarkan Rumah Sakit Anda", "alomedika.com",
-    "Tanya Dokter", "Pilih", "Mohon tunggu", "Pengiriman SMS",
-    "Hindari menggunakan kombinasi", "Info Kesehatan", "Cari Dokter",
-    "Alodokter Shop", "Virus", "Kanker", "Jantung", "Otak",
-    "Psikologi", "Defisiensi", "Infeksi", "Mata", "Pencernaan", "Semua Penyakit",
+    "Beranda",
+    "Chat Bersama Dokter",
+    "Penyakit A-Z",
+    "Obat A-Z",
+    "Tentang Kami",
+    "Karier",
+    "Hubungi Kami",
+    "Tim Editorial",
+    "Langganan",
+    "Syarat & Ketentuan",
+    "Privasi",
+    "Iklan",
+    "Gabung di Tim Dokter",
+    "Daftarkan Rumah Sakit Anda",
+    "alomedika.com",
+    "Tanya Dokter",
+    "Pilih",
+    "Mohon tunggu",
+    "Pengiriman SMS",
+    "Hindari menggunakan kombinasi",
+    "Info Kesehatan",
+    "Cari Dokter",
+    "Alodokter Shop",
+    "Virus",
+    "Kanker",
+    "Jantung",
+    "Otak",
+    "Psikologi",
+    "Defisiensi",
+    "Infeksi",
+    "Mata",
+    "Pencernaan",
+    "Semua Penyakit",
   ];
 
   function isBlacklisted(text) {
-    return blacklistKeywords.some(b => text.includes(b));
+    return blacklistKeywords.some((b) => text.includes(b));
   }
 
   for (let i = checkpoint.lastIndex; i < links.length; i++) {
@@ -40,34 +65,50 @@ if (fs.existsSync(checkpointFile)) {
 
       // Ambil semua <p> dan <li> sebagai objek {tag, text}
       const elements = await page.$$eval("p, li", (els) =>
-        els.map(el => ({
-          tag: el.tagName.toLowerCase(),
-          text: el.innerText.trim()
-        })).filter(el => el.text.length > 0)
+        els
+          .map((el) => ({
+            tag: el.tagName.toLowerCase(),
+            text: el.innerText.trim(),
+          }))
+          .filter((el) => el.text.length > 0)
       );
 
       // Filter blacklist
-      const filtered = elements.filter(el => !isBlacklisted(el.text));
+      const filtered = elements.filter((el) => !isBlacklisted(el.text));
 
       const paragraphs = [];
+      let lastParagraph = "";
       let listBuffer = [];
 
       for (const el of filtered) {
         if (el.tag === "p") {
-          // Jika sebelumnya ada <li>, gabungkan dulu
+          // Jika sebelumnya ada <li>, gabungkan ke lastParagraph
           if (listBuffer.length > 0) {
-            paragraphs.push(listBuffer.join("; "));
+            if (lastParagraph.endsWith(":")) {
+              paragraphs[
+                paragraphs.length - 1
+              ] = `${lastParagraph} ${listBuffer.join("; ")}`;
+            } else {
+              paragraphs.push(listBuffer.join("; "));
+            }
             listBuffer = [];
           }
-          paragraphs.push(el.text);
+          lastParagraph = el.text;
+          paragraphs.push(lastParagraph);
         } else if (el.tag === "li") {
           listBuffer.push(el.text);
         }
       }
 
-      // Jika ada sisa <li> di akhir
+      // Tangani sisa <li> di akhir
       if (listBuffer.length > 0) {
-        paragraphs.push(listBuffer.join("; "));
+        if (lastParagraph.endsWith(":")) {
+          paragraphs[
+            paragraphs.length - 1
+          ] = `${lastParagraph} ${listBuffer.join("; ")}`;
+        } else {
+          paragraphs.push(listBuffer.join("; "));
+        }
       }
 
       penyakitData.push({
@@ -88,6 +129,9 @@ if (fs.existsSync(checkpointFile)) {
     }
   }
 
-  fs.writeFileSync("./data/penyakit-data-raw.json", JSON.stringify(penyakitData, null, 2));
+  fs.writeFileSync(
+    "Data/penyakit-data-raw.json",
+    JSON.stringify(penyakitData, null, 2)
+  );
   await browser.close();
 })();
