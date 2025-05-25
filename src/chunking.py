@@ -1,30 +1,8 @@
 import json
 
-# Konfigurasi
-INPUT_FILE = './data/penyakit-data-processed.json'
-OUTPUT_FILE = './data/penyakit-data-chunked.json'
-MIN_CHARS = 100
-MAX_CHARS = 800
-
-def chunk_paragraphs(paragraphs, min_chars=MIN_CHARS, max_chars=MAX_CHARS):
-    chunks = []
-    current_chunk = ""
-
-    for para in paragraphs:
-        if len(current_chunk) + len(para) + 1 <= max_chars:
-            current_chunk += " " + para if current_chunk else para
-        else:
-            if len(current_chunk) >= min_chars:
-                chunks.append(current_chunk.strip())
-                current_chunk = para
-            else:
-                # Jika current_chunk terlalu pendek, tetap tambahkan para
-                current_chunk += " " + para
-
-    if current_chunk.strip():
-        chunks.append(current_chunk.strip())
-
-    return chunks
+# Path input dan output
+INPUT_FILE = 'Data/penyakit-data-processed.json'
+OUTPUT_FILE = 'Data/penyakit-data-chunked.json'
 
 def chunk_data(input_path, output_path):
     with open(input_path, 'r', encoding='utf-8') as f:
@@ -37,12 +15,12 @@ def chunk_data(input_path, output_path):
         href = entry["href"]
         paragraphs = entry["paragraphs"]
 
-        # Hapus paragraf terakhir (biasanya referensi)
+        # Optional: hapus paragraf terakhir jika ingin
         if paragraphs:
             paragraphs = paragraphs[:-1]
 
-        # Gabungkan paragraf ke dalam chunk berdasarkan panjang karakter
-        chunks = chunk_paragraphs(paragraphs)
+        # Setiap paragraf menjadi satu chunk
+        chunks = [p.strip() for p in paragraphs if p.strip()]
 
         chunked_data.append({
             "name": name,

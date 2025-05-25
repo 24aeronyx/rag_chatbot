@@ -1,21 +1,37 @@
 import json
 
-def preprocess_data(input_file, output_file):
-    # Load data JSON
-    with open(input_file, 'r', encoding='utf-8') as f:
+# Path input dan output
+INPUT_FILE = './data/penyakit-data-processed.json'
+OUTPUT_FILE = './data/penyakit-data-chunked.json'
+
+def chunk_data(input_path, output_path):
+    with open(input_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
-    # Proses setiap entri penyakit
-    for entry in data:
-        # Bersihkan newline dan hapus paragraf terakhir
-        cleaned_paragraphs = [para.replace("\n", " ").strip() for para in entry['paragraphs']]
-        if cleaned_paragraphs:
-            cleaned_paragraphs.pop()  # Hapus paragraf terakhir
-        entry['paragraphs'] = cleaned_paragraphs
+    chunked_data = []
 
-    # Simpan data yang telah diproses
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+    for entry in data:
+        name = entry["name"]
+        href = entry["href"]
+        paragraphs = entry["paragraphs"]
+
+        # Optional: hapus paragraf terakhir jika ingin
+        if paragraphs:
+            paragraphs = paragraphs[:-1]
+
+        # Setiap paragraf menjadi satu chunk
+        chunks = [p.strip() for p in paragraphs if p.strip()]
+
+        chunked_data.append({
+            "name": name,
+            "href": href,
+            "chunks": chunks
+        })
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(chunked_data, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ Chunking selesai. Data disimpan di: {output_path}")
 
 if __name__ == "__main__":
-    preprocess_data('./data/penyakit-data-final.json', './data/penyakit-data-processed.json')
+    chunk_data(INPUT_FILE, OUTPUT_FILE)

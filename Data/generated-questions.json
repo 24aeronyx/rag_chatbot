@@ -1,77 +1,27 @@
 [
-  {
-    "question": "Apa saja gejala Hiperparatiroidisme?"
-  },
-  {
-    "question": "Apa saja gejala Lichen Sclerosus?"
-  },
-  {
-    "question": "Apa saja gejala Demam Kelenjar (Glandular Fever)?"
-  },
-  {
-    "question": "Bagaimana cara mendiagnosis penyakit Kanker Pembuluh Darah?"
-  },
-  {
-    "question": "Apakah Hiperventilasi berbahaya?"
-  },
-  {
-    "question": "Bagaimana cara mengobati Amenore?"
-  },
-  {
-    "question": "Bagaimana cara mengobati Kifosis?"
-  },
-  {
-    "question": "Apakah Amebiasis berbahaya?"
-  },
-  {
-    "question": "Bagaimana cara mendiagnosis penyakit Cacing Hati?"
-  },
-  {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Hammer Toe?"
-  },
-  {
-    "question": "Apa saja gejala Anemia Defisiensi Besi?"
-  },
-  {
-    "question": "Apa penyebab dari Ascariasis?"
-  },
-  {
-    "question": "Bagaimana cara mendiagnosis penyakit Alergi Obat?"
-  },
-  {
-    "question": "Apakah Herpes Bibir berbahaya?"
-  },
-  {
-    "question": "Apakah Frambusia berbahaya?"
-  },
-  {
-    "question": "Apakah Hipertiroidisme berbahaya?"
-  },
-  {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Hemiparesis?"
-  },
-  {
-    "question": "Apa komplikasi yang mungkin terjadi akibat Kanker Hati?"
-  },
-  {
-    "question": "Apakah Hernia Nukleus Pulposus berbahaya?"
-  },
-  {
-    "question": "Bagaimana cara mendiagnosis penyakit Herpes Genital (Herpes Simplex)?"
-  },
-  {
-    "question": "Apa penyebab dari Keratosis Seboroik?"
-  },
-  {
-    "question": "Apa itu Kandung Kemih Turun?"
-  },
-  {
-    "question": "Apa itu Keracunan Obat?"
-  },
-  {
-    "question": "Apakah Andropause berbahaya?"
-  },
-  {
-    "question": "Bagaimana cara mengobati Hiperkolesterolemia?"
-  }
+  { "question": "Apa saja gejala Diabetes Melitus?" },
+  { "question": "Bagaimana cara mendiagnosis Hipertensi?" },
+  { "question": "Apa penyebab dari Asma?" },
+  { "question": "Bagaimana cara mengobati Demam Berdarah?" },
+  { "question": "Apa saja gejala COVID-19?" },
+  { "question": "Apakah Stroke bisa disembuhkan?" },
+  { "question": "Apa komplikasi yang mungkin terjadi akibat Penyakit Jantung Koroner?" },
+  { "question": "Bagaimana cara mencegah TBC?" },
+  { "question": "Apakah Maag bisa menjadi penyakit kronis?" },
+  { "question": "Bagaimana cara mendiagnosis Kanker Payudara?" },
+  { "question": "Apa saja gejala Gagal Ginjal?" },
+  { "question": "Apa penyebab dari Kanker Paru-paru?" },
+  { "question": "Bagaimana cara mengobati GERD?" },
+  { "question": "Apakah Anemia bisa menyebabkan kelelahan kronis?" },
+  { "question": "Apa itu Penyakit Liver dan bagaimana cara mendeteksinya?" },
+  { "question": "Apa penyebab dari Katarak?" },
+  { "question": "Bagaimana cara mendiagnosis Osteoporosis?" },
+  { "question": "Apa saja gejala Penyakit Lupus?" },
+  { "question": "Apakah Vertigo berbahaya?" },
+  { "question": "Bagaimana cara mengobati Infeksi Saluran Kemih?" },
+  { "question": "Apa komplikasi yang mungkin terjadi akibat Hepatitis B?" },
+  { "question": "Apa itu Psoriasis dan apa penyebabnya?" },
+  { "question": "Apakah ISPA bisa sembuh total?" },
+  { "question": "Bagaimana cara mencegah Kanker Serviks?" },
+  { "question": "Apa perbedaan antara Flu dan Pilek biasa?" }
 ]

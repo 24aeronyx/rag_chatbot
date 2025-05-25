@@ -4,14 +4,13 @@ from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 from chromadb import PersistentClient
 
-
 # Konfigurasi
-CHUNKED_FILE = './data/penyakit-data-chunked.json'
+CHUNKED_FILE = 'ata/penyakit-data-chunked.json'
 PERSIST_DIR = './embeddings'
 COLLECTION_NAME = 'penyakit_embeddings'
 
-# Load model
-model = SentenceTransformer('all-MiniLM-L6-v2')
+# Load model ke GPU
+model = SentenceTransformer('all-MiniLM-L6-v2', device='cuda')
 
 def get_embedding(text):
     return model.encode(text).tolist()
