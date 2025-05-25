@@ -16,7 +16,7 @@ client = PersistentClient(path=PERSIST_DIR)
 collection = client.get_or_create_collection(name=COLLECTION_NAME)
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
 
-def query_to_chroma(question, top_k=3):  
+def query_to_chroma(question, top_k=5):  
     embedding = embedder.encode(question).tolist()
     results = collection.query(query_embeddings=[embedding], n_results=top_k)
     documents = results['documents'][0]
@@ -67,7 +67,7 @@ def main():
             print("👋 Terima kasih, sampai jumpa!")
             break
 
-        docs, metas = query_to_chroma(question, top_k=3)
+        docs, metas = query_to_chroma(question, top_k=5)
         valid_docs = [doc.strip() for doc in docs if doc and len(doc.strip()) >= 50]
 
         if not valid_docs:

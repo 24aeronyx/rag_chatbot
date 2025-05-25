@@ -1,6 +1,7 @@
 import json
-from tqdm import tqdm
+import csv
 import requests
+from tqdm import tqdm
 from chromadb import PersistentClient
 from sentence_transformers import SentenceTransformer
 
@@ -9,7 +10,7 @@ PERSIST_DIR = './embeddings'
 COLLECTION_NAME = 'penyakit_embeddings'
 TOP_K = 5
 QUESTIONS_FILE = 'data/generated-questions.json'
-OUTPUT_FILE = 'data/evaluated-qa.json'
+OUTPUT_CSV = 'data/evaluated-qa.csv'
 OLLAMA_URL = 'http://localhost:11434/api/generate'
 MODEL_NAME = 'llama3.2'
 
@@ -49,8 +50,7 @@ def ask_llama(prompt):
         "stream": False
     })
     if response.status_code == 200:
-        data = response.json()
-        return data.get("response", "").strip()
+        return response.json().get("response", "").strip()
     return f"⚠️ Error {response.status_code}: {response.text}"
 
 def build_prompt(context_docs, question):
@@ -75,52 +75,51 @@ Pertanyaan: {question}
 Jawaban:
 """.strip()
 
-def evaluate(questions):
+def evaluate_and_export_csv(questions, output_file):
     results = []
     reciprocal_ranks = []
 
-    print("\n🔍 Evaluasi MRR Manual Berdasarkan Rank Dokumen\n")
+    print("\n🔍 Evaluasi Manual MRR ke CSV\n")
 
-    for i, item in enumerate(questions[:25]):
-        question = item['question']
-        sources = query_context(question)
-        prompt = build_prompt(sources, question)
-        answer = ask_llama(prompt)
+    with open(output_file, 'w', encoding='utf-8', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(['question', 'answer', 'docs', 'rank', 'RR'])
 
-        print(f"\n{i+1}. ❓ Pertanyaan: {question}")
-        print(f"💬 Jawaban LLaMA:\n{answer}\n")
-        for idx, source in enumerate(sources):
-            print(f"📄 [{idx+1}] {source['name']} - {source['href']}")
+        for i, item in enumerate(questions[:25]):
+            question = item['question']
+            sources = query_context(question)
+            prompt = build_prompt(sources, question)
+            answer = ask_llama(prompt)
 
-        while True:
-            try:
-                rank = int(input("🏷️  Rank dokumen yang benar (1-5, atau 0 jika tidak relevan): ").strip())
-                if 0 <= rank <= TOP_K:
-                    break
-            except ValueError:
-                pass
-            print("⚠️ Masukkan angka antara 0 sampai 5.")
+            print(f"\n{i+1}. ❓ Pertanyaan: {question}")
+            print(f"💬 Jawaban LLaMA:\n{answer}\n")
+            for idx, source in enumerate(sources):
+                print(f"📄 [{idx+1}] {source['name']} - {source['href']}")
 
-        results.append({
-            "question": question,
-            "answer": answer,
-            "sources": sources,
-            "rank": rank
-        })
+            while True:
+                try:
+                    rank = int(input("🏷️  Rank dokumen yang benar (1-5, atau 0 jika tidak relevan): ").strip())
+                    if 0 <= rank <= TOP_K:
+                        break
+                except ValueError:
+                    pass
+                print("⚠️ Masukkan angka antara 0 sampai 5.")
 
-        reciprocal_ranks.append(1.0 / rank if rank > 0 else 0.0)
+            rr = 1.0 / rank if rank > 0 else 0.0
+            reciprocal_ranks.append(rr)
 
-    mrr = sum(reciprocal_ranks) / len(reciprocal_ranks) if reciprocal_ranks else 0.0
-    return results, mrr
+            docs_str = "; ".join([f"{d['name']} ({d['href']})" for d in sources])
+            writer.writerow([question, answer, docs_str, rank, f"{rr:.4f}"])
+
+        mrr = sum(reciprocal_ranks) / len(reciprocal_ranks) if reciprocal_ranks else 0.0
+        writer.writerow([])
+        writer.writerow(["", "", "", "MRR", f"{mrr:.4f}"])
+
+    print(f"\n📁 CSV selesai disimpan ke: {output_file}")
+    print(f"📊 Nilai MRR rata-rata: {mrr:.4f}")
 
 if __name__ == "__main__":
     with open(QUESTIONS_FILE, 'r', encoding='utf-8') as f:
         questions = json.load(f)
 
-    results, mrr_score = evaluate(questions)
-
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
-
-    print(f"\n📊 Evaluasi selesai. MRR: {mrr_score:.4f}")
-    print(f"📁 Hasil disimpan ke: {OUTPUT_FILE}")
+    evaluate_and_export_csv(questions, OUTPUT_CSV)

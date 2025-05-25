@@ -14,7 +14,7 @@ const templates = [
   "Bagaimana cara mengobati {name}?",
   "Apa saja gejala {name}?",
   "Apakah {name} berbahaya?",
-  "Bagaimana diagnosis untuk {name}?",
+  "Bagaimana cara mendiagnosis penyakit {name}?",
   "Apa komplikasi yang mungkin terjadi akibat {name}?",
   "Apa itu {name}?"
 ];

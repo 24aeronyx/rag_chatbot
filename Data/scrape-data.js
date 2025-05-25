@@ -16,9 +16,7 @@ if (fs.existsSync(checkpointFile)) {
   const delay = (ms) => new Promise((res) => setTimeout(res, ms));
   const penyakitData = checkpoint.penyakitData;
 
-  // Daftar kata blacklist, bisa disesuaikan
   const blacklistKeywords = [
-    // ... isi blacklist ...
     "Beranda", "Chat Bersama Dokter", "Penyakit A-Z", "Obat A-Z",
     "Tentang Kami", "Karier", "Hubungi Kami", "Tim Editorial", 
     "Langganan", "Syarat & Ketentuan", "Privasi", "Iklan", 
@@ -40,49 +38,36 @@ if (fs.existsSync(checkpointFile)) {
     try {
       await page.goto(link.href, { waitUntil: "networkidle" });
 
-      // Ambil semua <p> dan <li> dalam urutan muncul di DOM
+      // Ambil semua <p> dan <li> sebagai objek {tag, text}
       const elements = await page.$$eval("p, li", (els) =>
         els.map(el => ({
           tag: el.tagName.toLowerCase(),
-          text: el.innerText.trim(),
-        }))
+          text: el.innerText.trim()
+        })).filter(el => el.text.length > 0)
       );
 
       // Filter blacklist
-      const filtered = elements.filter(el => el.text && !isBlacklisted(el.text));
+      const filtered = elements.filter(el => !isBlacklisted(el.text));
 
-      // Sekarang gabungkan sesuai aturan:
-      // Jika <p> berakhir dengan ':', gabung semua <li> berikutnya ke paragraf tsb sampai ketemu <p> baru
       const paragraphs = [];
-      let iEl = 0;
-      while (iEl < filtered.length) {
-        const el = filtered[iEl];
-        if (el.tag === "p") {
-          let paragraph = el.text;
-          iEl++;
+      let listBuffer = [];
 
-          // Jika p berakhir dengan ':', gabungkan semua li setelahnya
-          if (paragraph.endsWith(":")) {
-            while (iEl < filtered.length) {
-              const nextEl = filtered[iEl];
-              if (nextEl.tag === "li") {
-                paragraph += " " + nextEl.text;
-                iEl++;
-              } else if (nextEl.tag === "p") {
-                // ketemu p baru, berhenti gabung
-                break;
-              } else {
-                // jika ada tag lain, skip saja atau berhenti
-                iEl++;
-              }
-            }
+      for (const el of filtered) {
+        if (el.tag === "p") {
+          // Jika sebelumnya ada <li>, gabungkan dulu
+          if (listBuffer.length > 0) {
+            paragraphs.push(listBuffer.join("; "));
+            listBuffer = [];
           }
-          paragraphs.push(paragraph);
-        } else {
-          // kalau li berdiri sendiri tanpa p sebelumnya (jarang), bisa dimasukkan juga
           paragraphs.push(el.text);
-          iEl++;
+        } else if (el.tag === "li") {
+          listBuffer.push(el.text);
         }
+      }
+
+      // Jika ada sisa <li> di akhir
+      if (listBuffer.length > 0) {
+        paragraphs.push(listBuffer.join("; "));
       }
 
       penyakitData.push({
@@ -97,13 +82,12 @@ if (fs.existsSync(checkpointFile)) {
       };
 
       fs.writeFileSync(checkpointFile, JSON.stringify(checkpoint, null, 2));
-
       await delay(2000);
     } catch (err) {
       console.error(`Error saat scraping ${link.href}:`, err);
     }
   }
 
-  fs.writeFileSync("./data/penyakit-data-final.json", JSON.stringify(penyakitData, null, 2));
+  fs.writeFileSync("./data/penyakit-data-raw.json", JSON.stringify(penyakitData, null, 2));
   await browser.close();
 })();
