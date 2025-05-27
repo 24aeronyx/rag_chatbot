@@ -108,24 +108,35 @@ def ask_llama(prompt):
 def build_prompt(context_docs, question):
     context_lines = []
     for i, doc in enumerate(context_docs, 1):
-        # Batasi panjang teks konteks untuk prompt agar tidak terlalu besar (misal 500 karakter)
-        snippet = doc['text'][:500].replace('\n', ' ').strip()
+        # Potong maksimal 300 karakter per snippet
+        snippet = doc['text'][:300].replace('\n', ' ').strip()
         context_lines.append(f"[{i}] {doc['name']} - {doc['href']}\n{snippet}\n")
 
     context_block = "\n".join(context_lines) if context_lines else "Tidak ada konteks yang relevan ditemukan."
 
-    return f"""
-Kamu adalah asisten kesehatan profesional. Jawablah pertanyaan pengguna hanya berdasarkan informasi dalam konteks berikut.
+    prompt = f"""
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
 
-=== Konteks Artikel Kesehatan ===
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
 {context_block}
-=== Akhir Konteks ===
+=== Akhir Informasi ===
 
-Jika informasi tidak cukup, jawab: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+Pertanyaan pengguna: "{question}"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
 
-Pertanyaan: {question}
 Jawaban:
 """.strip()
+
+    # Simpan ke file log debug
+    with open('log_prompt_debug.txt', 'a', encoding='utf-8') as debug_log:
+        debug_log.write(f"\n--- Prompt untuk Pertanyaan: {question} ---\n")
+        debug_log.write(prompt + '\n')
+
+    return prompt
+
 
 def evaluate_and_export_csv(questions, output_file):
     results = []

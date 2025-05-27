@@ -5,11 +5,11 @@ from sentence_transformers import SentenceTransformer
 from chromadb import PersistentClient
 
 # Konfigurasi
-CHUNKED_FILE = 'ata/penyakit-data-chunked.json'
+CHUNKED_FILE = 'Data/penyakit-data-chunked.json'
 PERSIST_DIR = './embeddings'
 COLLECTION_NAME = 'penyakit_embeddings'
 
-# Load model ke GPU
+# Load model ke GPU jika tersedia
 model = SentenceTransformer('all-MiniLM-L6-v2', device='cuda')
 
 def get_embedding(text):
@@ -24,32 +24,46 @@ def embed_to_chromadb():
     client = PersistentClient(path=PERSIST_DIR)
     collection = client.get_or_create_collection(name=COLLECTION_NAME)
 
+    # Optional: bersihkan collection sebelumnya (jika ingin fresh start)
+    # collection.delete()  # Hati-hati, hapus semua data sebelumnya!
+
     total_chunks = sum(len(entry["chunks"]) for entry in data)
     print(f"\n🧠 Total chunks: {total_chunks}\n")
 
-    counter = 0
-    for entry in tqdm(data, desc="🔄 Menyimpan embedding ke ChromaDB"):
+    all_ids = []
+    all_docs = []
+    all_embeddings = []
+    all_metadatas = []
+
+    for entry in tqdm(data, desc="🔄 Membuat embedding untuk ChromaDB"):
         name = entry["name"]
         href = entry["href"]
         chunks = entry["chunks"]
 
         for idx, chunk in enumerate(chunks):
-            chunk_id = f"{name}_{idx}"
-            embedding = get_embedding(chunk)
+            chunk = chunk.strip()
+            if not chunk:
+                continue
 
-            collection.add(
-                ids=[chunk_id],
-                documents=[chunk],
-                embeddings=[embedding],
-                metadatas=[{
-                    "name": name,
-                    "href": href,
-                    "chunk_index": idx
-                }]
-            )
-            counter += 1
+            chunk_id = f"{href}_{idx}"  # Pastikan unik (pakai href agar beda penyakit tidak bentrok)
+            all_ids.append(chunk_id)
+            all_docs.append(chunk)
+            all_embeddings.append(get_embedding(chunk))
+            all_metadatas.append({
+                "name": name,
+                "href": href,
+                "chunk_index": idx
+            })
 
-    print(f"\n✅ Selesai menyimpan {counter} embedding ke ChromaDB di: {PERSIST_DIR}")
+    # Tambahkan semuanya sekaligus untuk efisiensi
+    collection.add(
+        ids=all_ids,
+        documents=all_docs,
+        embeddings=all_embeddings,
+        metadatas=all_metadatas
+    )
+
+    print(f"\n✅ Selesai menyimpan {len(all_ids)} embedding ke ChromaDB di: {PERSIST_DIR}")
 
 if __name__ == "__main__":
     embed_to_chromadb()
