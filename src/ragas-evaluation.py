@@ -1,165 +1,123 @@
 import json
 import asyncio
-from pprint import pprint
-from typing import List
-from tqdm import tqdm
-from chromadb import PersistentClient
-from sentence_transformers import SentenceTransformer
+import requests
+from ragas import EvaluationDataset, evaluate
+from ragas.metrics import SemanticSimilarity
 
-from ragas import evaluate, EvaluationDataset
-from ragas.metrics import faithfulness, answer_relevancy
-from ragas.llms.base import BaseRagasLLM
-from ragas.embeddings.base import BaseRagasEmbeddings
+# Wrapper async untuk memanggil LLM Ollama API
+class CustomLLMWrapper:
+    def __init__(self, base_url, model, max_tokens=8192):
+        self.base_url = base_url.rstrip("/")
+        self.model = model
+        self.max_tokens = max_tokens
+    
+    async def generate(self, prompt, **kwargs):
+        headers = {
+            "Content-Type": "application/json",
+        }
+        payload = {
+            "model": self.model,
+            "prompt": prompt,
+            "stream": False,
+            "max_tokens": kwargs.get("max_tokens", self.max_tokens)
+        }
+        
+        # Gunakan asyncio.to_thread untuk menjalankan requests.post secara async
+        response = await asyncio.to_thread(
+            requests.post, f"{self.base_url}/generate", headers=headers, json=payload
+        )
+        
+        if response.status_code == 200:
+            # Perhatikan ini, ambil dari key 'response'
+            return response.json().get("response", "").strip()
+        else:
+            raise Exception(f"Error {response.status_code}: {response.text}")
 
+# Wrapper async untuk memanggil embedding model
+class CustomEmbeddingsWrapper:
+    def __init__(self, base_url, model):
+        self.base_url = base_url.rstrip("/")
+        self.model = model
 
-# Konfigurasi
-PERSIST_DIR = './embeddings'
-COLLECTION_NAME = 'penyakit_embeddings'
-TOP_K = 5
-QUESTIONS_FILE = 'Data/generated-questions.json'
-OUTPUT_CSV = 'Data/ragas-eval.csv'
-OLLAMA_URL = 'http://localhost:11434/api/generate'
-MODEL_NAME = 'llama3.2:3b'
-TIMEOUT_SEC = 10
-MAX_QUESTIONS = 25
+    async def embed_text(self, text):
+        headers = {
+            "Content-Type": "application/json",
+        }
+        payload = {"model": self.model, "input": text}
+        
+        response = await asyncio.to_thread(
+            requests.post, f"{self.base_url}/embeddings", headers=headers, json=payload
+        )
+        
+        if response.status_code == 200:
+            return response.json()["data"][0]["embedding"]
+        else:
+            raise Exception(f"Error {response.status_code}: {response.text}")
 
+# Fungsi membuat prompt dari question dan konteks
+def build_prompt(question, contexts):
+    context_text = "\n\n".join([f"{c['name']} ({c['href']}): {c['text'][:300]}..." for c in contexts])
+    prompt = f"""\
+Kamu adalah asisten kesehatan profesional. Berdasarkan konteks berikut, jawab pertanyaan ini secara ringkas dan jelas:
 
-# --- Wrapper LLM untuk Ollama ---
-class OllamaLLMWrapper(BaseRagasLLM):
-    def __init__(self, url, model_name='llama3.2:3b', timeout=10):
-        self.url = url
-        self.model_name = model_name
-        self.timeout = timeout
+{context_text}
 
-    def generate_text(self, prompt: str) -> str:
-        import requests
-        try:
-            response = requests.post(
-                self.url,
-                json={
-                    "model": self.model_name,
-                    "prompt": prompt,
-                    "stream": False
-                },
-                timeout=self.timeout
-            )
-            if response.status_code == 200:
-                return response.json().get("response", "").strip()
-            else:
-                return f"⚠️ Error {response.status_code}: {response.text}"
-        except requests.exceptions.Timeout:
-            return "⚠️ Request ke Ollama API timeout."
-        except Exception as e:
-            return f"⚠️ Terjadi error: {str(e)}"
+Pertanyaan: {question}
 
-    async def agenerate_text(self, prompt: str) -> str:
-        loop = asyncio.get_event_loop()
-        # Pastikan ini return await (bukan hanya return)
-        return await loop.run_in_executor(None, self.generate_text, prompt)
+Jawaban:"""
+    return prompt
 
-
-# --- Wrapper Embeddings untuk SentenceTransformer ---
-class SentenceTransformerEmbedder(BaseRagasEmbeddings):
-    def __init__(self, model_name='all-MiniLM-L6-v2'):
-        self.model = SentenceTransformer(model_name)
-
-    def embed_documents(self, texts: List[str]) -> List[List[float]]:
-        return self.model.encode(texts, convert_to_numpy=False)
-
-    def embed_query(self, query: str) -> List[float]:
-        return self.model.encode([query], convert_to_numpy=False)[0]
-
-    async def aembed_documents(self, texts: List[str]) -> List[List[float]]:
-        loop = asyncio.get_event_loop()
-        return await loop.run_in_executor(None, self.embed_documents, texts)
-
-    async def aembed_query(self, query: str) -> List[float]:
-        loop = asyncio.get_event_loop()
-        return await loop.run_in_executor(None, self.embed_query, query)
-
-
-# --- Inisialisasi ---
-client = PersistentClient(path=PERSIST_DIR)
-collection = client.get_or_create_collection(name=COLLECTION_NAME)
-embedder = SentenceTransformerEmbedder()
-llm = OllamaLLMWrapper(url=OLLAMA_URL, model_name=MODEL_NAME, timeout=TIMEOUT_SEC)
-
-
-# --- Ambil konteks dari ChromaDB dengan embedding dan k-nearest ---
-def get_contexts(question: str, top_k=TOP_K):
-    embedding = embedder.embed_query(question)
-    results = collection.query(query_embeddings=[embedding], n_results=top_k)
-
-    docs = results.get("documents", [[]])[0]
-    metas = results.get("metadatas", [[]])[0]
-
-    # Filter dan ambil teks dokumen yang cukup panjang
-    contexts = []
-    for doc, meta in zip(docs, metas):
-        if doc and len(doc.strip()) > 50:
-            contexts.append(doc.strip())
-    return contexts
-
-
-# --- Prompt builder ---
-def build_prompt(contexts: List[str], question: str) -> str:
-    context_str = "\n".join([f"- {ctx[:300].replace('\n', ' ').strip()}" for ctx in contexts])
-    return f"""
-Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional.
-
-=== Informasi milikmu ===
-{context_str}
-=== Akhir Informasi ===
-
-Pertanyaan pengguna: "{question}"
-Jawaban:
-""".strip()
-
-
-# --- Buat EvaluationDataset dari pertanyaan dan jawaban model ---
-def generate_ragas_dataset(questions, max_questions=MAX_QUESTIONS):
-    ragas_data = []
-
-    for item in tqdm(questions[:max_questions], desc="⏳ Membuat dataset RAGAS"):
-        question = item.get('question', '').strip()
-        if not question:
-            continue
-
-        contexts = get_contexts(question)
-        if not contexts:
-            continue
-
-        prompt = build_prompt(contexts, question)
-        answer = llm.generate_text(prompt)
-        if not answer or answer.startswith("⚠️"):
-            continue
-
-        ragas_data.append({
-            "user_input": question,
-            "retrieved_contexts": contexts,
-            "response": answer,
+# Generate jawaban dari LLM untuk tiap pertanyaan di dataset
+async def generate_answers(dataset, llm):
+    results = []
+    for entry in dataset:
+        question = entry['question']
+        contexts = entry.get('contexts', [])
+        prompt = build_prompt(question, contexts)
+        answer = await llm.generate(prompt)
+        results.append({
+            "question": question,
+            "contexts": contexts,
+            "reference_answer": entry.get('answer', ''),
+            "generated_answer": answer
         })
+    return results
 
-    return EvaluationDataset(ragas_data)
+async def main():
+    # Load dataset JSON (format list of dict)
+    with open("Data/ragas_dataset.json", "r", encoding="utf-8") as f:
+        raw_data = json.load(f)
 
+    # Setup base URL Ollama API, nama model
+    base_url = "http://localhost:11434/api"   # Sesuaikan endpointmu
+    llm_model = "llama3.2:3b"
+    embedding_model = "all-MiniLM-L6-v2"       # Pastikan model embedding ini tersedia di API embedding-mu
 
-# --- Eksekusi utama ---
+    llm = CustomLLMWrapper(base_url=base_url, model=llm_model)
+    embedder = CustomEmbeddingsWrapper(base_url=base_url, model=embedding_model)
+
+    # Generate jawaban untuk tiap pertanyaan di dataset
+    generated_results = await generate_answers(raw_data, llm)
+
+    eval_dataset = EvaluationDataset.from_list([
+    {
+        "user_input": item["question"],
+        "contexts": item["contexts"],            # konteks referensi atau ground truth
+        "retrieved_contexts": item["contexts"],  # konteks yang dipakai model (bisa sama dengan contexts)
+        "response": item["generated_answer"],
+        "reference": ""  # kosong jika tidak ada jawaban referensi
+    }
+    for item in generated_results
+])
+
+    # Metric evaluasi berbasis similarity embedding
+    metrics = [SemanticSimilarity(embeddings=embedder)]
+
+    results = evaluate(dataset=eval_dataset)
+    print(results)
+    df = results.to_pandas()
+    df.to_csv("ragas_evaluation.csv", index=False)
+    print("✅ Evaluasi selesai dan disimpan ke ragas_evaluation.csv")
+
 if __name__ == "__main__":
-    with open(QUESTIONS_FILE, 'r', encoding='utf-8') as f:
-        questions = json.load(f)
-
-    dataset = generate_ragas_dataset(questions)
-
-    print("\n🚀 Menjalankan evaluasi RAGAS dengan LLaMA Ollama...")
-
-    result = evaluate(
-        dataset=dataset,
-        llm=llm,
-        embeddings=embedder,
-        metrics=[faithfulness, answer_relevancy],
-    )
-
-    df = result.to_pandas()
-    df.to_csv(OUTPUT_CSV, index=False)
-    print(f"\n✅ Evaluasi selesai. Hasil disimpan ke: {OUTPUT_CSV}")
-    print(df.head())
+    asyncio.run(main())
