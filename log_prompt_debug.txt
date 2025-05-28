@@ -9428,3 +9428,52 @@ Jawaban berdasarkan Informasi yang kamu miliki:
 Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
 
 Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa kaitan virus corona dengan penyakit COVID-19 ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Virus Corona - https://www.alodokter.com/virus-corona
+Meski jumlah kematian akibat COVID-19 tergolong tinggi, angka kesembuhan dari COVID-19 juga terus bertambah. Data terakhir menyebutkan, jumlah penyintas atau orang yang pernah terinfeksi virus Corona kemudian sembuh adalah 5.903.461 orang. Gejala awal infeksi virus Corona atau COVID-19 bisa menyerup
+
+[2] Anosmia - https://www.alodokter.com/anosmia
+Sejumlah kondisi yang dapat menyebabkan penyumbatan rongga hidung adalah: Kelainan tulang hidung; Polip hidung; Tumor Kerusakan bisa terjadi pada saraf yang berfungsi mengirim sinyal bau ke otak, atau pada otak itu sendiri. Penyebabnya antara lain: Penuaan; Diabetes; Sindrom Kalmann; Cedera kepala;
+
+[3] COVID-19 - https://www.alodokter.com/covid-19
+COVID-19 adalah penyakit akibat infeksi virus severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). COVID-19 dapat menyebabkan gangguan sistem pernapasan, mulai dari gejala yang ringan seperti flu, hingga infeksi paru-paru, seperti pneumonia. COVID-19 (coronavirus disease 2019) adalah penyak
+
+[4] Penyakit Tangan Kaki dan Mulut - https://www.alodokter.com/penyakit-tangan-kaki-dan-mulut
+Penyakit tangan kaki dan mulut atau flu singapura adalah infeksi virus yang ditandai dengan luka lepuh di mulut, serta ruam atau bintik merah di tangan dan kaki. Penyakit ini sangat menular dan banyak menyerang anak usia di bawah 5 tahun. Penyakit tangan kaki dan mulut umumnya ringan dan akan sembuh
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa kaitan virus corona dengan penyakit COVID-19"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa tanda-tanda OCD? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] OCD - https://www.alodokter.com/ocd
+Obsessive compulsive disorder (OCD) adalah gangguan mental yang mendorong penderitanya untuk melakukan tindakan tertentu secara berulang-ulang. Tindakan tersebut ia lakukan untuk mengurangi kecemasan dalam pikirannya. Gangguan obsesif kompulsif dapat dialami oleh siapa saja dari semua kelompok usia,
+
+[2] Pediophobia - https://www.alodokter.com/pediophobia
+Budaya tertentu dapat menimbulkan ketakutan terhadap boneka. Misalnya, sosok ondel-ondel sering ditakuti karena menyerupai manusia tetapi bentuknya besar dan gerak-geriknya tidak umum. Selain itu, menonton film horor atau thriller yang menggambarkan boneka sebagai sesuatu yang berbahaya juga bisa me
+
+[3] Sindrom Geriatri - https://www.alodokter.com/sindrom-geriatri
+Gómez-Ramos, J., et.al. (2024). Geriatric Syndromes and Their Relationship with Mortality in a Population of Mexican Older Adults Aged 65 and Over, Admitted to the Emergency Department of a Second-Level Care Hospital. Healthcare, 12(12), pp. 1166. Wang, L., et al. (2024). Multiple geriatric syndrome
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa tanda-tanda OCD?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
