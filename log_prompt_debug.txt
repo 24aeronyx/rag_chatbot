@@ -9477,3 +9477,1087 @@ Jawaban berdasarkan Informasi yang kamu miliki:
 Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
 
 Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa kaitan virus corona dengan penyakit COVID-19 ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Virus Corona - https://www.alodokter.com/virus-corona
+Meski jumlah kematian akibat COVID-19 tergolong tinggi, angka kesembuhan dari COVID-19 juga terus bertambah. Data terakhir menyebutkan, jumlah penyintas atau orang yang pernah terinfeksi virus Corona kemudian sembuh adalah 5.903.461 orang. Gejala awal infeksi virus Corona atau COVID-19 bisa menyerup
+
+[2] Anosmia - https://www.alodokter.com/anosmia
+Sejumlah kondisi yang dapat menyebabkan penyumbatan rongga hidung adalah: Kelainan tulang hidung, Polip hidung, Tumor Kerusakan bisa terjadi pada saraf yang berfungsi mengirim sinyal bau ke otak, atau pada otak itu sendiri. Penyebabnya antara lain: Penuaan, Diabetes, Sindrom Kalmann, Cedera kepala,
+
+[3] COVID-19 - https://www.alodokter.com/covid-19
+COVID-19 adalah penyakit akibat infeksi virus severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). COVID-19 dapat menyebabkan gangguan sistem pernapasan, mulai dari gejala yang ringan seperti flu, hingga infeksi paru-paru, seperti pneumonia. COVID-19 (coronavirus disease 2019) adalah penyak
+
+[4] Penyakit Tangan Kaki dan Mulut - https://www.alodokter.com/penyakit-tangan-kaki-dan-mulut
+Penyakit tangan kaki dan mulut atau flu singapura adalah infeksi virus yang ditandai dengan luka lepuh di mulut, serta ruam atau bintik merah di tangan dan kaki. Penyakit ini sangat menular dan banyak menyerang anak usia di bawah 5 tahun. Penyakit tangan kaki dan mulut umumnya ringan dan akan sembuh
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa kaitan virus corona dengan penyakit COVID-19"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa tanda-tanda OCD? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] OCD - https://www.alodokter.com/ocd
+Obsessive compulsive disorder (OCD) adalah gangguan mental yang mendorong penderitanya untuk melakukan tindakan tertentu secara berulang-ulang. Tindakan tersebut ia lakukan untuk mengurangi kecemasan dalam pikirannya. Gangguan obsesif kompulsif dapat dialami oleh siapa saja dari semua kelompok usia,
+
+[2] Pediophobia - https://www.alodokter.com/pediophobia
+Budaya tertentu dapat menimbulkan ketakutan terhadap boneka. Misalnya, sosok ondel-ondel sering ditakuti karena menyerupai manusia tetapi bentuknya besar dan gerak-geriknya tidak umum. Selain itu, menonton film horor atau thriller yang menggambarkan boneka sebagai sesuatu yang berbahaya juga bisa me
+
+[3] Skizofrenia Katatonik - https://www.alodokter.com/skizofrenia-katatonik
+Jika obat-obatan tidak bisa membuat kondisi pasien lebih baik, ada beberapa prosedur medis yang dapat dilakukan oleh dokter, yaitu: Electroconvulsive therapy (ECT) ECT atau terapi kejut listrik dilakukan dengan mengirimkan arus listrik rendah ke dalam otak melalui elektroda. Prosedur ini dapat menim
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa tanda-tanda OCD?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa saja yang dapat menyebabkan Migrain? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Keringat Dingin - https://www.alodokter.com/keringat-dingin
+Keringat dingin dapat menjadi tanda serangan jantung. Segera cari pertolongan dokter bila keringat dingin disertai sesak napas, nyeri dada yang terasa seperti tertekan, nyeri atau rasa tidak nyaman di leher, rahang, perut dan punggung, serta pusing dan merasa akan pingsan. Vertigo adalah pusing yang
+
+[2] Migrain - https://www.alodokter.com/migrain
+Fase aura bisa terjadi sebelum atau selama migrain. Gejala pada fase aura biasanya dimulai secara bertahap, sekitar 5 menit sampai 20 menit, dan berlangsung kurang dari 1 jam. Keluhan yang muncul antara lain: Gangguan penglihatan, seperti melihat titik hitam, garis bergelombang, kilatan cahaya, atau
+
+[3] Sakit Kepala Tegang - https://www.alodokter.com/sakit-kepala-tegang
+Gejala lain yang dapat muncul adalah: Sulit berkonsentrasi, Gampang marah, Mudah lelah, Susah tidur, Kaku di leher dan punggung bagian atas, Agak sensitif terhadap cahaya dan suara Berdasarkan lama berlangsungnya gejala, sakit kepala tegang dapat dibagi menjadi dua, yaitu: Sakit kepala tegang episod
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa saja yang dapat menyebabkan Migrain?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagaimana cara mengatasi dehidrasi? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Sindrom Geriatri - https://www.alodokter.com/sindrom-geriatri
+Sindrom geriatri tidak bisa dicegah mengingat kondisi ini terjadi akibat penuaan. Meski begitu, keluhan yang parah dapat dicegah dengan pola hidup sehat berikut: Mengonsumsi buah, sayur, serta makanan tinggi protein, Membatasi asupan makanan atau minuman yang tinggi gula dan lemak jenuh, Membatasi m
+
+[2] Dehidrasi - https://www.alodokter.com/dehidrasi
+Dehidrasi adalah kondisi ketika cairan tubuh yang hilang lebih banyak daripada yang dikonsumsi. Kondisi ini dapat menyebabkan tubuh tidak berfungsi secara normal. Tubuh memiliki kandungan air sebanyak 55–80% dari total berat badan. Air dalam tubuh berperan untuk membantu kerja sistem pencernaan, men
+
+[3] Gastritis - https://www.alodokter.com/gastritis
+Gastroskopi dapat dikombinasikan dengan biopsi pada area lambung yang diduga mengalami peradangan. Selanjutnya, sampel tersebut akan diteliti di laboratorium. Biopsi juga bisa dilakukan untuk melihat keberadaan bakteri H. pylori. Pemeriksaan ini bertujuan untuk melihat kondisi saluran pencernaan bag
+
+[4] Plak Gigi - https://www.alodokter.com/plak-gigi
+Plak gigi adalah lapisan bening dan lengket yang terbentuk dari kumpulan bakteri dan sisa makanan yang menempel di permukaan gigi. Plak gigi yang tidak rutin dibersihkan akan menjadi cikal bakal terbentuknya karang gigi sehingga menimbulkan berbagai masalah pada gigi dan mulut. Plak gigi bisa muncul
+
+[5] Crohn's Disease - https://www.alodokter.com/crohns-disease
+Penambahan nutrisi juga dapat mengurangi kerja saluran pencernaan sehingga peradangan dapat berkurang. Nutrisi yang diberikan akan disesuaikan dengan kebutuhan dan kondisi masing-masing pasien. Operasi merupakan pilihan terakhir untuk mengatasi penyakit Crohn. Prosedur ini dilakukan jika berbagai pe
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagaimana cara mengatasi dehidrasi?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagiamana cara mengobati batu ginjal? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Batu Ginjal - https://www.alodokter.com/batu-ginjal
+Tingginya kadar zat kimia dalam urine dapat terjadi akibat konsumsi makanan tinggi purin dan kalsium, kekurangan asupan cairan, serta efek samping operasi dan obat-obatan, serta kondisi medis tertentu. Umumnya, batu ginjal yang berukuran kecil tidak menimbulkan gejala. Akan tetapi, batu ginjal yang
+
+[2] Machiavellianisme - https://www.alodokter.com/machiavellianisme
+Machiavellianisme adalah jenis kepribadian yang menghalalkan segala cara agar ambisinya terwujud. Demi meraih tujuannya, seseorang dengan machiavellianisme (machiavellian) tidak ragu menipu atau memanipulasi orang lain dengan cara-cara yang kejam. Bagi machiavellian, orang lain hanyalah ‘batu loncat
+
+[3] Plak Gigi - https://www.alodokter.com/plak-gigi
+Plak gigi adalah lapisan bening dan lengket yang terbentuk dari kumpulan bakteri dan sisa makanan yang menempel di permukaan gigi. Plak gigi yang tidak rutin dibersihkan akan menjadi cikal bakal terbentuknya karang gigi sehingga menimbulkan berbagai masalah pada gigi dan mulut. Plak gigi bisa muncul
+
+[4] Sindrom Geriatri - https://www.alodokter.com/sindrom-geriatri
+Sindrom geriatri tidak bisa dicegah mengingat kondisi ini terjadi akibat penuaan. Meski begitu, keluhan yang parah dapat dicegah dengan pola hidup sehat berikut: Mengonsumsi buah, sayur, serta makanan tinggi protein, Membatasi asupan makanan atau minuman yang tinggi gula dan lemak jenuh, Membatasi m
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagiamana cara mengobati batu ginjal?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa gejala COVID-19? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] COVID-19 - https://www.alodokter.com/covid-19
+COVID-19 dapat menginfeksi siapa saja, tetapi efeknya akan lebih berbahaya atau bahkan fatal bila menyerang lansia (orang lanjut usia), ibu hamil, perokok, penderita penyakit tertentu, dan orang yang daya tahan tubuhnya lemah, seperti penderita kanker. Karena mudah menular, penyakit ini juga berisik
+
+[2] Anosmia - https://www.alodokter.com/anosmia
+Sejumlah kondisi yang dapat menyebabkan penyumbatan rongga hidung adalah: Kelainan tulang hidung, Polip hidung, Tumor Kerusakan bisa terjadi pada saraf yang berfungsi mengirim sinyal bau ke otak, atau pada otak itu sendiri. Penyebabnya antara lain: Penuaan, Diabetes, Sindrom Kalmann, Cedera kepala,
+
+[3] Virus Corona - https://www.alodokter.com/virus-corona
+Secara umum, ada tiga gejala umum yang bisa menandakan seseorang terinfeksi virus Corona, yaitu: Demam (suhu tubuh di atas 38 derajat Celsius), Batuk kering, Sesak napas Ada beberapa gejala lain yang juga bisa muncul pada infeksi virus Corona meskipun lebih jarang, yaitu: Diare, Sakit kepala, Konjun
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa gejala COVID-19?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa itu PTSD? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] PTSD - https://www.alodokter.com/ptsd
+Untuk mendiagnosis PTSD, dokter akan menanyakan gejala dan riwayat kesehatan pasien. Setelah itu, dokter akan melakukan pemeriksaan fisik untuk mencari tahu apakah gejala yang dialami disebabkan oleh penyakit fisik. Jika tidak terdapat penyakit fisik, dokter akan melakukan pemeriksaan mental pasien.
+
+[2] Luka Tembak - https://www.alodokter.com/luka-tembak
+Setelah pasien luka tembak tiba di rumah sakit, dokter akan segera menstabilkan kondisi pasien sebelum melakukan operasi untuk menghentikan perdarahan. Beberapa tindakan yang dapat dilakukan oleh dokter dalam operasi adalah: Menjahit pembuluh darah dan organ dalam yang robek, Mengeluarkan peluru yan
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa itu PTSD?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagaimana cara mmengobati cacar air? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Cacar Air - https://www.alodokter.com/cacar-air
+Segera periksakan diri ke dokter jika mengalami kondisi berikut ini: Demam tinggi selama 4 hari, Batuk parah sampai sesak napas, Dehidrasi, pada bayi bisa berupa popok yang jarang basah, Kulit di sekitar bentol terasa panas ketika disentuh, nyeri, bengkak, sangat merah, atau mengeluarkan nanah, Seri
+
+[2] Sindrom Geriatri - https://www.alodokter.com/sindrom-geriatri
+Sindrom geriatri tidak bisa dicegah mengingat kondisi ini terjadi akibat penuaan. Meski begitu, keluhan yang parah dapat dicegah dengan pola hidup sehat berikut: Mengonsumsi buah, sayur, serta makanan tinggi protein, Membatasi asupan makanan atau minuman yang tinggi gula dan lemak jenuh, Membatasi m
+
+[3] Retinopati Diabetik - https://www.alodokter.com/retinopati-diabetik
+Meski perdarahan vitreus umumnya menghilang dalam hitungan minggu atau bulan, pasien tetap berisiko kehilangan penglihatan secara permanen bila retina telah rusak. Pembuluh darah baru yang muncul akan merangsang pembentukan jaringan parut pada retina. Jaringan parut tersebut akan menarik retina dari
+
+[4] Herpes - https://www.alodokter.com/herpes
+Secara umum, infeksi akibat virus herpes jarang menimbulkan komplikasi serius. Komplikasi infeksi virus herpes biasanya terjadi pada kondisi tertentu. Misalnya, penderita herpes simpleks yang juga menderita HIV biasanya mengalami gejala herpes yang lebih parah dan lebih sering kambuh. Komplikasi aki
+
+[5] Keracunan Timbal - https://www.alodokter.com/keracunan-timbal-plumbism
+Timbal dapat masuk ke dalam tubuh jika terserap melalui kulit, tertelan, atau terhirup. Tidak ada batas aman untuk kadar timbal dalam tubuh, bahkan kadar timbal yang rendah tetap dapat menyebabkan gangguan kesehatan. Ketika memasuki tubuh, timbal akan menyebar melalui darah ke berbagai organ tubuh,
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagaimana cara mmengobati cacar air?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagaimana cara mengatasi insomnia? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Insomnia - https://www.alodokter.com/insomnia
+Insomnia adalah gangguan tidur yang membuat penderitanya sulit tidur atau sering terbangun saat tidur dan sulit untuk tertidur kembali. Insomnia yang parah bisa menurunkan kualitas hidup sehingga berdampak buruk pada kesehatan dan keselamatan penderitanya. Kebutuhan tidur orang dewasa adalah sekitar
+
+[2] Gangguan Tidur - https://www.alodokter.com/gangguan-tidur
+Gangguan tidur dapat ditandai dengan mengantuk di siang hari, sulit tidur di malam hari, atau siklus tidur dan bangun tidur yang tidak teratur. Gangguan tidur yang tidak ditangani dengan baik dapat meningkatkan risiko munculnya berbagai penyakit lain, seperti hipertensi dan penyakit jantung. Berdasa
+
+[3] Hipernatremia - https://www.alodokter.com/hipernatremia
+Gejala hipernatremia berkembang cukup lambat sehingga kondisi ini sering kali tidak disadari penderitanya. Keluhan yang muncul dapat berbeda-beda, bahkan bisa tidak menimbulkan gejala sama sekali sampai hipernatremia yang dialami cukup parah. Sejumlah keluhan yang dapat terjadi akibat hipernatremia
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagaimana cara mengatasi insomnia?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apakah gastritis dapat berkembang menjadi penyakit yang berbahaya? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Gastritis - https://www.alodokter.com/gastritis
+Beberapa hal yang dapat menyebabkan gastritis kronis meliputi: Daya tahan tubuh lemah, Penggunaan obat-obatan tertentu, seperti aspirin dan ibuprofen, Penyakit tertentu, seperti diabetes atau gagal ginjal, Stres berat yang terjadi terus-menerus sehingga memengaruhi sistem kekebalan tubuh Gastritis l
+
+[2] Infeksi Lambung - https://www.alodokter.com/infeksi-lambung
+Penyebab infeksi lambung adalah bakteri atau virus yang menyerang dinding lambung. Kuman tersebut dapat masuk ke dalam tubuh melalui beberapa cara berikut: Kontak mulut atau air liur dengan penderita infeksi lambung, misalnya ketika berciuman, Kontak dengan tinja atau muntahan penderita, misalnya me
+
+[3] Infeksi Saluran Pencernaan - https://www.alodokter.com/infeksi-saluran-pencernaan
+Jika gejala yang dialami ringan atau sedang, penderita infeksi saluran pencernaan umumnya cukup melakukan perawatan mandiri di rumah, seperti: Minum oralit setiap diare atau muntah untuk mengganti cairan dan elektrolit yang keluar, Menjaga asupan cairan untuk mencegah dehidrasi, bisa dari air putih,
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apakah gastritis dapat berkembang menjadi penyakit yang berbahaya?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa kaitan virus corona dengan penyakit COVID-19 ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Virus Corona - https://www.alodokter.com/virus-corona
+Meski jumlah kematian akibat COVID-19 tergolong tinggi, angka kesembuhan dari COVID-19 juga terus bertambah. Data terakhir menyebutkan, jumlah penyintas atau orang yang pernah terinfeksi virus Corona kemudian sembuh adalah 5.903.461 orang. Gejala awal infeksi virus Corona atau COVID-19 bisa menyerup
+
+[2] Anosmia - https://www.alodokter.com/anosmia
+Sejumlah kondisi yang dapat menyebabkan penyumbatan rongga hidung adalah: Kelainan tulang hidung, Polip hidung, Tumor Kerusakan bisa terjadi pada saraf yang berfungsi mengirim sinyal bau ke otak, atau pada otak itu sendiri. Penyebabnya antara lain: Penuaan, Diabetes, Sindrom Kalmann, Cedera kepala,
+
+[3] COVID-19 - https://www.alodokter.com/covid-19
+COVID-19 adalah penyakit akibat infeksi virus severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). COVID-19 dapat menyebabkan gangguan sistem pernapasan, mulai dari gejala yang ringan seperti flu, hingga infeksi paru-paru, seperti pneumonia. COVID-19 (coronavirus disease 2019) adalah penyak
+
+[4] Penyakit Tangan Kaki dan Mulut - https://www.alodokter.com/penyakit-tangan-kaki-dan-mulut
+Penyakit tangan kaki dan mulut atau flu singapura adalah infeksi virus yang ditandai dengan luka lepuh di mulut, serta ruam atau bintik merah di tangan dan kaki. Penyakit ini sangat menular dan banyak menyerang anak usia di bawah 5 tahun. Penyakit tangan kaki dan mulut umumnya ringan dan akan sembuh
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa kaitan virus corona dengan penyakit COVID-19"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa tanda-tanda OCD? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] OCD - https://www.alodokter.com/ocd
+Obsessive compulsive disorder (OCD) adalah gangguan mental yang mendorong penderitanya untuk melakukan tindakan tertentu secara berulang-ulang. Tindakan tersebut ia lakukan untuk mengurangi kecemasan dalam pikirannya. Gangguan obsesif kompulsif dapat dialami oleh siapa saja dari semua kelompok usia,
+
+[2] Pediophobia - https://www.alodokter.com/pediophobia
+Budaya tertentu dapat menimbulkan ketakutan terhadap boneka. Misalnya, sosok ondel-ondel sering ditakuti karena menyerupai manusia tetapi bentuknya besar dan gerak-geriknya tidak umum. Selain itu, menonton film horor atau thriller yang menggambarkan boneka sebagai sesuatu yang berbahaya juga bisa me
+
+[3] Skizofrenia Katatonik - https://www.alodokter.com/skizofrenia-katatonik
+Jika obat-obatan tidak bisa membuat kondisi pasien lebih baik, ada beberapa prosedur medis yang dapat dilakukan oleh dokter, yaitu: Electroconvulsive therapy (ECT) ECT atau terapi kejut listrik dilakukan dengan mengirimkan arus listrik rendah ke dalam otak melalui elektroda. Prosedur ini dapat menim
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa tanda-tanda OCD?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa saja yang dapat menyebabkan Migrain? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Keringat Dingin - https://www.alodokter.com/keringat-dingin
+Keringat dingin dapat menjadi tanda serangan jantung. Segera cari pertolongan dokter bila keringat dingin disertai sesak napas, nyeri dada yang terasa seperti tertekan, nyeri atau rasa tidak nyaman di leher, rahang, perut dan punggung, serta pusing dan merasa akan pingsan. Vertigo adalah pusing yang
+
+[2] Migrain - https://www.alodokter.com/migrain
+Fase aura bisa terjadi sebelum atau selama migrain. Gejala pada fase aura biasanya dimulai secara bertahap, sekitar 5 menit sampai 20 menit, dan berlangsung kurang dari 1 jam. Keluhan yang muncul antara lain: Gangguan penglihatan, seperti melihat titik hitam, garis bergelombang, kilatan cahaya, atau
+
+[3] Sakit Kepala Tegang - https://www.alodokter.com/sakit-kepala-tegang
+Gejala lain yang dapat muncul adalah: Sulit berkonsentrasi, Gampang marah, Mudah lelah, Susah tidur, Kaku di leher dan punggung bagian atas, Agak sensitif terhadap cahaya dan suara Berdasarkan lama berlangsungnya gejala, sakit kepala tegang dapat dibagi menjadi dua, yaitu: Sakit kepala tegang episod
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa saja yang dapat menyebabkan Migrain?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagaimana cara mengatasi dehidrasi? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Sindrom Geriatri - https://www.alodokter.com/sindrom-geriatri
+Sindrom geriatri tidak bisa dicegah mengingat kondisi ini terjadi akibat penuaan. Meski begitu, keluhan yang parah dapat dicegah dengan pola hidup sehat berikut: Mengonsumsi buah, sayur, serta makanan tinggi protein, Membatasi asupan makanan atau minuman yang tinggi gula dan lemak jenuh, Membatasi m
+
+[2] Dehidrasi - https://www.alodokter.com/dehidrasi
+Dehidrasi adalah kondisi ketika cairan tubuh yang hilang lebih banyak daripada yang dikonsumsi. Kondisi ini dapat menyebabkan tubuh tidak berfungsi secara normal. Tubuh memiliki kandungan air sebanyak 55–80% dari total berat badan. Air dalam tubuh berperan untuk membantu kerja sistem pencernaan, men
+
+[3] Gastritis - https://www.alodokter.com/gastritis
+Gastroskopi dapat dikombinasikan dengan biopsi pada area lambung yang diduga mengalami peradangan. Selanjutnya, sampel tersebut akan diteliti di laboratorium. Biopsi juga bisa dilakukan untuk melihat keberadaan bakteri H. pylori. Pemeriksaan ini bertujuan untuk melihat kondisi saluran pencernaan bag
+
+[4] Plak Gigi - https://www.alodokter.com/plak-gigi
+Plak gigi adalah lapisan bening dan lengket yang terbentuk dari kumpulan bakteri dan sisa makanan yang menempel di permukaan gigi. Plak gigi yang tidak rutin dibersihkan akan menjadi cikal bakal terbentuknya karang gigi sehingga menimbulkan berbagai masalah pada gigi dan mulut. Plak gigi bisa muncul
+
+[5] Crohn's Disease - https://www.alodokter.com/crohns-disease
+Penambahan nutrisi juga dapat mengurangi kerja saluran pencernaan sehingga peradangan dapat berkurang. Nutrisi yang diberikan akan disesuaikan dengan kebutuhan dan kondisi masing-masing pasien. Operasi merupakan pilihan terakhir untuk mengatasi penyakit Crohn. Prosedur ini dilakukan jika berbagai pe
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagaimana cara mengatasi dehidrasi?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagiamana cara mengobati batu ginjal? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Batu Ginjal - https://www.alodokter.com/batu-ginjal
+Tingginya kadar zat kimia dalam urine dapat terjadi akibat konsumsi makanan tinggi purin dan kalsium, kekurangan asupan cairan, serta efek samping operasi dan obat-obatan, serta kondisi medis tertentu. Umumnya, batu ginjal yang berukuran kecil tidak menimbulkan gejala. Akan tetapi, batu ginjal yang
+
+[2] Machiavellianisme - https://www.alodokter.com/machiavellianisme
+Machiavellianisme adalah jenis kepribadian yang menghalalkan segala cara agar ambisinya terwujud. Demi meraih tujuannya, seseorang dengan machiavellianisme (machiavellian) tidak ragu menipu atau memanipulasi orang lain dengan cara-cara yang kejam. Bagi machiavellian, orang lain hanyalah ‘batu loncat
+
+[3] Plak Gigi - https://www.alodokter.com/plak-gigi
+Plak gigi adalah lapisan bening dan lengket yang terbentuk dari kumpulan bakteri dan sisa makanan yang menempel di permukaan gigi. Plak gigi yang tidak rutin dibersihkan akan menjadi cikal bakal terbentuknya karang gigi sehingga menimbulkan berbagai masalah pada gigi dan mulut. Plak gigi bisa muncul
+
+[4] Sindrom Geriatri - https://www.alodokter.com/sindrom-geriatri
+Sindrom geriatri tidak bisa dicegah mengingat kondisi ini terjadi akibat penuaan. Meski begitu, keluhan yang parah dapat dicegah dengan pola hidup sehat berikut: Mengonsumsi buah, sayur, serta makanan tinggi protein, Membatasi asupan makanan atau minuman yang tinggi gula dan lemak jenuh, Membatasi m
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagiamana cara mengobati batu ginjal?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa gejala COVID-19? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] COVID-19 - https://www.alodokter.com/covid-19
+COVID-19 dapat menginfeksi siapa saja, tetapi efeknya akan lebih berbahaya atau bahkan fatal bila menyerang lansia (orang lanjut usia), ibu hamil, perokok, penderita penyakit tertentu, dan orang yang daya tahan tubuhnya lemah, seperti penderita kanker. Karena mudah menular, penyakit ini juga berisik
+
+[2] Anosmia - https://www.alodokter.com/anosmia
+Sejumlah kondisi yang dapat menyebabkan penyumbatan rongga hidung adalah: Kelainan tulang hidung, Polip hidung, Tumor Kerusakan bisa terjadi pada saraf yang berfungsi mengirim sinyal bau ke otak, atau pada otak itu sendiri. Penyebabnya antara lain: Penuaan, Diabetes, Sindrom Kalmann, Cedera kepala,
+
+[3] Virus Corona - https://www.alodokter.com/virus-corona
+Secara umum, ada tiga gejala umum yang bisa menandakan seseorang terinfeksi virus Corona, yaitu: Demam (suhu tubuh di atas 38 derajat Celsius), Batuk kering, Sesak napas Ada beberapa gejala lain yang juga bisa muncul pada infeksi virus Corona meskipun lebih jarang, yaitu: Diare, Sakit kepala, Konjun
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa gejala COVID-19?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa itu PTSD? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] PTSD - https://www.alodokter.com/ptsd
+Untuk mendiagnosis PTSD, dokter akan menanyakan gejala dan riwayat kesehatan pasien. Setelah itu, dokter akan melakukan pemeriksaan fisik untuk mencari tahu apakah gejala yang dialami disebabkan oleh penyakit fisik. Jika tidak terdapat penyakit fisik, dokter akan melakukan pemeriksaan mental pasien.
+
+[2] Luka Tembak - https://www.alodokter.com/luka-tembak
+Setelah pasien luka tembak tiba di rumah sakit, dokter akan segera menstabilkan kondisi pasien sebelum melakukan operasi untuk menghentikan perdarahan. Beberapa tindakan yang dapat dilakukan oleh dokter dalam operasi adalah: Menjahit pembuluh darah dan organ dalam yang robek, Mengeluarkan peluru yan
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa itu PTSD?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagaimana cara mmengobati cacar air? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Cacar Air - https://www.alodokter.com/cacar-air
+Segera periksakan diri ke dokter jika mengalami kondisi berikut ini: Demam tinggi selama 4 hari, Batuk parah sampai sesak napas, Dehidrasi, pada bayi bisa berupa popok yang jarang basah, Kulit di sekitar bentol terasa panas ketika disentuh, nyeri, bengkak, sangat merah, atau mengeluarkan nanah, Seri
+
+[2] Sindrom Geriatri - https://www.alodokter.com/sindrom-geriatri
+Sindrom geriatri tidak bisa dicegah mengingat kondisi ini terjadi akibat penuaan. Meski begitu, keluhan yang parah dapat dicegah dengan pola hidup sehat berikut: Mengonsumsi buah, sayur, serta makanan tinggi protein, Membatasi asupan makanan atau minuman yang tinggi gula dan lemak jenuh, Membatasi m
+
+[3] Retinopati Diabetik - https://www.alodokter.com/retinopati-diabetik
+Meski perdarahan vitreus umumnya menghilang dalam hitungan minggu atau bulan, pasien tetap berisiko kehilangan penglihatan secara permanen bila retina telah rusak. Pembuluh darah baru yang muncul akan merangsang pembentukan jaringan parut pada retina. Jaringan parut tersebut akan menarik retina dari
+
+[4] Herpes - https://www.alodokter.com/herpes
+Secara umum, infeksi akibat virus herpes jarang menimbulkan komplikasi serius. Komplikasi infeksi virus herpes biasanya terjadi pada kondisi tertentu. Misalnya, penderita herpes simpleks yang juga menderita HIV biasanya mengalami gejala herpes yang lebih parah dan lebih sering kambuh. Komplikasi aki
+
+[5] Keracunan Timbal - https://www.alodokter.com/keracunan-timbal-plumbism
+Timbal dapat masuk ke dalam tubuh jika terserap melalui kulit, tertelan, atau terhirup. Tidak ada batas aman untuk kadar timbal dalam tubuh, bahkan kadar timbal yang rendah tetap dapat menyebabkan gangguan kesehatan. Ketika memasuki tubuh, timbal akan menyebar melalui darah ke berbagai organ tubuh,
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagaimana cara mmengobati cacar air?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagaimana cara mengatasi insomnia? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Insomnia - https://www.alodokter.com/insomnia
+Insomnia adalah gangguan tidur yang membuat penderitanya sulit tidur atau sering terbangun saat tidur dan sulit untuk tertidur kembali. Insomnia yang parah bisa menurunkan kualitas hidup sehingga berdampak buruk pada kesehatan dan keselamatan penderitanya. Kebutuhan tidur orang dewasa adalah sekitar
+
+[2] Gangguan Tidur - https://www.alodokter.com/gangguan-tidur
+Gangguan tidur dapat ditandai dengan mengantuk di siang hari, sulit tidur di malam hari, atau siklus tidur dan bangun tidur yang tidak teratur. Gangguan tidur yang tidak ditangani dengan baik dapat meningkatkan risiko munculnya berbagai penyakit lain, seperti hipertensi dan penyakit jantung. Berdasa
+
+[3] Hipernatremia - https://www.alodokter.com/hipernatremia
+Gejala hipernatremia berkembang cukup lambat sehingga kondisi ini sering kali tidak disadari penderitanya. Keluhan yang muncul dapat berbeda-beda, bahkan bisa tidak menimbulkan gejala sama sekali sampai hipernatremia yang dialami cukup parah. Sejumlah keluhan yang dapat terjadi akibat hipernatremia
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagaimana cara mengatasi insomnia?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa kaitan virus corona dengan penyakit COVID-19 ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Virus Corona - https://www.alodokter.com/virus-corona
+Meski jumlah kematian akibat COVID-19 tergolong tinggi, angka kesembuhan dari COVID-19 juga terus bertambah. Data terakhir menyebutkan, jumlah penyintas atau orang yang pernah terinfeksi virus Corona kemudian sembuh adalah 5.903.461 orang. Gejala awal infeksi virus Corona atau COVID-19 bisa menyerup
+
+[2] Anosmia - https://www.alodokter.com/anosmia
+Sejumlah kondisi yang dapat menyebabkan penyumbatan rongga hidung adalah: Kelainan tulang hidung, Polip hidung, Tumor Kerusakan bisa terjadi pada saraf yang berfungsi mengirim sinyal bau ke otak, atau pada otak itu sendiri. Penyebabnya antara lain: Penuaan, Diabetes, Sindrom Kalmann, Cedera kepala,
+
+[3] COVID-19 - https://www.alodokter.com/covid-19
+COVID-19 adalah penyakit akibat infeksi virus severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). COVID-19 dapat menyebabkan gangguan sistem pernapasan, mulai dari gejala yang ringan seperti flu, hingga infeksi paru-paru, seperti pneumonia. COVID-19 (coronavirus disease 2019) adalah penyak
+
+[4] Penyakit Tangan Kaki dan Mulut - https://www.alodokter.com/penyakit-tangan-kaki-dan-mulut
+Penyakit tangan kaki dan mulut atau flu singapura adalah infeksi virus yang ditandai dengan luka lepuh di mulut, serta ruam atau bintik merah di tangan dan kaki. Penyakit ini sangat menular dan banyak menyerang anak usia di bawah 5 tahun. Penyakit tangan kaki dan mulut umumnya ringan dan akan sembuh
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa kaitan virus corona dengan penyakit COVID-19"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa tanda-tanda OCD? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] OCD - https://www.alodokter.com/ocd
+Obsessive compulsive disorder (OCD) adalah gangguan mental yang mendorong penderitanya untuk melakukan tindakan tertentu secara berulang-ulang. Tindakan tersebut ia lakukan untuk mengurangi kecemasan dalam pikirannya. Gangguan obsesif kompulsif dapat dialami oleh siapa saja dari semua kelompok usia,
+
+[2] Pediophobia - https://www.alodokter.com/pediophobia
+Budaya tertentu dapat menimbulkan ketakutan terhadap boneka. Misalnya, sosok ondel-ondel sering ditakuti karena menyerupai manusia tetapi bentuknya besar dan gerak-geriknya tidak umum. Selain itu, menonton film horor atau thriller yang menggambarkan boneka sebagai sesuatu yang berbahaya juga bisa me
+
+[3] Skizofrenia Katatonik - https://www.alodokter.com/skizofrenia-katatonik
+Jika obat-obatan tidak bisa membuat kondisi pasien lebih baik, ada beberapa prosedur medis yang dapat dilakukan oleh dokter, yaitu: Electroconvulsive therapy (ECT) ECT atau terapi kejut listrik dilakukan dengan mengirimkan arus listrik rendah ke dalam otak melalui elektroda. Prosedur ini dapat menim
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa tanda-tanda OCD?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa saja yang dapat menyebabkan Migrain? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Keringat Dingin - https://www.alodokter.com/keringat-dingin
+Keringat dingin dapat menjadi tanda serangan jantung. Segera cari pertolongan dokter bila keringat dingin disertai sesak napas, nyeri dada yang terasa seperti tertekan, nyeri atau rasa tidak nyaman di leher, rahang, perut dan punggung, serta pusing dan merasa akan pingsan. Vertigo adalah pusing yang
+
+[2] Migrain - https://www.alodokter.com/migrain
+Fase aura bisa terjadi sebelum atau selama migrain. Gejala pada fase aura biasanya dimulai secara bertahap, sekitar 5 menit sampai 20 menit, dan berlangsung kurang dari 1 jam. Keluhan yang muncul antara lain: Gangguan penglihatan, seperti melihat titik hitam, garis bergelombang, kilatan cahaya, atau
+
+[3] Sakit Kepala Tegang - https://www.alodokter.com/sakit-kepala-tegang
+Gejala lain yang dapat muncul adalah: Sulit berkonsentrasi, Gampang marah, Mudah lelah, Susah tidur, Kaku di leher dan punggung bagian atas, Agak sensitif terhadap cahaya dan suara Berdasarkan lama berlangsungnya gejala, sakit kepala tegang dapat dibagi menjadi dua, yaitu: Sakit kepala tegang episod
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa saja yang dapat menyebabkan Migrain?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagaimana cara mengatasi dehidrasi? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Sindrom Geriatri - https://www.alodokter.com/sindrom-geriatri
+Sindrom geriatri tidak bisa dicegah mengingat kondisi ini terjadi akibat penuaan. Meski begitu, keluhan yang parah dapat dicegah dengan pola hidup sehat berikut: Mengonsumsi buah, sayur, serta makanan tinggi protein, Membatasi asupan makanan atau minuman yang tinggi gula dan lemak jenuh, Membatasi m
+
+[2] Dehidrasi - https://www.alodokter.com/dehidrasi
+Dehidrasi adalah kondisi ketika cairan tubuh yang hilang lebih banyak daripada yang dikonsumsi. Kondisi ini dapat menyebabkan tubuh tidak berfungsi secara normal. Tubuh memiliki kandungan air sebanyak 55–80% dari total berat badan. Air dalam tubuh berperan untuk membantu kerja sistem pencernaan, men
+
+[3] Gastritis - https://www.alodokter.com/gastritis
+Gastroskopi dapat dikombinasikan dengan biopsi pada area lambung yang diduga mengalami peradangan. Selanjutnya, sampel tersebut akan diteliti di laboratorium. Biopsi juga bisa dilakukan untuk melihat keberadaan bakteri H. pylori. Pemeriksaan ini bertujuan untuk melihat kondisi saluran pencernaan bag
+
+[4] Plak Gigi - https://www.alodokter.com/plak-gigi
+Plak gigi adalah lapisan bening dan lengket yang terbentuk dari kumpulan bakteri dan sisa makanan yang menempel di permukaan gigi. Plak gigi yang tidak rutin dibersihkan akan menjadi cikal bakal terbentuknya karang gigi sehingga menimbulkan berbagai masalah pada gigi dan mulut. Plak gigi bisa muncul
+
+[5] Crohn's Disease - https://www.alodokter.com/crohns-disease
+Penambahan nutrisi juga dapat mengurangi kerja saluran pencernaan sehingga peradangan dapat berkurang. Nutrisi yang diberikan akan disesuaikan dengan kebutuhan dan kondisi masing-masing pasien. Operasi merupakan pilihan terakhir untuk mengatasi penyakit Crohn. Prosedur ini dilakukan jika berbagai pe
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagaimana cara mengatasi dehidrasi?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagiamana cara mengobati batu ginjal? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Batu Ginjal - https://www.alodokter.com/batu-ginjal
+Tingginya kadar zat kimia dalam urine dapat terjadi akibat konsumsi makanan tinggi purin dan kalsium, kekurangan asupan cairan, serta efek samping operasi dan obat-obatan, serta kondisi medis tertentu. Umumnya, batu ginjal yang berukuran kecil tidak menimbulkan gejala. Akan tetapi, batu ginjal yang
+
+[2] Machiavellianisme - https://www.alodokter.com/machiavellianisme
+Machiavellianisme adalah jenis kepribadian yang menghalalkan segala cara agar ambisinya terwujud. Demi meraih tujuannya, seseorang dengan machiavellianisme (machiavellian) tidak ragu menipu atau memanipulasi orang lain dengan cara-cara yang kejam. Bagi machiavellian, orang lain hanyalah ‘batu loncat
+
+[3] Plak Gigi - https://www.alodokter.com/plak-gigi
+Plak gigi adalah lapisan bening dan lengket yang terbentuk dari kumpulan bakteri dan sisa makanan yang menempel di permukaan gigi. Plak gigi yang tidak rutin dibersihkan akan menjadi cikal bakal terbentuknya karang gigi sehingga menimbulkan berbagai masalah pada gigi dan mulut. Plak gigi bisa muncul
+
+[4] Sindrom Geriatri - https://www.alodokter.com/sindrom-geriatri
+Sindrom geriatri tidak bisa dicegah mengingat kondisi ini terjadi akibat penuaan. Meski begitu, keluhan yang parah dapat dicegah dengan pola hidup sehat berikut: Mengonsumsi buah, sayur, serta makanan tinggi protein, Membatasi asupan makanan atau minuman yang tinggi gula dan lemak jenuh, Membatasi m
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagiamana cara mengobati batu ginjal?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa gejala COVID-19? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] COVID-19 - https://www.alodokter.com/covid-19
+COVID-19 dapat menginfeksi siapa saja, tetapi efeknya akan lebih berbahaya atau bahkan fatal bila menyerang lansia (orang lanjut usia), ibu hamil, perokok, penderita penyakit tertentu, dan orang yang daya tahan tubuhnya lemah, seperti penderita kanker. Karena mudah menular, penyakit ini juga berisik
+
+[2] Anosmia - https://www.alodokter.com/anosmia
+Sejumlah kondisi yang dapat menyebabkan penyumbatan rongga hidung adalah: Kelainan tulang hidung, Polip hidung, Tumor Kerusakan bisa terjadi pada saraf yang berfungsi mengirim sinyal bau ke otak, atau pada otak itu sendiri. Penyebabnya antara lain: Penuaan, Diabetes, Sindrom Kalmann, Cedera kepala,
+
+[3] Virus Corona - https://www.alodokter.com/virus-corona
+Secara umum, ada tiga gejala umum yang bisa menandakan seseorang terinfeksi virus Corona, yaitu: Demam (suhu tubuh di atas 38 derajat Celsius), Batuk kering, Sesak napas Ada beberapa gejala lain yang juga bisa muncul pada infeksi virus Corona meskipun lebih jarang, yaitu: Diare, Sakit kepala, Konjun
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa gejala COVID-19?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa itu PTSD? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] PTSD - https://www.alodokter.com/ptsd
+Untuk mendiagnosis PTSD, dokter akan menanyakan gejala dan riwayat kesehatan pasien. Setelah itu, dokter akan melakukan pemeriksaan fisik untuk mencari tahu apakah gejala yang dialami disebabkan oleh penyakit fisik. Jika tidak terdapat penyakit fisik, dokter akan melakukan pemeriksaan mental pasien.
+
+[2] Luka Tembak - https://www.alodokter.com/luka-tembak
+Setelah pasien luka tembak tiba di rumah sakit, dokter akan segera menstabilkan kondisi pasien sebelum melakukan operasi untuk menghentikan perdarahan. Beberapa tindakan yang dapat dilakukan oleh dokter dalam operasi adalah: Menjahit pembuluh darah dan organ dalam yang robek, Mengeluarkan peluru yan
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa itu PTSD?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagaimana cara mmengobati cacar air? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Cacar Air - https://www.alodokter.com/cacar-air
+Segera periksakan diri ke dokter jika mengalami kondisi berikut ini: Demam tinggi selama 4 hari, Batuk parah sampai sesak napas, Dehidrasi, pada bayi bisa berupa popok yang jarang basah, Kulit di sekitar bentol terasa panas ketika disentuh, nyeri, bengkak, sangat merah, atau mengeluarkan nanah, Seri
+
+[2] Sindrom Geriatri - https://www.alodokter.com/sindrom-geriatri
+Sindrom geriatri tidak bisa dicegah mengingat kondisi ini terjadi akibat penuaan. Meski begitu, keluhan yang parah dapat dicegah dengan pola hidup sehat berikut: Mengonsumsi buah, sayur, serta makanan tinggi protein, Membatasi asupan makanan atau minuman yang tinggi gula dan lemak jenuh, Membatasi m
+
+[3] Retinopati Diabetik - https://www.alodokter.com/retinopati-diabetik
+Meski perdarahan vitreus umumnya menghilang dalam hitungan minggu atau bulan, pasien tetap berisiko kehilangan penglihatan secara permanen bila retina telah rusak. Pembuluh darah baru yang muncul akan merangsang pembentukan jaringan parut pada retina. Jaringan parut tersebut akan menarik retina dari
+
+[4] Herpes - https://www.alodokter.com/herpes
+Secara umum, infeksi akibat virus herpes jarang menimbulkan komplikasi serius. Komplikasi infeksi virus herpes biasanya terjadi pada kondisi tertentu. Misalnya, penderita herpes simpleks yang juga menderita HIV biasanya mengalami gejala herpes yang lebih parah dan lebih sering kambuh. Komplikasi aki
+
+[5] Keracunan Timbal - https://www.alodokter.com/keracunan-timbal-plumbism
+Timbal dapat masuk ke dalam tubuh jika terserap melalui kulit, tertelan, atau terhirup. Tidak ada batas aman untuk kadar timbal dalam tubuh, bahkan kadar timbal yang rendah tetap dapat menyebabkan gangguan kesehatan. Ketika memasuki tubuh, timbal akan menyebar melalui darah ke berbagai organ tubuh,
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagaimana cara mmengobati cacar air?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagaimana cara mengatasi insomnia? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Insomnia - https://www.alodokter.com/insomnia
+Insomnia adalah gangguan tidur yang membuat penderitanya sulit tidur atau sering terbangun saat tidur dan sulit untuk tertidur kembali. Insomnia yang parah bisa menurunkan kualitas hidup sehingga berdampak buruk pada kesehatan dan keselamatan penderitanya. Kebutuhan tidur orang dewasa adalah sekitar
+
+[2] Gangguan Tidur - https://www.alodokter.com/gangguan-tidur
+Gangguan tidur dapat ditandai dengan mengantuk di siang hari, sulit tidur di malam hari, atau siklus tidur dan bangun tidur yang tidak teratur. Gangguan tidur yang tidak ditangani dengan baik dapat meningkatkan risiko munculnya berbagai penyakit lain, seperti hipertensi dan penyakit jantung. Berdasa
+
+[3] Hipernatremia - https://www.alodokter.com/hipernatremia
+Gejala hipernatremia berkembang cukup lambat sehingga kondisi ini sering kali tidak disadari penderitanya. Keluhan yang muncul dapat berbeda-beda, bahkan bisa tidak menimbulkan gejala sama sekali sampai hipernatremia yang dialami cukup parah. Sejumlah keluhan yang dapat terjadi akibat hipernatremia
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagaimana cara mengatasi insomnia?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apakah gastritis dapat berkembang menjadi penyakit yang berbahaya? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Gastritis - https://www.alodokter.com/gastritis
+Beberapa hal yang dapat menyebabkan gastritis kronis meliputi: Daya tahan tubuh lemah, Penggunaan obat-obatan tertentu, seperti aspirin dan ibuprofen, Penyakit tertentu, seperti diabetes atau gagal ginjal, Stres berat yang terjadi terus-menerus sehingga memengaruhi sistem kekebalan tubuh Gastritis l
+
+[2] Infeksi Lambung - https://www.alodokter.com/infeksi-lambung
+Penyebab infeksi lambung adalah bakteri atau virus yang menyerang dinding lambung. Kuman tersebut dapat masuk ke dalam tubuh melalui beberapa cara berikut: Kontak mulut atau air liur dengan penderita infeksi lambung, misalnya ketika berciuman, Kontak dengan tinja atau muntahan penderita, misalnya me
+
+[3] Infeksi Saluran Pencernaan - https://www.alodokter.com/infeksi-saluran-pencernaan
+Jika gejala yang dialami ringan atau sedang, penderita infeksi saluran pencernaan umumnya cukup melakukan perawatan mandiri di rumah, seperti: Minum oralit setiap diare atau muntah untuk mengganti cairan dan elektrolit yang keluar, Menjaga asupan cairan untuk mencegah dehidrasi, bisa dari air putih,
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apakah gastritis dapat berkembang menjadi penyakit yang berbahaya?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagaimana cara mengobati rubella? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Rubella - https://www.alodokter.com/rubella
+Pengobatan rubella cukup dilakukan di rumah, karena gejalanya tergolong ringan. Bila diperlukan, dokter akan meresepkan paracetamol guna meredakan nyeri dan demam, serta menyarankan pasien untuk banyak beristirahat di rumah agar virus tidak menyebar ke orang lain. Pada ibu hamil yang menderita rubel
+
+[2] Campak - https://www.alodokter.com/campak
+Gejala awal campak adalah sakit tenggorokan, mata berair dan kemerahan (konjungtivitis), dan bintik putih di dalam mulut. Ruam yang muncul mulanya berupa bintik-bintik merah kecil, kemudian menyatu hingga ukurannya tampak lebih besar. Meskipun mirip, gejala campak berbeda dengan gejala rubella. Pada
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagaimana cara mengobati rubella?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa itu ADHD? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] ADHD - https://www.alodokter.com/adhd
+ADHD atau attention deficit hyperactivity disorder adalah gangguan mental yang menyebabkan anak sulit memusatkan perhatian, serta memiliki perilaku impulsif dan hiperaktif, Kondisi ini dapat berdampak pada prestasi anak di sekolah. Hingga saat ini, penyebab utama ADHD belum diketahui dengan pasti. A
+
+[2] Dyspraxia - https://www.alodokter.com/dyspraxia
+Keterlambatan perkembangan dan gangguan koordinasi yang tidak ditangani dengan baik bisa menyebabkan penderita dyspraxia mengalami beberapa kondisi berikut: Sulit untuk bersosialisasi, Mengalami perundungan, Menderita gangguan perilaku, Tidak percaya diri Sementara pada usia dewasa, dyspraxia dapat
+
+[3] Maladaptive Daydreaming - https://www.alodokter.com/maladaptive-daydreaming
+Penyebab maladaptive daydreaming belum diketahui secara pasti. Namun, kondisi ini diduga berawal dari kebiasaan melamun yang dilakukan sebagai coping mechanism atau taktik untuk menghadapi stres, cemas, atau trauma masa lalu. Selain sebagai coping mechanism, seseorang umumnya bisa melamun berlebihan
+
+[4] Sindrom Tourette - https://www.alodokter.com/sindrom-tourette
+Jika anak Anda menderita sindrom Tourette, ada beberapa hal yang dapat dilakukan, yaitu: Usahakan untuk selalu mendapatkan informasi yang akurat mengenai sindrom Tourette., Tingkatkan kepercayaan diri anak, misalnya dengan mendukung kegiatan yang dia pilih atau saat bermain dengan temannya., Tempatk
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa itu ADHD?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apakah merokok bisa menyebabkan kanker paru-paru? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Kanker Paru-Paru - https://www.alodokter.com/kanker-paru-paru
+Meski sering terjadi pada perokok, kanker paru-paru juga bisa terjadi pada orang yang bukan perokok. Pada orang bukan perokok, kanker paru-paru terjadi akibat sering terpapar asap rokok dari orang lain (perokok pasif) atau paparan zat kimia di lingkungan kerja. Berdasarkan perkembangannya, kanker pa
+
+[2] Asfiksia - https://www.alodokter.com/asfiksia
+Beberapa orang yang memiliki risiko tinggi mengalami kondisi tersedak adalah: Lansia yang tinggal sendiri, Lansia pengguna gigi palsu, Lansia yang mengalami kesulitan menelan, Bayi dan balita Asfiksia dapat terjadi ketika leher seseorang tercekik oleh tangan atau tali. Kondisi ini mengakibatkan jala
+
+[3] Edema Paru - https://www.alodokter.com/edema-paru
+Normalnya, jantung memompa darah ke seluruh tubuh dari bagian jantung yang disebut ventrikel kiri. Darah yang dipompa dari ventrikel kiri adalah darah dari paru-paru yang mengandung oksigen. Edema paru yang disebabkan oleh gangguan jantung umumnya terjadi karena ventrikel kiri tidak mampu memompa da
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apakah merokok bisa menyebabkan kanker paru-paru?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa itu GERD? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] GERD - https://www.alodokter.com/gerd
+Untuk mendiagnosis GERD, dokter pertama-tama akan bertanya terkait hal-hal berikut: Gejala yang dirasakan, Seberapa sering kemunculan keluhan-keluhan yang dialami pasien, Makanan atau minuman yang mungkin menyebabkan timbulnya gejala, Kegiatan atau gerakan yang mungkin memperburuk keluhan, Penyakit
+
+[2] Penyakit Asam Lambung - https://www.alodokter.com/penyakit-asam-lambung
+Penyakit asam lambung adalah kondisi yang ditandai dengan rasa terbakar di dada akibat asam lambung naik ke kerongkongan. Gejala penyakit asam lambung muncul minimal dua kali dalam seminggu. Asam lambung naik atau penyakit asam lambung bisa dialami oleh orang dewasa atau anak-anak. Gejala penyakit p
+
+[3] Melena - https://www.alodokter.com/melena
+Sindrom Mallory-Weis adalah kondisi yang ditandai dengan robeknya lapisan bagian dalam kerongkongan yang berbatasan dengan lambung. Melena terjadi jika robekan ini berdarah. Varises esofagus adalah pembesaran pembuluh darah vena di bagian esofagus pada penderita sirosis. Varises esofagus ini dapat p
+
+[4] Anus Gatal - https://www.alodokter.com/anus-gatal
+Anus gatal atau pruritus ani adalah rasa atau sensasi gatal di lubang anus atau dubur. Penyebabnya bisa bermacam-macam, tetapi umumnya terjadi akibat iritasi di kulit anus. Anus gatal bukanlah suatu penyakit, melainkan gejala dari penyakit atau kondisi tertentu. Anus gatal umumnya bisa sembuh dengan
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa itu GERD?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apakah Anemia berbahaya? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Nyeri Anus - https://www.alodokter.com/penyakit-a-z/nyeri-anus
+Nyeri anus bisa mengganggu aktivitas dan menimbulkan rasa tidak nyaman. Jika disebabkan oleh penyakit atau kondisi medis tertentu, komplikasi yang bisa timbul akibat nyeri anus tergantung pada penyakit yang mendasarinya. Sebagai contoh, nyeri anus akibat penyakit menular seksual yang tidak ditangani
+
+[2] Anemia Aplastik - https://www.alodokter.com/anemia-aplastik
+Anemia aplastik adalah kondisi ketika sumsum tulang tidak mampu memproduksi sel darah baru dalam jumlah yang cukup. Penyakit ini menyebabkan jumlah salah satu atau semua jenis sel darah merah menurun. Anemia aplastik bisa menyerang siapa saja, tetapi lebih sering terjadi pada orang usia awal 20 tahu
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apakah Anemia berbahaya?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa tanda-tanda kalau liver bermasalah? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Varises Esofagus - https://www.alodokter.com/varises-esofagus
+Pada beberapa kasus, varises esofagus baru diketahui ketika sudah terjadi komplikasi berupa pecahnya varises dan perdarahan. Kondisi ini bisa ditandai dengan: Tinja berwarna hitam, cair, dan berbau tajam, Muntah darah, Detak jantung cepat, Kulit pucat, Keringat dingin Lakukan pemeriksaan ke dokter j
+
+[2] Penyakit Liver - https://www.alodokter.com/penyakit-liver
+Gejala penyakit liver pada tiap orang bisa berbeda-beda, tergantung pada jenis dan penyebabnya. Namun, secara umum ada beberapa gejala yang bisa muncul akibat penyakit liver, yaitu: Mual dan muntah, Nyeri perut, Penurunan nafsu makan, Penurunan gairah seksual (libido), Rasa lelah yang berlebihan, Pe
+
+[3] Ensefalopati Hepatik - https://www.alodokter.com/ensefalopati-hepatik
+Ensefalopati hepatik adalah kerusakan otak berat akibat penyakit liver yang parah dan berkepanjangan. Kondisi ini paling sering terjadi pada penderita sirosis hati. Ensefalopati hepatik harus segera ditangani karena dapat menyebabkan koma hingga kematian. Liver memiliki banyak fungsi bagi tubuh, sal
+
+[4] Galaktosemia - https://www.alodokter.com/galaktosemia
+Bayi yang menderita galaktosemia klasik dapat mengalami gejala berikut: Gangguan makan atau anoreksia, Lesu, Pertumbuhan dan perkembangan yang lambat, Penurunan berat badan, Kulit dan bagian putih mata menguning (jaundice), Mual dan muntah, Diare, Pembesaran hati (hepatomegali), Terdapat protein dal
+
+[5] Penyakit Hati Terkait Alkohol - https://www.alodokter.com/penyakit-hati-terkait-alkohol
+Penyakit hati terkait alkohol adalah kerusakan fungsi hati akibat konsumsi minuman beralkohol secara berlebihan dan dalam jangka panjang. Kebiasaan tersebut dapat menyebabkan peradangan, pembengkakan, dan pembentukan jaringan parut di hati. Hati atau liver berfungsi untuk menyimpan cadangan energi d
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa tanda-tanda kalau liver bermasalah?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa penyebab Demensia? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Demensia Vaskular - https://www.alodokter.com/demensia-vaskular
+Demensia vaskular adalah gangguan pada memori, perilaku, dan kemampuan berpikir, yang disebabkan oleh berkurangnya aliran darah ke jaringan otak. Kondisi yang umum dialami oleh lansia ini dapat terjadi secara mendadak atau berkembang perlahan seiring waktu. Demensia vaskular dapat terjadi akibat gan
+
+[2] Status Epileptikus - https://www.alodokter.com/status-epileptikus
+Status epileptikus bisa dialami baik oleh penderita epilepsi maupun orang yang tidak memiliki riwayat penyakit epilepsi. Penyebab status epileptikus pada setiap orang bisa berbeda-beda. Pada penderita epilepsi, status epileptikus biasanya disebabkan oleh dosis dan frekuensi konsumsi obat antikejang
+
+[3] Sembelit - https://www.alodokter.com/sembelit
+Sembelit adalah keluhan sulit buang air besar. Kondisi ini biasanya muncul akibat pola makan rendah serat, kurang minum air putih, atau jarang berolahraga. Meski kebanyakan bisa sembuh dengan perawatan mandiri, sembelit tidak jarang menimbulkan komplikasi sehingga harus ditangani dokter. Frekuensi b
+
+[4] Adenomiosis - https://www.alodokter.com/adenomiosis
+Dalam kondisi normal, jaringan endometrium hanya melapisi permukaan rongga rahim. Pada adenomiosis, jaringan endometrium tetap berfungsi dengan normal, tetapi tumbuh ke dalam lapisan otot rahim. Akibatnya, rahim membengkak pada setiap siklus menstruasi. Kondisi ini dapat dialami oleh wanita di semua
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa penyebab Demensia?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Hal apa saja yang menyebabkan osteoporosis? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Osteoporosis - https://www.alodokter.com/osteoporosis
+Osteoporosis adalah kondisi ketika kepadatan tulang berkurang sehingga tulang menjadi keropos dan mudah patah. Osteoporosis jarang menimbulkan gejala dan biasanya baru diketahui ketika penderitanya jatuh atau mengalami cedera yang menyebabkan patah tulang. Osteoporosis bisa dialami oleh siapa saja,
+
+[2] Fraktur Colles - https://www.alodokter.com/fraktur-colles
+Fraktur Colles memerlukan penanganan yang cepat dan tepat untuk mencegah terjadinya kerusakan saraf atau pembuluh darah Fraktur Colles terjadi akibat adanya tekanan maupun benturan keras pada pergelangan tangan sehingga ujung tulang radius patah. Kondisi ini dapat terjadi karena beberapa hal berikut
+
+[3] Nyeri Pergelangan Tangan - https://www.alodokter.com/nyeri-pergelangan-tangan
+Fisioterapi bertujuan untuk menguatkan otot di sekitar pergelangan tangan dan mengubah kebiasaan yang menyebabkan rasa sakit pada pergelangan tangan. Operasi dapat dilakukan jika nyeri pergelangan tangan disebabkan oleh tulang retak, carpal tunnel syndrome, dan ketika tendon atau ligamen robek. Ada
+
+[4] Patah Pergelangan Tangan - https://www.alodokter.com/patah-pergelangan-tangan
+Walau jarang terjadi, patah pergelangan tangan berisiko menimbulkan komplikasi jika tidak diobati dengan tepat. Komplikasi tersebut meliputi: Kaku hingga lumpuh, khususnya jika cedera yang dialami cukup parah, Osteoarthritis, jika tulang yang patah mencapai sendi, Kerusakan saraf atau pembuluh darah
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Hal apa saja yang menyebabkan osteoporosis?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa saja ciri-ciri awal penyakit lupus yang perlu diwaspadai? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Lupus - https://www.alodokter.com/lupus
+Penyakit lupus atau lupus eritematosus adalah penyakit autoimun kronis yang bisa menyebabkan peradangan di beberapa bagian tubuh, seperti kulit, sendi, ginjal, hingga otak. Lupus dapat dialami oleh siapa saja, tetapi lebih sering dialami oleh wanita. Pada kondisi normal, sistem imun akan melindungi
+
+[2] Penyakit Von Willebrand - https://www.alodokter.com/penyakit-von-willebrand
+Kondisi tersebut menyebabkan trombosit tidak dapat menempel. Akibatnya, bekuan darah tidak terbentuk dan perdarahan menjadi tidak terkendali. Mutasi gen VWF biasanya diturunkan dari orang tua kepada anak. Umumnya, hanya butuh satu gen yang bermutasi untuk menyebabkan seseorang menderita penyakit von
+
+[3] ITP (Idiopathic Thrombocytopenic Purpura) - https://www.alodokter.com/itp-idiopathic-thrombocytopenic-purpura
+Penyebab ITP belum diketahui secara pasti hingga saat ini. Namun, dugaan utama penyebab ITP adalah gangguan pada sistem kekebalan tubuh yang disebut penyakit autoimun. Pada penderita ITP, sistem kekebalan tubuh menganggap trombosit sebagai benda asing yang berbahaya sehingga dibentuk antibodi untuk
+
+[4] Lupus Nefritis - https://www.alodokter.com/lupus-nefritis
+Beberapa gejala lupus nefritis yang dapat muncul adalah: Darah dalam urine (hematuria), Sering buang air kecil, terutama di malam hari, Urine berbusa, Kenaikan berat badan, akibat kelebihan cairan dalam tubuh, Tekanan darah tinggi (hipertensi), Pembengkakan di telapak kaki, pergelangan kaki, dan bet
+
+[5] Sariawan - https://www.alodokter.com/sariawan
+Meski bentuknya serupa, sariawan dan herpes oral merupakan kondisi yang berbeda. Herpes oral umumnya terdapat di permukaan bibir, sedangkan sariawan terdapat di dalam mulut. Selain itu, herpes oral dapat menular dengan mudah, sedangkan sariawan biasanya tidak menular. Sariawan dapat dialami oleh sem
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa saja ciri-ciri awal penyakit lupus yang perlu diwaspadai?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apakah vertigo berbahaya? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Spondilosis Servikal - https://www.alodokter.com/spondilosis-servikal
+Selain beberapa penyebab di atas, sejumlah faktor berikut dapat meningkatkan risiko seseorang menderita spondilosis servikal: Pertambahan usia, Kebiasaan merokok, Riwayat operasi tulang belakang, Riwayat spondilosis servikal dalam keluarga, Pekerjaan yang sering melibatkan leher, misalnya sering mem
+
+[2] Vertigo - https://www.alodokter.com/vertigo
+Gejala vertigo berbeda dengan pusing biasa. Pusing cenderung memberikan sensasi melayang, tidak seimbang, atau goyang. Sedangkan vertigo menimbulkan sensasi ruangan tempat penderita berada berputar. Selain sensasi berputar, vertigo juga dapat disertai gejala lain, seperti mual, muntah, gerakan bola
+
+[3] Pusing - https://www.alodokter.com/pusing
+Pengobatan ke dokter harus dilakukan jika muncul gejala yang mengkhawatirkan, seperti yang telah dijelaskan sebelumnya. Dokter akan menentukan pengobatan berdasarkan penyebab dari kondisi dan gejala yang dialami. Jika pusing yang dialami tidak membaik, dokter akan memberikan beberapa obat di bawah i
+
+[4] BPPV - https://www.alodokter.com/bppv
+Perlu diketahui bahwa BPPV dapat disebabkan oleh kondisi lain yang serius. Oleh karena itu, pengobatan oleh dokter perlu segera dilakukan jika Anda mengalami vertigo, terutama yang muncul secara tiba-tiba, berulang, atau tidak diketahui penyebabnya. Pemeriksaan juga perlu dilakukan jika vertigo terj
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apakah vertigo berbahaya?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagaimana cara mengobati Malaria? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Malaria - https://www.alodokter.com/malaria
+Malaria adalah penyakit infeksi menular yang menyebar melalui gigitan nyamuk. Penderita malaria akan mengeluhkan gejala demam dan menggigil beberapa hari setelah terinfeksi parasit yang dibawa oleh nyamuk. Walaupun mudah menular melalui gigitan nyamuk, malaria bisa sembuh secara total bila diatasi d
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagaimana cara mengobati Malaria?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apa komplikasi yang dapat disebabkan oleh Hepatitis? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Hepatitis - https://www.alodokter.com/hepatitis
+Jenis hepatitis yang juga disebut toxic hepatitis ini terjadi akibat konsumsi obat-obatan tertentu yang melebihi dosis. Hati bisa mengalami peradangan atau rusak karena bekerja terlalu keras dalam memecah obat-obatan tersebut. Pada hepatitis yang disebabkan oleh penyakit autoimun, sistem imun tubuh
+
+[2] Hepatitis E - https://www.alodokter.com/hepatitis-e
+Hepatitis E juga jarang berkembang menjadi penyakit berkepanjangan (kronis). Orang yang terinfeksi hepatitis E umumnya akan sembuh dalam beberapa bulan. Namun, hepatitis E bisa menjadi penyakit liver yang parah pada ibu hamil, lansia, dan orang dengan daya tahan tubuh yang lemah. Sementara di negara
+
+[3] Adenovirus - https://www.alodokter.com/adenovirus
+Segera ke dokter jika Anda atau anak Anda mengalami gejala infeksi adenovirus yang bertambah parah, seperti: Gangguan pernapasan, Pembengkakan di area mata, Demam yang tidak kunjung turun dalam beberapa hari, Tanda-tanda dehidrasi, seperti mulut kering dan jumlah buang air kecil menurun Karena saat
+
+[4] Penyakit Liver - https://www.alodokter.com/penyakit-liver
+Perlemakan hati yang disebut juga fatty liver ini sering terjadi pada orang yang mengalami obesitas. Hepatitis merupakan penyakit liver akibat peradangan pada jaringan hati. Kondisi ini bisa terjadi secara tiba-tiba atau dalam jangka panjang. Hepatitis terdiri dari beberapa jenis, di antaranya hepat
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apa komplikasi yang dapat disebabkan oleh Hepatitis?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Kulit saya mengelupas terus, apakah itu psoriasis? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Psoriasis - https://www.alodokter.com/psoriasis
+Gejala psoriasis tergantung pada jenisnya. Namun, kondisi ini umumnya ditandai dengan kulit yang bersisik, menebal, dan terasa gatal. Gejala ini bisa terjadi selama beberapa minggu, kemudian hilang untuk sementara waktu sampai akhirnya muncul kembali. Pengobatan psoriasis bertujuan untuk meredakan g
+
+[2] Psoriasis Arthritis - https://www.alodokter.com/psoriasis-arthritis
+Psoriasis arthritis bisa menyebabkan kerusakan parah pada sendi bila tidak segera ditangani. Oleh karena itu, segera periksa ke dokter jika Anda penderita psoriasis dan mengalami gejala radang sendi. Belum ada pemeriksaan yang secara spesifik dapat memastikan psoriasis arthritis. Akan tetapi, dokter
+
+[3] Lentigo - https://www.alodokter.com/lentigo
+Lentigo jenis ini terjadi ketika kulit mengalami luka bakar akibat paparan sinar matahari yang terik. Ink spot lentigo umumnya muncul pada orang yang memiliki kulit putih atau cerah. Radiation lentigo disebabkan oleh paparan radioterapi, seperti pada pengobatan kanker. PUVA lentigo muncul setelah te
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Kulit saya mengelupas terus, apakah itu psoriasis?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Apakah stroke bisa kambuh lagi? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Stroke Iskemik - https://www.alodokter.com/stroke-iskemik
+Penyebab utama stroke iskemik adalah aterosklerosis. Aterosklerosis dapat menimbulkan dua jenis gumpalan darah, yaitu : Trombosis, yaitu pembentukan gumpalan darah di salah satu pembuluh darah arteri yang memasok darah ke otak. Gumpalan darah ini bukan berasal dari pembuluh darah lain., Emboli, yait
+
+[2] SSHL - https://www.alodokter.com/sshl
+Sudden sensorineural hearing loss (SSHL) adalah tuli mendadak yang umumnya terjadi pada salah satu telinga. Kondisi ini tergolong darurat dan perlu segera ditangani untuk mencegah tuli permanen. Pada penderita SSHL, suara yang normal terdengar seperti bisikan. Penurunan pendengaran ini biasanya terj
+
+[3] Stroke - https://www.alodokter.com/stroke
+Stroke adalah kondisi ketika pasokan darah ke otak terganggu karena penyumbatan (stroke iskemik) atau pecahnya pembuluh darah (stroke hemoragik). Kondisi ini menyebabkan area tertentu pada otak tidak mendapat suplai oksigen dan nutrisi sehingga terjadi kematian sel-sel otak. Stroke merupakan keadaan
+
+[4] Penyakit Buerger - https://www.alodokter.com/penyakit-buerger
+Hal ini dapat menyebabkan timbulnya gangrene, yaitu kematian jaringan akibat terhentinya aliran oksigen dan nutrisi ke area tersebut. Gangrene ditandai dengan mati rasa atau perubahan warna jari tangan atau kaki menjadi kebiruan atau kehitaman. Jaringan yang mati ini juga akan lebih mudah terinfeksi
+
+[5] Trombosis Arteri - https://www.alodokter.com/trombosis-arteri
+Trombosis arteri umumnya tidak menimbulkan gejala sampai gumpalan darah menyumbat atau menghentikan aliran darah ke bagian tubuh tertentu. Berdasarkan lokasi terjadinya sumbatan, gejala trombosis arteri yang umum terjadi adalah: Trombosis arteri yang menyumbat pembuluh arteri koroner dapat menyebabk
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Apakah stroke bisa kambuh lagi?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:
+
+--- Prompt untuk Pertanyaan: Bagaimana cara membedakan antara flu dan pilek biasa dari gejalanya? ---
+Kamu adalah asisten kesehatan profesional. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara langsung dan profesional. Kamu juga bisa mempertimbangkan konteks yang ada di sekitarnya sebelum menjawab. 
+
+Jika perlu menuliskan daftar, gunakan format bullet point (• atau angka 1., 2., 3.) dan hindari penggunaan tanda titik koma (;) sebagai pemisah antar item.
+
+=== Informasi milikmu ===
+[1] Flu - https://www.alodokter.com/flu
+Flu merupakan penyakit yang mudah menular ke orang lain, terutama pada 3-4 hari pertama setelah penderita terinfeksi. Bahkan pada beberapa kasus, penderita flu dapat menularkan penyakitnya sebelum gejala muncul. Seseorang dapat tertular flu jika tidak sengaja menghirup percikan air liur di udara, ya
+
+[2] Anosmia - https://www.alodokter.com/anosmia
+Selain itu, gejala anosmia pada COVID-19 juga sering diikuti dengan ageusia, yaitu hilangnya fungsi indra pengecap. Kondisi ini membuat orang yang mengalaminya tidak bisa mengecap rasa makanan atau minuman yang ia konsumsi. Gejala anosmia adalah hilangnya kemampuan untuk mencium bau. Sebagai contoh,
+
+[3] Demam pada Anak - https://www.alodokter.com/demam-pada-anak
+Demam pada anak adalah kondisi ketika suhu tubuh anak melebihi 37°C. Demam sendiri bukanlah penyakit, melainkan gejala dari gangguan kesehatan atau kondisi tertentu. Sebagai gejala, demam tidak selalu memerlukan penanganan. Namun, ada beberapa kondisi di mana demam pada anak perlu diwaspadai. Suhu t
+
+[4] Flu Tomat - https://www.alodokter.com/flu-tomat
+Penting untuk diingat, jangan memberikan obat yang mengandung aspirin kepada anak yang sedang terkena flu tomat, karena dapat meningkatkan risiko terjadinya sindrom Reye. Pada kebanyakan kasus, flu tomat tidak menyebabkan gangguan kesehatan serius. Namun, penderita mungkin bisa mengalami komplikasi
+
+=== Akhir Informasi ===
+
+Pertanyaan pengguna: "Bagaimana cara membedakan antara flu dan pilek biasa dari gejalanya?"
+Jawaban berdasarkan Informasi yang kamu miliki:
+Jika tidak ada informasi yang mendukung, jawab dengan sopan: "Maaf, saya tidak memiliki informasi yang cukup untuk menjawab pertanyaan ini."
+
+Jawaban:

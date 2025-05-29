@@ -1,0 +1,371 @@
+[
+  {
+    "question": "Apa kaitan virus corona dengan penyakit COVID-19",
+    "answer": "Ya, kaitannya sangat erat. Virus Corona dan penyakit COVID-19 merupakan istilah yang sering digunakan secara bergantian, meskipun ada perbedaan antara keduanya.\n\nVirus Corona adalah nama virus yang menyebabkan infeksi, sedangkan penyakit COVID-19 adalah istilah yang digunakan untuk merujuk pada gejala dan efek jangka panjang dari infeksi tersebut. Dalam konteks ini, semuanya terkait dengan virus Corona karena virus tersebut menyebabkan keadaan yang berbeda.",
+    "contexts": [
+      "Meski jumlah kematian akibat COVID-19 tergolong tinggi, angka kesembuhan dari COVID-19 juga terus bertambah. Data terakhir menyebutkan, jumlah penyintas atau orang yang pernah terinfeksi virus Corona kemudian sembuh adalah 5.903.461 orang.",
+      "Gejala awal infeksi virus Corona atau COVID-19 bisa menyerupai gejala flu, yaitu demam, pilek, batuk kering, sakit tenggorokan, dan sakit kepala. Setelah itu, gejala dapat hilang dan sembuh atau malah memberat.",
+      "Penderita COVID-19 dengan gejala berat bisa mengalami demam tinggi, batuk berdahak bahkan berdarah, sesak napas, atau nyeri dada. Keluhan tersebut muncul ketika tubuh bereaksi melawan virus Corona.",
+      "Secara umum, ada tiga gejala umum yang bisa menandakan seseorang terinfeksi virus Corona, yaitu: Demam (suhu tubuh di atas 38 derajat Celsius); Batuk kering; Sesak napas",
+      "Ada beberapa gejala lain yang juga bisa muncul pada infeksi virus Corona meskipun lebih jarang, yaitu: Diare; Sakit kepala; Konjungtivitis; Hilangnya kemampuan mengecap rasa; Hilangnya kemampuan untuk mencium bau (anosmia); Ruam di kulit"
+    ],
+    "ground_truths": [
+      "Virus Corona atau severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) adalah virus yang menyerang sistem pernapasan. Penyakit akibat infeksi virus ini disebut COVID-19. Virus Corona bisa menyebabkan gangguan ringan pada sistem pernapasan, infeksi paru-paru yang berat, hingga kematian."
+    ]
+  },
+  {
+    "question": "Apa tanda-tanda OCD?",
+    "answer": "Tanda-tanda OCD (Gangguan Obsesif Kompulsif) dapat berbeda-beda pada setiap penderita. Namun, beberapa gejala umum yang sering dialami oleh orang dengan OCD antara lain:\n\n- Munculnya pikiran atau imajinasi yang tidak berdasar dan membuat penderitanya merasa takut atau cemas.\n- Perilaku kompulsif, seperti membersihkan secara teratur, mengulang-ulang tindakan tertentu, atau melakukan ritual tertentu untuk mengurangi kecemasan.\n- Kehilangan kendali atas perilaku atau pikiran, sehingga penderita tidak dapat mengontrol gejala OCDnya sendiri.\n- Rasa takut atau cemas yang berlebihan dan tidak bisa diatasi dengan cara normal.\n\nJika Anda atau seseorang yang Anda kenal mengalami gejala tersebut, sebaiknya konsultasikan diri ke dokter atau profesional kesehatan untuk mendapatkan diagnosis dan pengobatan yang tepat.",
+    "contexts": [
+      "Obsessive compulsive disorder (OCD) adalah gangguan mental yang mendorong penderitanya untuk melakukan tindakan tertentu secara berulang-ulang. Tindakan tersebut ia lakukan untuk mengurangi kecemasan dalam pikirannya.",
+      "Gangguan obsesif kompulsif dapat dialami oleh siapa saja dari semua kelompok usia, tetapi paling sering muncul di usia 7–17 tahun. Penderita OCD biasanya menyadari bahwa pikiran dan tindakannya berlebihan, tetapi mereka tidak bisa melawannya.",
+      "Meski namanya hampir sama, obsessive compulsive disorder berbeda dengan obsessive-compulsive personality disorder (OCPD). OCD termasuk gangguan mental yang gejalanya bisa hilang timbul.",
+      "Gejala OCD terdorong oleh pikiran obsesif untuk menghindari rasa takut dan cemas. Selain itu, penderita OCD biasanya sadar akan kondisi yang dialaminya.",
+      "Berbeda dengan OCD, OCPD tergolong gangguan kepribadian yang gejalanya dialami secara konsisten oleh penderitanya. Penderita OCPD cenderung bersifat sangat perfeksionis dalam segala hal. Namun, penderita OCPD sering tidak menyadari kondisinya."
+    ],
+    "ground_truths": [
+      "Gejala OCD terdorong oleh pikiran obsesif untuk menghindari rasa takut dan cemas. Selain itu, penderita OCD biasanya sadar akan kondisi yang dialaminya.",
+      "OCD ditandai dengan gangguan pikiran yang menimbulkan kecemasan dan perilaku yang dilakukan berulang kali guna menghilangkan kecemasan tersebut. Sebagai contoh, penderita OCD yang takut terkena penyakit cenderung akan mencuci tangan secara berlebihan atau terlalu sering membersihkan rumah."
+    ]
+  },
+  {
+    "question": "Apa saja yang dapat menyebabkan Migrain?",
+    "answer": "Menurut informasi yang tersedia, migrain adalah jenis sakit kepala yang dapat menyebabkan nyeri parah dalam jangka panjang. Berdasarkan informasi tersebut, mengingat adanya informasi terkait keringat dingin sebagai gejala yang dapat muncul selama migrain menyerang, maka respons dari pertanyaan Anda adalah:\n\nMigrain adalah salah satu penyebab keringat dingin yang muncul.",
+    "contexts": [
+      "Keringat dingin dapat menjadi tanda serangan jantung. Segera cari pertolongan dokter bila keringat dingin disertai sesak napas, nyeri dada yang terasa seperti tertekan, nyeri atau rasa tidak nyaman di leher, rahang, perut dan punggung, serta pusing dan merasa akan pingsan.",
+      "Vertigo adalah pusing yang membuat penderitanya merasa dirinya atau sekelilingnya berputar. Hubungi dokter bila keringat dingin disertai vertigo dan gejala lain, seperti nistagmus, penglihatan ganda, telinga berdenging, atau kesulitan dalam berbicara.",
+      "Migrain adalah jenis sakit kepala yang dapat menyebabkan nyeri parah dalam jangka panjang. Keringat dingin dapat muncul ketika migrain menyerang sebagai respons tubuh dalam merasakan sakit.",
+      "Mual adalah sensasi tidak nyaman yang terkadang membuat seseorang ingin muntah. Mual dapat disebabkan oleh makan yang terlalu banyak atau efek samping obat.",
+      "Nyeri akibat cedera, seperti patah tulang, amputasi, atau cedera kepala, dapat menimbulkan rasa sakit yang parah. Rasa sakit tersebut bisa memicu munculnya keringat dingin."
+    ],
+    "ground_truths": [
+      "Penyebab migrain masih perlu diteliti lebih lanjut. Namun, ada dugaan bahwa kondisi ini terkait dengan ketidakseimbangan hormon serotonin dalam tubuh. Jika kadar serotonin tinggi, pembuluh darah akan menyempit. Sementara itu, saat kadar serotonin rendah, pembuluh darah akan membengkak.",
+      "Perubahan pada kadar serotonin inilah yang menyebabkan peradangan dan nyeri. Di samping itu, migrain juga diduga terjadi karena aktivitas listrik otak dan faktor genetik. Dengan kata lain, migrain bisa terjadi pada individu yang orang tuanya memiliki kondisi serupa"
+    ]
+  },
+  {
+    "question": "Bagaimana cara mengatasi dehidrasi?",
+    "answer": "Berikut beberapa cara mengatasi dehidrasi:\n\n1.  Minum banyak air: Salah satu cara paling efektif untuk mengatasi dehidrasi adalah dengan minum banyak air. Pastikan Anda minum air secara teratur dan cukup, bahkan jika Anda tidak merasa haus.\n2.  Makan makanan yang kaya akan cairan: Makanan seperti buah-buahan, sayuran, dan daging dapat membantu meningkatkan cairan tubuh.\n3.  Konsumsi gula: Gula dapat membantu mengatur kadar darah dan meningkatkan cairan tubuh.\n4.  Mengonsumsi larutan garam: Larutan garam dapat membantu mengekspresikan cairan dari tubuh dan menghindari dehidrasi.\n\nJika Anda atau orang yang Anda temani terlihat gejala dehidrasi, seperti keringat berlebih, nyeri kepala, perut kempis, serta perubahan warna kulit, segera hubungi dokter atau pihak penyedia layanan medis.",
+    "contexts": [
+      "Sindrom geriatri tidak bisa dicegah mengingat kondisi ini terjadi akibat penuaan. Meski begitu, keluhan yang parah dapat dicegah dengan pola hidup sehat berikut: Mengonsumsi buah, sayur, serta makanan tinggi protein; Membatasi asupan makanan atau minuman yang tinggi gula dan lemak jenuh; Membatasi minuman yang mengandung kafein, alkohol, soda, serta rasa asam; Berhenti merokok; Berolahraga secara rutin, terutama yang melatih ketahanan stamina, seperti bersepeda, berenang, atau aerobik intensitas rendah; Tidak menunda saat akan pergi ke toilet untuk buang air kecil dan buang air besar; Berkonsultasi ke dokter sebelum akan menggunakan obat apa pun, agar dosisnya tepat; Mengenakan kacamata pelindung dan tabir surya saat beraktivitas di luar ruangan yang terik; Memakai earplug saat berada di tempat bising; Memeriksakan diri ke dokter secara berkala, terutama bila memiliki kondisi medis tertentu",
+      "Gómez-Ramos, J., et.al. (2024). Geriatric Syndromes and Their Relationship with Mortality in a Population of Mexican Older Adults Aged 65 and Over, Admitted to the Emergency Department of a Second-Level Care Hospital. Healthcare, 12(12), pp. 1166. Wang, L., et al. (2024). Multiple geriatric syndromes in community-dwelling older adults in China. Scientific Reports, 14(3504). Jin, J. (2022). Routine Checkups for Adults. JAMA, 327(14), pp. 1410. Rausch, C., et.al. (2022). Geriatric Syndromes and Incident Chronic Health Conditions Among 9094 Older Community-Dwellers: Findings from the Lifelines Cohort Study. Journal of the American Medical Directors Association, 23(1), pp. 54–59. Reynolds, C., et.al. (2022). Mental Health Care For Older Adults: Recent Advances and New Directions In Clinical Practice and Research. World psychiatry: Official journal of the World Psychiatric Association, 21(3), pp. 336–363.  Damluji, A. et al. (2020) Older Adults In The Cardiac Intensive Care Unit: Factoring Geriatric Syndromes In The Management, Prognosis, and Process of Care: A Scientific Statement From The American Heart Association. Circulation, 141(2).  World Health Organization (2024). Ageing and Health. World Health Organization (2023). Mental Health of Older Adults. The Royal Australian College of General Practitioners (2020). Geriatric Syndrome. Mayo Clinic (2020). Aging Parents: 8 Warning Signs of Health Problems. Mayo Clinic (2023). Healthy Aging. Healthline (2022). Sleep Problems in the Elderly. MSD Manual (2024). Disorders in Older Adults. WebMD (2023). What to Know About Frailty in Older Adults.",
+      "Apa standar gula darah lansia yang sehat dan bagaimana cara memantau kondisinya?",
+      "Apa Tanda-Tanda Kematian pada Lansia yang Perlu Diwaspadai?",
+      "Dehidrasi adalah kondisi ketika cairan tubuh yang hilang lebih banyak daripada yang dikonsumsi. Kondisi ini dapat menyebabkan tubuh tidak berfungsi secara normal."
+    ],
+    "ground_truths": [
+      "Dehidrasi ringan bisa diatasi dengan banyak minum, baik itu air putih, air mineral, kuah bening, jus, maupun infused water. Penderita juga dapat mengonsumsi berbagai pilihan makanan untuk mengatasi dehidrasi.",
+      "Menjaga asupan cairan, terutama bila mengalami muntah, diare, atau keringat berlebihan, baik setelah aktivitas berat maupun akibat cuaca panas",
+      "Sementara pada penderita dehidrasi berat, penanganan harus dilakukan di rumah sakit. Penanganan tersebut berupa pemberian cairan infus."
+    ]
+  },
+  {
+    "question": "Bagiamana cara mengobati batu ginjal?",
+    "answer": "Untuk mengobati batu ginjal, tergantung pada ukuran dan jenis batu ginjal, serta gejala yang ditimbulkan. Jika batu ginjal berukuran kecil dan tidak menimbulkan gejala, perawatan dapat dilakukan di rumah dengan cara:\n\n* Menyuplai banyak cairan untuk membantu mengangkat batu ginjal dari ginjal\n* Mengonsumsi makanan yang rendah dalam zat-zat yang bisa menumpuk dan menyebabkan batu ginjal, seperti kalsium dan purin\n\nNamun, jika batu ginjal berukuran besar dan menimbulkan gejala, maka penanganan harus dilakukan oleh dokter. Dokter akan melakukan pemeriksaan lanjutan untuk menentukan jenis batu ginjal dan ukurannya, serta memberikan rekomendasi pengobatan yang tepat.\n\nPenting untuk diingat bahwa jika Anda memiliki gejala batu ginjal, seperti rasa nyeri hebat di bagian pinggang atau pernah terlihat darah di urine, segera konsultasikan dengan dokter untuk mendapatkan bantuan medis yang tepat.",
+    "contexts": [
+      "Tingginya kadar zat kimia dalam urine dapat terjadi akibat konsumsi makanan tinggi purin dan kalsium, kekurangan asupan cairan, serta efek samping operasi dan obat-obatan, serta kondisi medis tertentu.",
+      "Umumnya, batu ginjal yang berukuran kecil tidak menimbulkan gejala. Akan tetapi, batu ginjal yang berukuran besar dan tersangkut di dalam saluran urine dapat menimbulkan rasa nyeri hebat di bagian pinggang. Rasa nyeri tersebut membuat penderitanya merasa tidak nyaman meski sudah berganti posisi tubuh.",
+      "Metode pengobatan batu ginjal tergantung pada ukuran dan jenis batu ginjal. Jika batu ginjal berukuran kecil dan tidak menimbulkan gejala, perawatan dapat dilakukan di rumah. Namun, jika batu ginjal berukuran besar dan menimbulkan gejala, maka penanganan harus dilakukan oleh dokter.",
+      "Machiavellianisme adalah jenis kepribadian yang menghalalkan segala cara agar ambisinya terwujud. Demi meraih tujuannya, seseorang dengan machiavellianisme (machiavellian) tidak ragu menipu atau memanipulasi orang lain dengan cara-cara yang kejam.",
+      "Bagi machiavellian, orang lain hanyalah ‘batu loncatan’ untuk mencapai tujuannya. Ia bisa saja tidak menunjukkan emosi sama sekali dalam interaksi sosial. Machiavellian juga umumnya tidak menjalin kedekatan personal dengan orang lain. Jika ada, hubungan tersebut tidak sehat dan penuh kekerasan, baik secara verbal maupun fisik."
+    ],
+    "ground_truths": [
+      "Metode pengobatan batu ginjal tergantung pada ukuran dan jenis batu ginjal. Jika batu ginjal berukuran kecil dan tidak menimbulkan gejala, perawatan dapat dilakukan di rumah. Namun, jika batu ginjal berukuran besar dan menimbulkan gejala, maka penanganan harus dilakukan oleh dokter.",
+      "Cara yang tepat untuk mencegah penyakit batu ginjal adalah dengan menurunkan risiko terbentuknya batu ginjal. Upaya yang dapat dilakukan antara lain banyak minum air putih, membatasi konsumsi garam, serta tidak mengonsumsi makanan yang mengandung kadar oksalat tinggi."
+    ]
+  },
+  {
+    "question": "Apa gejala COVID-19?",
+    "answer": "Gejala COVID-19 bisa menyerupai gejala flu, yaitu demam, pilek, batuk kering, sakit tenggorokan, dan sakit kepala. Setelah itu, gejala dapat hilang dan sembuh atau malah memberat.",
+    "contexts": [
+      "COVID-19 dapat menginfeksi siapa saja, tetapi efeknya akan lebih berbahaya atau bahkan fatal bila menyerang lansia (orang lanjut usia), ibu hamil, perokok, penderita penyakit tertentu, dan orang yang daya tahan tubuhnya lemah, seperti penderita kanker.",
+      "Karena mudah menular, penyakit ini juga berisiko tinggi menginfeksi para tenaga medis yang merawat pasien COVID-19. Oleh sebab itu, tenaga medis dan orang yang melakukan kontak dengan pasien COVID-19 perlu menggunakan alat pelindung diri (APD).",
+      "Gejala awal infeksi COVID-19 bisa menyerupai gejala flu, yaitu demam, pilek, batuk kering, sakit tenggorokan, dan sakit kepala. Setelah itu, gejala dapat hilang dan sembuh atau malah memberat.",
+      "Penderita dengan gejala yang berat bisa mengalami demam tinggi, batuk berdahak atau berdarah, sesak napas, dan nyeri dada. Gejala-gejala tersebut di atas muncul ketika tubuh bereaksi melawan virus COVID-19.",
+      "Secara umum, ada tiga gejala umum yang bisa menandakan seseorang terinfeksi COVID-19, yaitu: Demam (suhu tubuh di atas 38°C); Batuk kering; Sesak napas"
+    ],
+    "ground_truths": [
+      "Secara umum, ada tiga gejala umum yang bisa menandakan seseorang terinfeksi COVID-19, yaitu: Demam (suhu tubuh di atas 38°C), Batuk kering, Sesak napas",
+      "Selain gejala di atas, ada beberapa gejala lain yang jarang terjadi, tetapi juga bisa muncul pada infeksi COVID-19, yaitu: Mudah lelah, nyeri otot, nyeri dada, sakit tenggorokan, sakit kepala, mual atau muntah, diare, pilek atau hidung tersumbat, menggigil, bersin-bersin, hilangnya kemampuan pengecap rasa, hilangnya kemampuan mencium bau"
+    ]
+  },
+  {
+    "question": "Apa itu PTSD?",
+    "answer": "Pertanyaan Anda tentang apa itu PTSD (Stres Pasca Trauma) adalah topik penting dalam kesehatan mental. Berdasarkan informasi yang saya miliki, PTSD adalah kondisi kesehatan mental yang disebabkan oleh pengalaman traumatis atau stres yang berkepanjangan, yang dapat menyebabkan gejala-gejala emosional, psikologis, dan fisik yang berat.\n\nSeseorang dapat dikatakan menderita PTSD jika mereka telah mengalami peristiwa traumatis secara langsung, menyaksikan peristiwa traumatis yang menimpa orang lain, mendengar tentang peristiwa traumatis yang dialami oleh orang terdekat, atau berulang kali menghadapi situasi yang dapat memicu stres dan trauma. Gejala-gejala PTSD dapat berlangsung setidaknya 1 bulan atau lebih dan dapat mempengaruhi aktivitas sehari-hari, terutama dalam hubungan sosial dan pekerjaan.\n\nPengobatan PTSD meliputi psikoterapi, yang merupakan pilihan pertama dalam mengatasi gejala-gejala ini. Jika gejala-gejala yang dialami oleh pasien dianggap parah, dokter dapat menggabungkan psikoterapi dengan obat-obatan untuk membantu meredakan respons emosi dan meningkatkan kemampuan pasien dalam mengendalikan diri sendiri ketika teringat pada kejadian traumatis.",
+    "contexts": [
+      "Untuk mendiagnosis PTSD, dokter akan menanyakan gejala dan riwayat kesehatan pasien. Setelah itu, dokter akan melakukan pemeriksaan fisik untuk mencari tahu apakah gejala yang dialami disebabkan oleh penyakit fisik. Jika tidak terdapat penyakit fisik, dokter akan melakukan pemeriksaan mental pasien.",
+      "Seseorang baru dapat dikatakan menderita PTSD bila pernah mengalami kondisi atau peristiwa berikut sebelum gejala muncul: Mengalami peristiwa traumatis secara langsung; Menyaksikan peristiwa traumatis yang menimpa orang lain; Mendengar bahwa orang terdekat mengalami peristiwa traumatis; Berulang kali terbayang pada kejadian traumatis secara tidak sengaja",
+      "Untuk dikategorikan sebagai PTSD, gejala yang dialami pascaperistiwa traumatis harus berlangsung selama 1 bulan atau lebih. Seseorang juga dapat dinyatakan mengalami PTSD apabila gejala telah mengganggu aktivitas sehari-hari, terutama dalam hubungan sosial dan pekerjaan.",
+      "Pengobatan PTSD bertujuan untuk meredakan respons emosi pasien dan mengajarkan pasien cara mengendalikan diri dengan baik ketika teringat pada kejadian traumatis. Metode pengobatan yang dapat dilakukan meliputi:",
+      "Psikoterapi merupakan pilihan pertama dalam mengatasi PTSD. Jika gejala yang dialami pasien tergolong parah, dokter akan menggabungkan psikoterapi dan obat-obatan."
+    ],
+    "ground_truths": [
+      "PTSD (post-traumatic stress disorder) atau gangguan stres pascatrauma adalah gangguan mental yang muncul setelah seseorang mengalami atau menyaksikan peristiwa yang bersifat traumatis atau sangat tidak menyenangkan.",
+      "PTSD merupakan gangguan kecemasan yang membuat penderitanya teringat pada kejadian traumatis. Beberapa peristiwa traumatis yang dapat memicu PTSD adalah perang, kecelakaan, bencana alam, dan pelecehan seksual."
+    ]
+  },
+  {
+    "question": "Bagaimana cara mmengobati cacar air?",
+    "answer": "Untuk mengobati cacar air, dokter biasanya akan meresepkan salep atau antihistamin minum, seperti diphenhydramine (Sedares), loratadine (Alloris dan Loran), cetirizine (Incidal dan Cetrol), atau fexofenadine (Telfast) untuk meredakan gatal. Selain itu, pasien juga diharapkan melakukan perawatan mandiri seperti minum air putih yang banyak serta mengonsumsi makanan bertekstur lembut dan tidak asin atau asam, terutama jika terdapat ruam cacar di mulut. Namun, penting untuk diingat bahwa pengobatan cacar air diperlukan untuk mengurangi tingkat keparahan gejala atau mencegah terjadinya komplikasi. Oleh karena itu, sebaiknya pasien segera periksakan diri ke dokter jika mengalami gejala cacar air.",
+    "contexts": [
+      "Segera periksakan diri ke dokter jika mengalami kondisi berikut ini: Demam tinggi selama 4 hari; Batuk parah sampai sesak napas; Dehidrasi, pada bayi bisa berupa popok yang jarang basah; Kulit di sekitar bentol terasa panas ketika disentuh, nyeri, bengkak, sangat merah, atau mengeluarkan nanah; Sering mengantuk atau sulit bangun dari tidur; Sulit berjalan; Muntah terus-menerus; Tampak linglung; Sakit kepala berat; Leher kaku",
+      "Untuk mendiagnosis cacar air, dokter akan memeriksa karakteristik ruam di tubuh pasien. Dokter juga akan menanyakan riwayat kesehatan dan gejala lain yang timbul. Jika diperlukan, dokter dapat merekomendasikan pemeriksaan penunjang, seperti: Tes PCR (polymerase chain reaction), dengan mengambil sampel cairan dari bentol yang belum atau sudah pecah.; Tes darah, dengan mengambil dan memeriksa sampel darah pasien, guna mengetahui ada atau tidaknya infeksi virus Varicella zoster.; Tes kultur virus, dengan mengambil dan meneliti sampel cairan dari bentol yang telah pecah. Namun, tes ini hasilnya tidak seakurat PCR.",
+      "Cacar air akan hilang dengan sendirinya dalam rentan waktu 1–2 minggu. Meski demikian, pengobatan cacar air diperlukan untuk mengurangi tingkat keparahan gejala atau mencegah terjadinya komplikasi.",
+      "Oleh karena itu, dokter akan memberikan beberapa pengobatan berikut ini: Meresepkan salep atau antihistamin minum, seperti diphenhydramine (Sedares), loratadine (Alloris dan Loran), cetirizine (Incidal dan Cetrol), atau fexofenadine (Telfast) untuk meredakan gatal.; Memberikan obat antiinflamasi nonsteroid (OINS) yang mengandung paracetamol, seperti Sanmol dan Sumagesic. Obat ini berfungsi untuk meredakan gejala sakit kepala, demam, lelah, atau nyeri otot.; Meresepkan antibiotik jika ruam cacar mengalami infeksi bakteri; Meresepkan obat antivirus minum, seperti valacyclovir (Iclovir dan Valciron), acyclovir (Acifar dan Clinovir), atau famciclovir (Famvir) pada pasien yang berisiko terkena komplikasi.",
+      "Selain memberikan obat, dokter juga akan menyarankan pasien untuk melakukan perawatan mandiri berikut ini untuk membantu proses pemulihan: Minum air putih yang banyak serta mengonsumsi makanan bertekstur lembut dan tidak asin atau asam, terutama jika terdapat ruam cacar di mulut; Tidak menggaruk ruam atau luka cacar air. Pasien akan dianjurkan untuk memotong kuku sampai pendek atau memakai sarung tangan, terutama pada malam hari; Mengenakan pakaian longgar dan berbahan lembut.; Berendam atau mandi menggunakan air hangat 3–4 kali sehari, selama beberapa hari setelah timbul ruam.; Mengoleskan calamine lotion pada area tubuh yang gatal, kecuali mata dan kelamin.; Mengompres ruam atau luka dengan air dingin untuk meredakan gatal.; Beristirahat yang cukup dan tidak kontak dengan orang lain untuk mencegah penyebaran cacar air."
+    ],
+    "ground_truths": [
+      "Cacar air akan hilang dengan sendirinya dalam rentan waktu 1–2 minggu. Meski demikian, pengobatan cacar air diperlukan untuk mengurangi tingkat keparahan gejala atau mencegah terjadinya komplikasi.",
+      "Oleh karena itu, dokter akan memberikan beberapa pengobatan berikut ini: Meresepkan salep atau antihistamin minum, seperti diphenhydramine (Sedares), loratadine (Alloris dan Loran), cetirizine (Incidal dan Cetrol), atau fexofenadine (Telfast) untuk meredakan gatal. Memberikan obat antiinflamasi nonsteroid (OINS) yang mengandung paracetamol, seperti Sanmol dan Sumagesic. Obat ini berfungsi untuk meredakan gejala sakit kepala, demam, lelah, atau nyeri otot. Meresepkan antibiotik jika ruam cacar mengalami infeksi bakteri. Dan Meresepkan obat antivirus minum, seperti valacyclovir (Iclovir dan Valciron), acyclovir (Acifar dan Clinovir), atau famciclovir (Famvir) pada pasien yang berisiko terkena komplikasi."
+    ]
+  },
+  {
+    "question": "Bagaimana cara mengatasi insomnia?",
+    "answer": "Tentu, saya dapat membantu Anda mengatasi insomnia. Berikut beberapa tips yang bisa membantu:\n\n1. **Buat jadwal tidur teratur**: Cobalah untuk pergi ke tempat tidur pada waktu yang sama setiap malam dan bangun juga pada waktu yang sama setiap pagi. Ini akan membantu mengatur ritme tubuh Anda.\n2. **Buat lingkungan tidur nyaman**: Pastikan ruangan tidur Anda gelap, tenang, dan sejuk. Gunakan filter udara atau mesin pembersih udara jika perlu.\n3. **Hindari aktivitas sebelum tidur**: Berhenti melakukan aktivitas seperti menonton TV, menggunakan ponsel, atau bermain game setidaknya 30 menit sebelum tidur. Ini akan membantu tubuh Anda menenangkan diri.\n4. **Coba teknik relaksasi**: Coba teknik relaksasi seperti meditasi, yoga, atau deep breathing untuk membantu tubuh Anda menenangkan diri.\n5. **Hindari kafein dan alkohol sebelum tidur**: Kafein dan alkohol dapat mengganggu kualitas tidur Anda. Hindari minum kafein atau alkohol setidaknya 4-6 jam sebelum tidur.\n6. **Lakukan olahraga secara teratur**: Olahraga dapat membantu meningkatkan kualitas tidur Anda. Cobalah melakukan olahraga yang lembut seperti jogging, yoga, atau swimming setiap hari.\n7. **Hindari stres**: Stres dapat menyebabkan insomnia. Coba teknik relaksasi atau hubungi teman untuk membantu mengatasi stres Anda.\n\nJika gejala insomnia Anda terus berlanjut dan mempengaruhi kualitas hidup Anda, sebaiknya Anda berkonsultasi dengan dokter untuk mendapatkan saran yang lebih spesifik.",
+    "contexts": [
+      "Insomnia adalah gangguan tidur yang membuat penderitanya sulit tidur atau sering terbangun saat tidur dan sulit untuk tertidur kembali. Insomnia yang parah bisa menurunkan kualitas hidup sehingga berdampak buruk pada kesehatan dan keselamatan penderitanya.",
+      "Kebutuhan tidur orang dewasa adalah sekitar 7–8 jam setiap malamnya. Sementara itu, anak-anak dan remaja membutuhkan waktu tidur yang lebih banyak, yakni sekitar 9–13 jam setiap malamnya.",
+      "Insomnia bisa membuat penderitanya sulit untuk memulai atau tidak dapat tidur dengan nyenyak. Gangguan tidur ini dapat berlangsung selama beberapa hari atau minggu, yang biasanya disebabkan oleh stres. Insomnia juga bisa berlangsung selama 3 bulan atau lebih, yang terjadi karena kondisi medis atau penggunaan obat-obatan tertentu.",
+      "Insomnia bisa saja merupakan keluhan yang biasa terjadi dan tidak disebabkan oleh penyakit atau kondisi medis tertentu. Di samping itu, insomnia juga dapat timbul akibat gangguan kesehatan, pola hidup tidak sehat, atau kebiasaan yang dilakukan sebelum tidur.",
+      "Beberapa kondisi atau gangguan kesehatan yang menyebabkan insomnia adalah: Stres, misalnya akibat kematian orang terdekat, perceraian, atau kehilangan pekerjaan; Perubahan jadwal tidur, yang terjadi karena jet lag atau pergantian jam kerja; Kebiasaan buruk yang dilakukan sebelum tidur, seperti makan banyak atau dekat dengan waktu tidur; bekerja atau menonton televisi di kamar tidur; serta bermain ponsel terlalu lama; Kondisi lingkungan yang kurang nyaman untuk tidur, seperti suara bising, lampu yang terlalu terang, serta suhu yang terlalu dingin atau terlalu panas; Gangguan mental, seperti gangguan kecemasan, post-traumatic stress disorder (PTSD), atau depresi; Nyeri yang berkelanjutan (nyeri kronis), misalnya akibat radang sendi atau nyeri punggung; Gangguan tidur, misalnya sleep apnea atau restless legs syndrome; Masalah kesehatan tertentu, seperti diabetes, pembesaran prostat, asma, penyakit jantung, penyakit asam lambung (GERD), atau tiroid terlalu aktif (hipertiroidisme); Pola hidup yang tidak sehat, seperti kecanduan alkohol atau perokok berat; Efek samping obat, misalnya penghambat alfa, antidepresan, obat asma, dekongestan, atau kortikosteroid"
+    ],
+    "ground_truths": [
+      "Perawatan mandiri untuk insomnia dapat dilakukan dengan mengubah rutinitas pada siang hari dan menerapkan sleep hygiene. Caranya adalah dengan: Menerapkan jadwal tidur dan bangun tidur pada jam yang sama setiap harinya agar tubuh terbiasa dengan waktu tidur yang teratur, tidak melakukan aktivitas fisik atau olahraga yang berat dekat dengan waktu tidur, Membatasi waktu tidur siang tidak lebih dari 30 menit dan tidak tidur setelah pukul 3 sore, Menghindari atau membatasi konsumsi minuman berkafein atau beralkohol pada sore atau malam hari, Tidak makan berat atau minum banyak air menjelang waktu tidur, Mengatur kamar tidur dengan pencahayaan redup dan suhu yang nyaman, Membuat jadwal rutin menjelang tidur agar tubuh tetap rileks, seperti mandi air hangat, serta mendengarkan musik slow",
+      "Metode lain yang digunakan untuk mengatasi insomnia adalah pemberian obat-obatan. Jenis obat yang dapat diresepkan dokter untuk mengobati kondisi ini antara lain: Benzodiazepine, misalnya estazolam, Zolpidem, Gabapentin, misalnya Alpentin, Epiven, Nepatic, atau Simtin, untuk mengobati insomnia akibat sindrom kaki gelisah"
+    ]
+  },
+  {
+    "question": "Apakah gastritis dapat berkembang menjadi penyakit yang berbahaya?",
+    "answer": "Ya, gastritis dapat berkembang menjadi penyakit yang berbahaya jika tidak diobati dengan tepat. Jika gastritis kronis tidak diobati, maka ia dapat mengakibatkan komplikasi seperti:\n\n1. Ulcer gagal\n2. Kanker lambung dan usus\n3. Pembentukan fibrosis pada lambung\n\nJadi, sangat penting untuk segera konsultasikan diri ke dokter jika gejala-gejala gastritis timbul.",
+    "contexts": [
+      "Beberapa hal yang dapat menyebabkan gastritis kronis meliputi: Daya tahan tubuh lemah; Penggunaan obat-obatan tertentu, seperti aspirin dan ibuprofen; Penyakit tertentu, seperti diabetes atau gagal ginjal; Stres berat yang terjadi terus-menerus sehingga memengaruhi sistem kekebalan tubuh",
+      "Gastritis lebih sering terjadi pada orang yang melakukan atau mengalami hal-hal berikut: Kebiasaan merokok; Pola makan tinggi lemak atau garam; Pertambahan usia, karena seiring waktu lapisan mukosa lambung akan mengalami penipisan dan melemah; Konsumsi minuman beralkohol secara berlebihan; Konsumsi obat pereda nyeri yang terlalu sering; Penyakit tertentu, seperti penyakit autoimun, HIV/AIDS, dan penyakit Crohn; Operasi besar; Penyakit ginjal atau liver",
+      "Gastritis tidak selalu menimbulkan gejala. Namun, penderita gastritis umumnya dapat mengalami beberapa keluhan berikut: Nyeri yang terasa panas atau perih di bagian ulu hati; Perut kembung; Mual dan muntah; Tidak nafsu makan; Cegukan; Cepat merasa kenyang saat makan; Gangguan pencernaan; Buang air besar dengan tinja berwarna hitam; Muntah darah",
+      "Periksakan diri ke dokter jika mengalami gejala gastritis lebih dari 1 minggu, atau bila merasakan nyeri perut yang menimbulkan rasa tidak nyaman.",
+      "Perlu diketahui, tidak semua nyeri perut menandakan gastritis, karena banyak penyakit dengan gejala tersebut. Oleh sebab itu, pemeriksaan perlu dilakukan untuk menentukan penyebab nyeri perut."
+    ],
+    "ground_truths": [
+      "Gastritis yang tidak ditangani dapat menyebabkan sejumlah komplikasi serius, yaitu: Tukak lambung, Perdarahan lambung, Lubang di dinding lambung, Kanker lambung"
+    ]
+  },
+  {
+    "question": "Bagaimana cara mengobati rubella?",
+    "answer": "Berdasarkan informasi yang saya miliki, pengobatan rubella pada umumnya dapat dilakukan di rumah karena gejalanya tergolong ringan. Dokter akan meresepkan paracetamol untuk meredakan nyeri dan demam, serta menyarankan pasien untuk banyak beristirahat di rumah agar virus tidak menyebar ke orang lain.\n\nNamun, jika Anda adalah ibu hamil yang terinfeksi rubella, dokter akan meresepkan hyperimmune globulin untuk melawan virus. Meski dapat mengurangi gejala, antivirus ini tidak dapat mencegah kemungkinan bayi menderita sindom rubella kongenital.\n\nJadi, cara mengobati rubella adalah dengan melakukan pengobatan di rumah, seperti menggunakan paracetamol untuk meredakan gejala, dan pada ibu hamil, melakukan imunisasi dengan hyperimmune globulin untuk melawan virus.",
+    "contexts": [
+      "Pengobatan rubella cukup dilakukan di rumah, karena gejalanya tergolong ringan. Bila diperlukan, dokter akan meresepkan paracetamol guna meredakan nyeri dan demam, serta menyarankan pasien untuk banyak beristirahat di rumah agar virus tidak menyebar ke orang lain.",
+      "Pada ibu hamil yang menderita rubella, dokter akan meresepkan hyperimmune globulin untuk melawan virus. Meski dapat mengurangi gejala, antivirus ini tidak dapat mencegah kemungkinan bayi menderita sindom rubella kongenital, yaitu kondisi yang menyebabkan kelainan lahir pada bayi.",
+      "Rubella tergolong infeksi ringan dan biasanya hanya menyerang satu kali seumur hidup. Akan tetapi, rubella dapat memberikan dampak yang lebih serius pada orang yang belum divaksin dan ibu hamil. Pada ibu hamil, kondisi ini dapat menyebabkan keguguran atau memicu sindrom rubella kongenital pada janin.",
+      "Sindrom rubella kongenital diketahui menyerang lebih dari 80% bayi dari ibu yang terinfeksi rubella di usia kehamilan 12 minggu (trimester pertama). Sindrom rubella kongenital sangat berbahaya karena dapat menyebabkan cacat lahir, seperti: Tuli; Katarak; Penyakit jantung bawaan; Gangguan pertumbuhan; Gangguan pada hati dan limpa; Berat badan lahir rendah; Ruam kulit",
+      "Pada kasus yang jarang, sindrom rubella kongenital juga dapat menyebabkan komplikasi berikut: Glaukoma; Kerusakan otak; Radang paru-paru; Gangguan hormon"
+    ],
+    "ground_truths": [
+      "Pengobatan rubella cukup dilakukan di rumah, karena gejalanya tergolong ringan. Bila diperlukan, dokter akan meresepkan paracetamol guna meredakan nyeri dan demam, serta menyarankan pasien untuk banyak beristirahat di rumah agar virus tidak menyebar ke orang lain.",
+      "Pada ibu hamil yang menderita rubella, dokter akan meresepkan hyperimmune globulin untuk melawan virus. Meski dapat mengurangi gejala, antivirus ini tidak dapat mencegah kemungkinan bayi menderita sindom rubella kongenital, yaitu kondisi yang menyebabkan kelainan lahir pada bayi."
+    ]
+  },
+  {
+    "question": "Apa itu ADHD?",
+    "answer": "Assalamualaikum dan salam sejahtera. Saya senang membantu menjawab pertanyaan Anda tentang ADHD.\n\nADHD adalah singkatan dari Attention Deficit Hyperactivity Disorder, yaitu gangguan mental yang menyebabkan anak sulit memusatkan perhatian, serta memiliki perilaku impulsif dan hiperaktif. Kondisi ini dapat berdampak pada prestasi anak di sekolah.\n\nJika Anda atau orang terdekatnya mengalami gejala-gejala ADHD, saya sarankan untuk berkonsultasi dengan dokter kesehatan atau spesialis psychiatri untuk mendapatkan penanganan yang tepat.",
+    "contexts": [
+      "ADHD atau attention deficit hyperactivity disorder adalah gangguan mental yang menyebabkan anak sulit memusatkan perhatian, serta memiliki perilaku impulsif dan hiperaktif, Kondisi ini dapat berdampak pada prestasi anak di sekolah.",
+      "Hingga saat ini, penyebab utama ADHD belum diketahui dengan pasti. Akan tetapi, kondisi ini diduga dipengaruhi oleh faktor genetik dan lingkungan.",
+      "Penyebab ADHD belum diketahui secara pasti. Namun, penelitian menunjukkan bahwa ada beberapa faktor yang bisa meningkatkan risiko anak terkena ADHD, antara lain faktor genetik dan lingkungan. ADHD juga diduga berkaitan dengan gangguan pada pola aliran listrik otak atau gelombang otak.",
+      "Keterlambatan perkembangan dan gangguan koordinasi yang tidak ditangani dengan baik bisa menyebabkan penderita dyspraxia mengalami beberapa kondisi berikut: Sulit untuk bersosialisasi; Mengalami perundungan; Menderita gangguan perilaku; Tidak percaya diri",
+      "Sementara pada usia dewasa, dyspraxia dapat menyebabkan penderitanya memiliki emosi yang meledak-ledak, fobia, dan perilaku obsesif kompulsif."
+    ],
+    "ground_truths": [
+      "ADHD atau attention deficit hyperactivity disorder adalah gangguan mental yang menyebabkan anak sulit memusatkan perhatian, serta memiliki perilaku impulsif dan hiperaktif, Kondisi ini dapat berdampak pada prestasi anak di sekolah."
+    ]
+  },
+  {
+    "question": "Apakah merokok bisa menyebabkan kanker paru-paru?",
+    "answer": "Ya, merokok dapat menyebabkan kanker paru-paru. Menurut informasi yang saya miliki, merokok adalah salah satu faktor utama yang meningkatkan risiko kanker paru-paru. Selain itu, paparan asap rokok dari orang lain (perokok pasif) juga dapat menyebabkan kanker paru-paru pada orang yang tidak perokok.",
+    "contexts": [
+      "Meski sering terjadi pada perokok, kanker paru-paru juga bisa terjadi pada orang yang bukan perokok. Pada orang bukan perokok, kanker paru-paru terjadi akibat sering terpapar asap rokok dari orang lain (perokok pasif) atau paparan zat kimia di lingkungan kerja.",
+      "Berdasarkan perkembangannya, kanker paru-paru dapat terbagi dalam dua jenis, yaitu:",
+      "Beberapa orang yang memiliki risiko tinggi mengalami kondisi tersedak adalah: Lansia yang tinggal sendiri; Lansia pengguna gigi palsu; Lansia yang mengalami kesulitan menelan; Bayi dan balita",
+      "Asfiksia dapat terjadi ketika leher seseorang tercekik oleh tangan atau tali. Kondisi ini mengakibatkan jalan masuk oksigen menjadi tersendat. Akibatnya, asupan oksigen ke paru-paru berkurang atau bahkan berhenti sama sekali.",
+      "Pada beberapa kondisi, posisi tubuh tertentu dapat menekan saluran pernapasan dan menghambat aliran oksigen ke paru-paru. Jika hanya sementara, posisi ini tidak akan menyebabkan asfiksia. Namun, jika posisi tersebut bertahan dalam waktu lama, asfiksia bisa terjadi."
+    ],
+    "ground_truths": [
+      "Kanker paru-paru paling sering terjadi akibat kebiasaan merokok. Meski demikian, orang yang tidak merokok juga dapat menderita kanker paru-paru, terutama jika sering terpapar polusi udara, tinggal di lingkungan yang tercemar zat berbahaya, atau memiliki keluarga yang menderita kanker paru-paru."
+    ]
+  },
+  {
+    "question": "Apa itu GERD?",
+    "answer": "GERD adalah singkatan dari Gastroesofageal Reflux Disease, yaitu kondisi di mana asam lambung naik ke kerongkongan dan menyebabkan iritasi atau luka pada lining kerongkongan. Hal ini dapat disebabkan oleh berbagai faktor, seperti pola makan yang tidak seimbang, penolakan obat, kelebihan berat badan, atau komplikasi lainnya.\n\nJika Anda mengalami gejala-gejala GERD, seperti nyeri atau iritasi di kerongkongan, perut terbakar, atau mual, maka sebaiknya konsultasikan diri ke dokter untuk mendapatkan diagnosis yang tepat dan pengobatan yang sesuai.",
+    "contexts": [
+      "Untuk mendiagnosis GERD, dokter pertama-tama akan bertanya terkait hal-hal berikut: Gejala yang dirasakan; Seberapa sering kemunculan keluhan-keluhan yang dialami pasien; Makanan atau minuman yang mungkin menyebabkan timbulnya gejala; Kegiatan atau gerakan yang mungkin memperburuk keluhan; Penyakit yang pernah atau sedang diderita; Obat-obatan yang sedang dikonsumsi",
+      "Setelah itu, dokter akan melakukan pemeriksaan fisik, diikuti dengan pemeriksaan penunjang di bawah ini untuk menegakkan diagnosis atau mencari kemungkinan adanya komplikasi: Endoskopi, untuk mendeteksi peradangan pada kerongkongan akibat asam lambung yang naik. Pemeriksaan ini juga dapat dilakukan untuk mengambil sampel jaringan esofagus untuk diteliti di bawah mikroskop.; Pengukuran tingkat keasaman (pH) kerongkongan, untuk mengukur tingkat keasaman kerongkongan ketika penderita beraktivas, misalnya makan atau tidur.; Foto Rontgen kerongkongan dan lambung, untuk melihat penyempitan kerongkongan yang mungkin mengganggu proses menelan.; Manometri esofagus, untuk memeriksa irama gerakan otot saat menelan, serta mengukur kekuatan otot kerongkongan.",
+      "GERD umumnya bisa sembuh sendiri dengan perbaikan pola hidup dan menjauhi kebiasaan yang dapat memicu atau memperparah GERD. Penggunaan obat maag yang dijual bebas juga bisa membantu mengatasi GERD.",
+      "Untuk membantu mengatasi gejala GERD, ada beberapa upaya mandiri yang bisa dilakukan, yaitu: Menurunkan berat badan bila menderita obesitas; Menghindari makanan dan minuman penyebab asam lambung naik, seperti makanan berlemak, serta minuman berkafein dan beralkohol; Makan secara perlahan dalam porsi kecil, tetapi sering; Mengonsumsi makanan yang baik untuk GERD, seperti yoghurt dan madu; Tidak membungkuk, duduk bersandar, atau berbaring, setidaknya sampai 2 jam setelah makan; Menghindari penggunaan pakaian ketat agar tidak menekan perut; Tidak merokok; Membatasi atau menghindari konsumsi minuman beralkohol; Tidur dengan posisi menyamping ke kiri atau menggunakan bantal tambahan untuk meninggikan posisi tubuh dari pinggang ke atas; Minum obat untuk mengatasi asam lambung naik, seperti antasida atau asam alginat",
+      "Bila upaya penanganan secara mandiri belum efektif menyembuhkan GERD, dokter dapat meresepkan obat atau menyarankan operasi. Berikut adalah penjelasannya:"
+    ],
+    "ground_truths": [
+      "GERD adalah penyakit yang terjadi ketika asam lambung naik ke kerongkongan. Gejala GERD bisa berupa sensasi perih di dada dan perut, rasa pahit di mulut, nyeri ulu hati, mual, dan sulit menelan."
+    ]
+  },
+  {
+    "question": "Apakah Anemia berbahaya?",
+    "answer": "Ya, Anemia Aplastik bisa berbahaya jika tidak segera ditangani. Kondisi ini dapat menyebabkan infeksi yang lebih sering dan parus atau gangguan darah lainnya. Selain itu, anemia aplastik juga dapat mempengaruhi kesehatan tubuh secara keseluruhan dan meningkatkan risiko komplikasi-komplikasi lainnya. Oleh karena itu, jika Anda atau orang yang Anda kenal mengalami gejala anemia aplastik, segera konsultasikan dengan dokter untuk mendapatkan pengobatan yang tepat dan efektif.",
+    "contexts": [
+      "Anemia aplastik adalah kondisi ketika sumsum tulang tidak mampu memproduksi sel darah baru dalam jumlah yang cukup. Penyakit ini menyebabkan jumlah salah satu atau semua jenis sel darah merah menurun.",
+      "Anemia aplastik bisa menyerang siapa saja, tetapi lebih sering terjadi pada orang usia awal 20 tahunan dan lansia. Gejala awal anemia aplastik adalah mudah lelah, kulit pucat, sesak napas, hingga pusing. Penderita kondisi ini juga rentan terkena infeksi karena kekurangan leukosit atau sel darah putih (leukopenia).",
+      "Anemia aplastik tejadi karena sel punca di sumsum tulang mengalami kerusakan. Kerusakan sel punca ini menyebabkan produksi sel darah melambat atau bahkan menurun. Akibatnya, jumlah sel darah merah (eritrosit), sel darah putih (leukosit), limfosit, dan keping darah (trombosit) berkurang, atau disebut sebagai pansitopenia.",
+      "Beberapa kondisi atau penyakit yang bisa menyebabkan anemia aplastik adalah: Penyakit autoimun Penyakit autoimun terjadi ketika sistem kekebalan tubuh menyerang sel-sel sehat, termasuk sel punca di dalam sumsum tulang. Jika tidak segera ditangani, risiko terserang anemia aplastik akan meningkat.; Kelainan genetik Seseorang bisa terkena anemia aplastik bila memiliki riwayat keluarga dengan penyakit yang serupa. Selain itu, kelainan genetik bernama anemia Fanconi juga dapat menyebabkan penyakit ini.; Radioterapi dan kemoterapi Radioterapi dan kemoterapi adalah jenis terapi untuk mengobati kanker. Metode ini berisiko menimbulkan efek samping, termasuk merusak sel-sel punca di dalam sumsum tulang dan meningkatkan risiko terjadinya anemia aplastik.; Penggunaan obat-obatan tertentu Obat-obatan tertentu, seperti antibiotik chloramphenicol dan obat untuk mengatasi rheumatoid arthritis, dapat menyebabkan kerusakan sumsum tulang dan meningkatkan risiko terjadinya anemia aplastik.; Paparan bahan kimia Paparan bahan kimia, seperti pestisida, insektisida, dan benzene, yang terjadi terus-menerus juga dapat menyebabkan anemia aplastik.; Kehamilan Kehamilan terkadang membuat sistem kekebalan tubuh ibu hamil menyerang dan merusak sumsum tulang.",
+      "Prosedur operasi yang dilakukan dokter antara lain: Vagotomi, dengan memotong saraf vagus yang mengontrol pembuangan asam lambung; Antrektomi, dengan mengangkat bagian bawah lambung (antrum) yang berfungsi memproduksi asam lambung; Piloroplasti, dengan memperlebar lubang antara usus dua belas jari dan lambung, agar isi lambung bisa mengalur lebih banyak"
+    ],
+    "ground_truths": [
+      "Jika dibiarkan tanpa penanganan, anemia berisiko menyebabkan komplikasi serius, seperti: Kesulitan melakukan aktivitas akibat kelelahan, Masalah pada jantung, seperti gangguan irama jantung (aritmia) dan gagal jantung, Rentan terkena infeksi, Gangguan pada paru-paru, seperti hipertensi pulmonal, Komplikasi kehamilan, antara lain kelahiran prematur atau bayi terlahir dengan berat badan rendah, Gangguan proses tumbuh kembang jika anemia terjadi pada anak-anak atau bayi"
+    ]
+  },
+  {
+    "question": "Apa tanda-tanda kalau liver bermasalah?",
+    "answer": "Selamat datang! Saya senang membantu Anda memahami tentang kondisi kesehatan Anda.\n\nTanda-tanda kalau liver bermasalah bisa berbeda-beda tergantung pada jenis penyakit yang dialami oleh organ ini. Namun, beberapa gejala umum yang sering dikaitkan dengan masalah liver adalah:\n\n- Tiba-tiba mengalami kelelahan atau kekurangan energi\n- Muncul di bawah batang hidung (diska)\n- Muncul di bawah lidah\n- Kusam pada mulut dan bibir\n- Kulit yang kusam, kering, dan berminyak\n- Nyeri di sekitar mata dan kulit yang terkena sinar matahari\n- Tidak ingin makan atau mengalami perubahan selera\n- Muncul di pipih hidung (diska)\n- Diare yang tidak sementara\n\nJika Anda mengalami beberapa dari gejala tersebut, sebaiknya Anda melakukan pemeriksaan ke dokter untuk mendapatkan diagnosa dan pengobatan yang tepat. Saya harap informasi ini membantu Anda memahami tentang kondisi kesehatan Anda.",
+    "contexts": [
+      "Pada beberapa kasus, varises esofagus baru diketahui ketika sudah terjadi komplikasi berupa pecahnya varises dan perdarahan. Kondisi ini bisa ditandai dengan: Tinja berwarna hitam, cair, dan berbau tajam; Muntah darah; Detak jantung cepat; Kulit pucat; Keringat dingin",
+      "Lakukan pemeriksaan ke dokter jika Anda mengalami gejala penyakit liver. Bila Anda menderita penyakit liver, pemeriksaan varises esofagus akan didasarkan pada penilaian terhadap faktor risiko yang Anda miliki.",
+      "Apabila Anda menderita penyakit liver berat atau sudah didiagnosis memiliki varises esofagus, waspadai tanda-tanda perdarahan dari varises esofagus. Segera ke IGD jika Anda mengalami tanda pecahnya varises dan perdarahan, karena kondisi tersebut dapat mengancam nyawa.",
+      "Dokter akan melakukan pemeriksaan untuk mendeteksi varises esofagus jika pasien mengalami sirosis. Untuk mendiagnosis sirosis itu sendiri, dokter dapat melakukan tes darah, USG atau fibroscan, atau biopsi.",
+      "Sementara untuk menegakkan diagnosis varises esofagus, dokter akan melakukan beberapa pemeriksaan berikut: Endoskopi, dengan memasukkan selang kecil berkamera melalui mulut hingga ke esofagus, untuk melihat kondisi vena esofagus; Endoskopi kapsul, dengan menelan kapsul berisi kamera nirkabel yang akan mengambil gambar esofagus, untuk melihat kondisi vena esofagus; Pemindaian pada vena porta, hati, dan organ lain di dalam perut dengan CT scan, USG Doppler, atau MRI, untuk mendeteksi terjadinya hipertensi portal; Tes kadar sel darah, fungsi ginjal, atau fungsi hati, untuk membantu melihat tingkat keparahan varises esofagus"
+    ],
+    "ground_truths": [
+      "Gejala penyakit liver pada tiap orang bisa berbeda-beda, tergantung pada jenis dan penyebabnya. Namun, secara umum ada beberapa gejala yang bisa muncul akibat penyakit liver, yaitu: Mual dan muntah, Nyeri perut, Penurunan nafsu makan, Penurunan gairah seksual (libido), Rasa lelah yang berlebihan, Perubahan warna feses menjadi pucat atau kehitaman, Warna urine menjadi gelap, Kulit dan mata menjadi kuning atau penyakit kuning, Kulit terasa gatal dan mudah memar, Pembengkakan di perut (asites), dan Pembengkakan di kaki"
+    ]
+  },
+  {
+    "question": "Apa penyebab Demensia?",
+    "answer": "Demensia vaskular dapat disebabkan oleh berbagai faktor, termasuk gangguan pada pembuluh darah otak. Beberapa penyebab utama demensia vaskular meliputi:\n\n1. Aterosklerosis atau penyempitan pada pembuluh darah kecil di otak\n2. Stroke iskemik atau stroke hemoragik\n3. Stroke ringan atau transient ischemic attack yang terjadi berkali-kali\n4. Peradangan atau infeksi pada pembuluh darah otak\n\nSelain itu, faktor-faktor risiko lain yang dapat meningkatkan kemungkinan terkena demensia vaskular antara lain:\n\n- Usia di atas 75 tahun\n- Hipertensi\n- Perokok\n- Kadar kolesterol tinggi\n\nPenting untuk diingat bahwa perkembangan penyakit ini bisa diperlambat dengan mengatasi faktor-faktor risikonya.",
+    "contexts": [
+      "Demensia vaskular adalah gangguan pada memori, perilaku, dan kemampuan berpikir, yang disebabkan oleh berkurangnya aliran darah ke jaringan otak. Kondisi yang umum dialami oleh lansia ini dapat terjadi secara mendadak atau berkembang perlahan seiring waktu.",
+      "Demensia vaskular dapat terjadi akibat gangguan pada pembuluh darah otak, misalnya penyumbatan, penyempitan, atau perdarahan. Penyakit ini lebih berisiko menyerang orang usia di atas 75 tahun, penderita hipertensi, perokok, dan orang dengan kadar kolesterol tinggi.",
+      "Demensia vaskular merupakan jenis demensia yang paling sering terjadi. Seiring dengan perkembangan penyakit, demensia vaskular bisa menyebabkan disabilitas atau keterbatasan pada hidup penderitanya. Namun, perkembangan penyakit ini bisa diperlambat dengan mengatasi faktor-faktor risikonya.",
+      "Demensia vaskular terjadi ketika pembuluh darah otak mengalami kerusakan sehingga aliran darah ke jaringan otak berkurang atau terhenti total. Kondisi ini menyebabkan otak kekurangan oksigen dan nutrisi. Akibatnya, jaringan tersebut lama-kelamaan akan rusak atau bahkan mati.",
+      "Beberapa kondisi yang dapat menyebabkan demensia vaskular meliputi: Aterosklerosis atau penyempitan pada pembuluh darah kecil di otak; Stroke iskemik atau stroke hemoragik; Stroke ringan atau transient ischemic attack yang terjadi berkali-kali; Peradangan atau infeksi pada pembuluh darah otak"
+    ],
+    "ground_truths": [
+      "Demensia disebabkan oleh kerusakan pada sel saraf dan pembuluh darah di otak sehingga otak tidak dapat berfungsi dengan baik. Berdasarkan perubahan yang terjadi, ada beberapa jenis demensia, yaitu: Penyakit Alzheimer, yaitu jenis demensia yang disebabkan oleh penumpukan protein di otak yang mengganggu fungsi sel-sel saraf, Demensia vaskular, kondisi ini terjadi saat sel-sel otak kekurangan darah dan oksigen akibat penyempitan pembuluh darah di otak, Demensia dengan lewy body, kondisi ini terjadi saat ada gumpalan protein yang merusak sel saraf di dalam otak, yang disebut dengan lewy body, Demensia frontotemporal, yaitu demensia yang disebabkan oleh kerusakan sel saraf di bagian depan (frontal) dan samping (temporal) otak, Demensia campuran, yaitu kondisi di mana seseorang menderita dua atau lebih jenis demensia, misalnya demensia akibat penyakit Alzheimer dan demensia vaskular."
+    ]
+  },
+  {
+    "question": "Hal apa saja yang menyebabkan osteoporosis?",
+    "answer": "Osteoporosis dapat disebabkan oleh beberapa faktor. Berdasarkan informasi yang tersedia, beberapa penyebab utama osteoporosis adalah:\n\n1. Kurangnya kadar hormon estrogen pada wanita yang telah memasuki masa menopause.\n2. Menurunnya kemampuan tubuh dalam meregenerasi tulang.\n3. Faktor genetik.\n\nNamun, perlu diingat bahwa informasi ini tidak mencakup semua penyebab osteoporosis. Jika Anda memiliki pertanyaan lebih lanjut atau ingin mendapatkan informasi yang lebih akurat, saya sarankan Anda untuk berkonsultasi dengan dokter kesehatan profesional.",
+    "contexts": [
+      "Osteoporosis adalah kondisi ketika kepadatan tulang berkurang sehingga tulang menjadi keropos dan mudah patah. Osteoporosis jarang menimbulkan gejala dan biasanya baru diketahui ketika penderitanya jatuh atau mengalami cedera yang menyebabkan patah tulang.",
+      "Osteoporosis bisa dialami oleh siapa saja, termasuk anak-anak dan orang dewasa. Namun, osteoporosis lebih sering terjadi pada wanita yang telah memasuki masa menopause.  Kondisi ini disebabkan oleh berkurangnya kadar hormon estrogen yang berperan penting dalam menjaga kepadatan tulang.",
+      "Osteoporosis merupakan salah satu penyebab tulang keropos yang paling umum terjadi pada lansia. Osteoporosis disebabkan oleh menurunnya kemampuan tubuh dalam meregenerasi tulang sehingga kepadatan tulang berkurang. Penurunan kemampuan regenerasi ini biasanya akan dimulai saat seseorang memasuki usia 35 tahun.",
+      "Fraktur Colles memerlukan penanganan yang cepat dan tepat untuk mencegah terjadinya kerusakan saraf atau pembuluh darah",
+      "Fraktur Colles terjadi akibat adanya tekanan maupun benturan keras pada pergelangan tangan sehingga ujung tulang radius patah. Kondisi ini dapat terjadi karena beberapa hal berikut: Terjatuh dengan posisi telapak tangan bagian dalam menahan beban tubuh; Benturan yang keras pada pergelangan tangan akibat kecelakaan lalu lintas; Cedera akibat olahraga yang melibatkan kontak fisik, seperti ski, sepatu roda, dan sepeda"
+    ],
+    "ground_truths": [
+      "Osteoporosis merupakan salah satu penyebab tulang keropos yang paling umum terjadi pada lansia. Osteoporosis disebabkan oleh menurunnya kemampuan tubuh dalam meregenerasi tulang sehingga kepadatan tulang berkurang. Penurunan kemampuan regenerasi ini biasanya akan dimulai saat seseorang memasuki usia 35 tahun.",
+      "Selain faktor usia, ada beberapa faktor lain yang bisa meningkatkan risiko terjadinya osteoporosis, seperti kekurangan vitamin D, hipokalsemia, gangguan hormon, jarang berolahraga, konsumsi obat-obatan tertentu, serta kebiasaan merokok.",
+      "Osteoporosis sering kali tidak menimbulkan gejala apa pun. Kondisi ini biasanya baru diketahui saat seseorang mengalami cedera yang menyebabkan patah tulang.  Seiring berkurangnya kepadatan tulang, penderita bisa mengalami gejala berikut: Mudah mengalami patah tulang walau hanya karena benturan yang ringan, Nyeri punggung yang biasanya disebabkan oleh patah tulang belakang, Postur badan membungkuk, Tinggi badan berkurang."
+    ]
+  },
+  {
+    "question": "Apa saja ciri-ciri awal penyakit lupus yang perlu diwaspadai?",
+    "answer": "Berdasarkan informasi yang tersedia, beberapa ciri-ciri awal penyakit lupus yang perlu diwaspadai adalah:\n\n- Peradangan pada kulit (eritematosus), yang bisa menunjukkan diri secara langsung seperti perubahan warna kulit atau terlihat berwarna merah.\n- Sakit sendi\n- Gatal-gatal, rasa gatal-gatal, dan bengkak pada tubuh\n- Kulit berkerut-kerutan\n- Perubahan warna mata\n\nNamun, perlu diingat bahwa ciri-ciri awal penyakit lupus dapat sangat beragam dan tidak semua orang mengalami gejala ini. Oleh karena itu, jika Anda atau seseorang yang Anda kenal mengalami beberapa gejala ini, sebaiknya konsultasikan dengan dokter untuk mendapatkan diagnosa dan pengobatan yang tepat.",
+    "contexts": [
+      "Penyakit lupus atau lupus eritematosus adalah penyakit autoimun kronis yang bisa menyebabkan peradangan di beberapa bagian tubuh, seperti kulit, sendi, ginjal, hingga otak. Lupus dapat dialami oleh siapa saja, tetapi lebih sering dialami oleh wanita.",
+      "Pada kondisi normal, sistem imun akan melindungi tubuh dari infeksi atau cedera. Akan tetapi, pada orang yang mengalami penyakit autoimun seperti lupus, sistem imun justru menyerang sel, jaringan, dan organ tubuh yang sehat.",
+      "Lupus terbagi dalam beberapa jenis, yaitu systemic lupus erythematosus (SLE), lupus pada kulit (cutaneus lupus), lupus akibat obat (drug induced lupus), dan lupus yang terjadi pada bayi baru lahir (neonatal lupus).",
+      "Kondisi tersebut menyebabkan trombosit tidak dapat menempel. Akibatnya, bekuan darah tidak terbentuk dan perdarahan menjadi tidak terkendali.",
+      "Mutasi gen VWF biasanya diturunkan dari orang tua kepada anak. Umumnya, hanya butuh satu gen yang bermutasi untuk menyebabkan seseorang menderita penyakit von Willebrand. Jika kelainan gen tersebut menurun dari kedua orang tuanya, maka kondisi yang dialami dapat cukup parah."
+    ],
+    "ground_truths": [
+      "Beberapa pemicu munculnya gejala lupus adalah paparan sinar matahari, penyakit infeksi, atau obat-obatan tertentu.",
+      "Lupus dapat menyebabkan peradangan di berbagai organ dan bagian tubuh. Hal ini menyebabkan gejala lupus bisa berbeda pada penderitanya. Meski begitu, terdapat sejumlah gejala umum yang bisa terjadi, seperti nyeri dan kaku pada sendi, lelah, ruam kulit, sensitif terhadap sinar matahari, dan penurunan berat badan."
+    ]
+  },
+  {
+    "question": "Apakah vertigo berbahaya?",
+    "answer": "Vertigo dapat menjadi gejala yang berat dan memerlukan perhatian medis. Vertigo adalah gejala yang menyebabkan merasa seperti ruang di sekitar kepala terbalik atau berputar, sehingga bisa membuat Anda merasa tidak stabil atau naunatasi.\n\nDalam beberapa kasus, vertigo dapat menjadi tanda dari penyakit yang lebih serius, seperti stroke, keracunan makanan, atau bahkan kanker otak. Oleh karena itu, jika Anda mengalami gejala vertigo, sangat penting untuk mencari perawatan medis secepatnya.\n\nJika Anda merasa tidak stabil atau mulai kehilangan keseimbangan, jauhi diri dari aktivitas yang bisa menyebabkan cedera dan hubungi dokter terlebih dahulu.",
+    "contexts": [
+      "Selain beberapa penyebab di atas, sejumlah faktor berikut dapat meningkatkan risiko seseorang menderita spondilosis servikal: Pertambahan usia; Kebiasaan merokok; Riwayat operasi tulang belakang; Riwayat spondilosis servikal dalam keluarga; Pekerjaan yang sering melibatkan leher, misalnya sering memanggul benda atau beban berat; Berat badan berlebih atau obesitas; Riwayat cedera leher; Depresi dan gangguan cemas",
+      "Spondilosis servikal dapat mengakibatkan ruas antar tulang belakang menyempit hingga menekan saraf tulang belakang. Kondisi ini memicu sejumlah gejala, seperti: Nyeri di area kepala, bahu, atau lengan, yang bisa menjalar sampai jari tangan; Nyeri leher yang bisa memburuk saat batuk, bersin, duduk, atau berdiri; Lengan atau tungkai terasa lemas, kaku, atau kesemutan; Sakit kepala atau cervicogenic headache; Leher kaku; Sulit berjalan dan menjaga keseimbangan; Muncul gerakan tiba-tiba yang tidak disadari (involunter) pada tungkai",
+      "Gejala di atas terkadang bisa disertai dengan vertigo, sakit kepala, atau kehilangan kemampuan menahan buang air kecil atau buang air besar.",
+      "Meski demikian, spondilosis servikal juga bisa terjadi tanpa gejala. Hal ini bisa terjadi jika kerusakan pada tulang belakang leher dan bantalannya tidak sampai menekan saraf tulang belakang.",
+      "Lakukan pemeriksaan ke dokter jika Anda mengalami gejala di atas, terlebih jika Anda pernah mengalami cedera leher. Pengobatan secepatnya perlu dilakukan untuk mencegah komplikasi."
+    ],
+    "ground_truths": [
+      "Vertigo harus diperiksakan ke dokter agar diketahui penyebabnya. Dengan begitu, pengobatan yang sesuai dapat dilakukan untuk meredakan gejala dan menghindari kekambuhan. Berdasarkan penyebabnya, vertigo terbagi menjadi dua, yakni vertigo perifer dan sentral. Vertigo perifer disebabkan oleh gangguan pada telinga bagian dalam. Kondisi yang dapat menimbulkan vertigo antara lain benign paroxysmal positional vertigo (BPPV), labirinitis, penyakit Meniere, atau sindrom Ramsay Hunt. Sementara itu, vertigo sentral terjadi akibat gangguan pada otak. Gangguan tersebut dapat disebabkan oleh stroke, cedera kepala atau leher, tumor otak, atau penyakit Parkinson.",
+      "Periksakan diri Anda ke dokter jika mengalami vertigo, terutama jika tidak kunjung reda atau sering kambuh. Pemeriksaan diperlukan untuk memastikan penyebabnya, karena pada beberapa kasus, vertigo dapat menandakan kondisi yang serius. egera cari pertolongan medis jika terdapat tanda atau gejala yang lebih serius, seperti: Anggota tubuh terasa lemah, Penglihatan berbayang, Sulit berbicara atau berjalan, Gerakan mata yang tidak normal, Respon melambat, Mati rasa atau kesemutan, Demam, dan Penurunan kesadaran"
+    ]
+  },
+  {
+    "question": "Bagaimana cara mengobati Malaria?",
+    "answer": "Mengobati malaria memang tergantung pada tingkat paru-paru dan gejala yang dirasakan oleh pasien. Ada dua jenis pengobatan untuk malaria yaitu penggunaan obat anti-malaria dan penggunaan obat-obatan lainnya seperti analgesik, antipiretik, dan antihistamin.\n\nObat anti-malaria umumnya berupa arsenik atau praziquantel. Selain itu, beberapa obat anti-malaria juga dapat digunakan untuk mengobati malaria parasi yang disebut doxycycline dan atovaquone-proguanil.",
+    "contexts": [
+      "Malaria adalah penyakit infeksi menular yang menyebar melalui gigitan nyamuk. Penderita malaria akan mengeluhkan gejala demam dan menggigil beberapa hari setelah terinfeksi parasit yang dibawa oleh nyamuk.",
+      "Walaupun mudah menular melalui gigitan nyamuk, malaria bisa sembuh secara total bila diatasi dengan tepat. Sebaliknya, jika tidak ditangani, penyakit ini bisa berakibat fatal dari menyebabkan anemia berat, gagal ginjal, hingga kematian.",
+      "Di Indonesia, jumlah penderita malaria cenderung menurun dari tahun ke tahun. Namun, masih banyak yang menderita malaria di beberapa provinsi di wilayah timur, seperti Papua dan Papua Barat. Sementara itu, provinsi DKI Jakarta dan Bali sudah masuk kategori provinsi bebas malaria.",
+      "Manusia dapat terkena malaria setelah digigit nyamuk pembawa parasit Plasmodium. Gigitan nyamuk tersebut akan menyebabkan parasit masuk ke dalam tubuh manusia, kemudian menetap di organ hati sebelum menyerang sel darah merah.",
+      "Gejala malaria timbul setidaknya 10-15 hari setelah digigit nyamuk. Gejala muncul dalam tiga tahap selama 6–12 jam, yaitu menggigil, demam dan sakit kepala, lalu keluar banyak keringat dan lemas sebelum suhu tubuh kembali normal."
+    ],
+    "ground_truths": [
+      "Malaria harus segera ditangani untuk mencegah risiko terjadinya komplikasi yang berbahaya. Penanganan malaria dapat dilakukan dengan pemberian obat antimalaria yang jenisnya disesuaikan dengan parasit penyebab malaria, tingkat keparahan, atau wilayah yang pernah ditinggali penderita.",
+      "Meski belum ada vaksinasi untuk mencegah malaria, dokter dapat meresepkan obat antimalaria sebagai pencegahan jika Anda berencana bepergian atau tinggal di area yang banyak kasus malarianya.",
+      "Pencegahan malaria juga bisa dilakukan dengan memasang kelambu di tempat tidur, mengenakan pakaian lengan panjang dan celana panjang, serta menggunakan krim atau semprotan antinyamuk."
+    ]
+  },
+  {
+    "question": "Apa komplikasi yang dapat disebabkan oleh Hepatitis?",
+    "answer": "Komplikasi yang dapat disebabkan oleh Hepatitis antara lain:\n\n- Kerusakan hati yang parah dan berpotensi menyebabkan gagal ginjal atau gagal hati.\n- Kanker hati, terutama pada jenis hepatitis B dan C.\n- Aksesori cirrhosis, yaitu penumpukan serat darah di hati yang dapat menyebabkan peradangan dan kerusakan hati lebih lanjut.\n- Infeksi cacing hati seperti Clonorchis yang dapat menyebabkan infeksi paru-paru, kanker hati, dan penyakit lainnya.",
+    "contexts": [
+      "Jenis hepatitis yang juga disebut toxic hepatitis ini terjadi akibat konsumsi obat-obatan tertentu yang melebihi dosis. Hati bisa mengalami peradangan atau rusak karena bekerja terlalu keras dalam memecah obat-obatan tersebut.",
+      "Pada hepatitis yang disebabkan oleh penyakit autoimun, sistem imun tubuh secara keliru menyerang sel-sel hati sehingga menimbulkan peradangan dan kerusakan hati.",
+      "Peradangan hati juga bisa terjadi akibat infeksi cacing hati, yaitu opisthorchiidae dan fasciolidae. Salah satu spesies cacing hati jenis opisthorchiidae yang paling sering menyebabkan infeksi adalah Clonorchis.",
+      "Hepatitis E juga jarang berkembang menjadi penyakit berkepanjangan (kronis). Orang yang terinfeksi hepatitis E umumnya akan sembuh dalam beberapa bulan. Namun, hepatitis E bisa menjadi penyakit liver yang parah pada ibu hamil, lansia, dan orang dengan daya tahan tubuh yang lemah.",
+      "Sementara di negara maju yang memiliki ketersediaan air bersih, penularan virus ini biasanya terjadi dari hewan ke manusia, misalnya akibat mengonsumsi daging hewan yang terinfeksi HEV dan tidak dimasak dengan benar. Contoh daging hewan yang dimaksud adalah daging babi, babi hutan, rusa liar, atau kerang."
+    ],
+    "ground_truths": [
+      "Jika tidak ditangani dengan baik, hepatitis dapat menimbulkan berbagai komplikasi, seperti: Sirosis, Gagal hati, dan Kanker hati"
+    ]
+  },
+  {
+    "question": "Kulit saya mengelupas terus, apakah itu psoriasis?",
+    "answer": "Untuk menentukan apakah gejala kulit Anda berupa psoriasis atau tidak, memang perlu ada gejala lain yang lebih spesifik dan disertai dengan kondisi keluaran. Misalnya, apakah kulit Anda bersisik, menebal, atau terasa gatal? Selain itu, gejala apa saja yang penderita psoriasis alami? Jika Anda mengalami hal-hal tersebut, maka gejala kulit Anda bisa menjadi gejala psoriasis. Namun, untuk menentukan apakah kondisi tersebut sebenarnya adalah psoriasis atau bukan, konsultasikan dengan dokter dan dilakukan pemeriksaan yang lebih lanjut.",
+    "contexts": [
+      "Psoriasis adalah peradangan pada kulit yang menyebabkan kulit bersisik, menebal, mudah terkelupas, dan kadang juga terasa gatal. Psoriasis biasanya muncul di kulit bagian lutut, siku, punggung bagian bawah, dan kulit kepala.",
+      "Pada keadaan normal, proses pergantian sel-sel kulit membutuhkan waktu sekitar 1 bulan. Namun, pada penderita psoriasis, proses tersebut bisa terjadi hanya dalam beberapa hari. Akibatnya, pergantian sel-sel kulit yang terlalu cepat menyebabkan penebalan pada kulit.",
+      "Psoriasis dapat dialami oleh siapa saja, termasuk anak-anak. Penyakit ini tidak menular sehingga kontak langsung dengan ruam di kulit penderita tidak akan menyebabkan seseorang tertular psoriasis.",
+      "Psoriasis arthritis bisa menyebabkan kerusakan parah pada sendi bila tidak segera ditangani. Oleh karena itu, segera periksa ke dokter jika Anda penderita psoriasis dan mengalami gejala radang sendi.",
+      "Belum ada pemeriksaan yang secara spesifik dapat memastikan psoriasis arthritis. Akan tetapi, dokter dapat menjalankan beberapa tes berikut untuk menyingkirkan kemungkinan penyakit lain, seperti penyakit asam urat atau rheumatoid arthritis, di antaranya: Pemindaian dengan foto Rontgen atau MRI; Tes antibodi dan kadar asam urat dengan mengambil sampel darah; Pemeriksaan cairan sendi"
+    ],
+    "ground_truths": [
+      "Psoriasis adalah peradangan pada kulit yang menyebabkan kulit bersisik, menebal, mudah terkelupas, dan kadang juga terasa gatal. Psoriasis biasanya muncul di kulit bagian lutut, siku, punggung bagian bawah, dan kulit kepala.",
+      ""
+    ]
+  },
+  {
+    "question": "Apakah stroke bisa kambuh lagi?",
+    "answer": "Ya, stroke iskemik bisa kambuh lagi. Setelah terjadi stroke, ada risiko bahwa gejala atau tanda-tandanya dapat kambuh lagi karena terjadinya perubahan struktur otak yang permanen, atau disebabkan oleh tekanan darah yang tidak stabil. Oleh karena itu, penting untuk memantau kondisi Anda secara teratur dan segera periksakan diri ke dokter jika Anda mengalami gejala stroke iskemik kembali.",
+    "contexts": [
+      "Penyebab utama stroke iskemik adalah aterosklerosis. Aterosklerosis dapat menimbulkan dua jenis gumpalan darah, yaitu : Trombosis, yaitu pembentukan gumpalan darah di salah satu pembuluh darah arteri yang memasok darah ke otak. Gumpalan darah ini bukan berasal dari pembuluh darah lain.; Emboli, yaitu pembentukan gumpalan darah di organ lain, misalnya jantung atau arteri besar di leher dan dada. Gumpalan darah ini kemudian lepas dan mengalir ke pembuluh darah otak.",
+      "Risiko terjadinya stroke iskemik pada seseorang bisa meningkat karena beberapa kondisi atau faktor berikut ini: Usia di atas 55 tahun; Hipertensi; Penyakit jantung; Gangguan irama jantung (aritmia); Diabetes; Kebiasaan merokok; Terapi hormon; Riwayat TIA atau serangan jantung; Kolesterol tinggi; Jarang berolahraga atau beraktivitas fisik; Obesitas; Kecanduan alkohol; Penggunaan narkoba",
+      "Gejala stroke iskemik tergantung pada bagian otak yang terpengaruh dan biasanya muncul secara tiba-tiba. Beberapa gejala yang umum terjadi akibat stroke iskemik adalah: Lengan atau tungkai sulit diangkat, karena lemas atau mati rasa; Salah satu sisi wajah turun akibat otot wajah yang melemah; Gangguan bicara atau sulit memahami perkataan orang lain; Linglung, pusing, dan sakit kepala berat; Gangguan penglihatan pada salah satu atau kedua mata; Gangguan keseimbangan dan gerak tubuh",
+      "Segera periksakan diri ke dokter jika Anda atau orang terdekat mengalami gejala stroke iskemik yang telah disebutkan di atas.",
+      "Cara cepat untuk mengenali gejala stroke adalah FAST (face, arms, speech, time). Berikut adalah penjelasannya: Face: salah satu sisi wajah turun; Arms: satu sisi lengan sulit diangkat; Speech: berbicara cadel secara tiba-tiba atau tidak bisa berbicara; Time: jika terdapat salah satu dari gejala tersebut, segera bawa ke IGD rumah sakit terdekat"
+    ],
+    "ground_truths": [
+      "Stroke iskemik adalah stroke akibat adanya gumpalan darah yang menyumbat pembuluh darah di otak. Kondisi ini menyebabkan suplai oksigen dan nutrisi ke otak terganggu. Stroke iskemik merupakan kondisi gawat darurat, karena dapat menyebabkan kematian sel-sel otak dalam hitungan menit.",
+      "Gejala stroke iskemik tergantung pada bagian otak yang terpengaruh dan biasanya muncul secara tiba-tiba. Beberapa gejala yang umum terjadi akibat stroke iskemik adalah: Lengan atau tungkai sulit diangkat, karena lemas atau mati rasa, Salah satu sisi wajah turun akibat otot wajah yang melemah, Gangguan bicara atau sulit memahami perkataan orang lain, Linglung, pusing, dan sakit kepala berat, Gangguan penglihatan pada salah satu atau kedua mata, Gangguan keseimbangan dan gerak tubuh"
+    ]
+  },
+  {
+    "question": "Bagaimana cara membedakan antara flu dan pilek biasa dari gejalanya?",
+    "answer": "Berikut adalah beberapa perbedaan antara flu dan pilek biasa dari gejalanya berdasarkan informasi yang tersedia:\n\nGejala flu dapat meliputi demam, pilek, hidung tersumbat, sakit kepala, dan batuk. Gejala-gejala ini sering kali menyerang tiba-tiba dan merasa lebih parah daripada pilek biasa.\n\nSedangkan gejala pilek biasa umumnya meliputi pernapasan yang tidak nyaman, pilek, dan kadang-kadang batuk. Namun, gejala-gejala ini tidak separuh gejala flu dan sering kali kurang parah.\n\nNamun, perlu diingat bahwa ada beberapa kesamaan antara flu dan pilek biasa, sehingga sulit untuk membedakan keduanya hanya dengan melihat gejalanya saja. Oleh karena itu, jika Anda mencurigai diri Anda mungkin terinfeksi flu atau pilek, sebaiknya konsultasikan dengan dokter untuk mendapatkan penilaian dan pengobatan yang tepat.",
+    "contexts": [
+      "Flu merupakan penyakit yang mudah menular ke orang lain, terutama pada 3-4 hari pertama setelah penderita terinfeksi. Bahkan pada beberapa kasus, penderita flu dapat menularkan penyakitnya sebelum gejala muncul.",
+      "Seseorang dapat tertular flu jika tidak sengaja menghirup percikan air liur di udara, yang dikeluarkan penderita ketika bersin atau batuk. Selain itu, menyentuh mulut atau hidung setelah memegang benda yang terkena percikan air liur penderita, juga bisa menjadi sarana penularan virus flu.",
+      "Gejala flu antara lain demam, pilek, hidung tersumbat, dan sakit kepala. Meskipun sama dengan gejala batuk pilek biasa, gejala flu terasa lebih parah dan sering kali menyerang tiba-tiba. Batuk akibat flu bisa berupa batuk kering maupun berdahak.",
+      "Segeralah berobat ke dokter jika gejala di atas tidak kunjung membaik setelah dua minggu, atau membaik tetapi kemudian memburuk. Tindakan darurat perlu dilakukan bila gejala flu disertai sesak napas atau penurunan kesadaran.",
+      "Flu ringan bisa diatasi dengan banyak beristirahat, mengonsumsi makanan sehat yang mengandung vitamin C, dan banyak minum. Namun, bila gejalanya berat, segera lakukan pemeriksaan ke dokter agar diberikan obat untuk mempercepat kesembuhan dan mencegah komplikasi."
+    ],
+    "ground_truths": [
+      "Flu atau influenza adalah infeksi virus yang menyerang hidung, tenggorokan, dan paru-paru. Penderita flu dapat mengalami demam, sakit kepala, pilek, hidung tersumbat, serta batuk.",
+      "Banyak orang mengira flu sama dengan batuk pilek biasa (common cold). Walaupun gejalanya mirip, kedua kondisi ini disebabkan oleh jenis virus yang berbeda. Gejala flu lebih parah dan menyerang secara mendadak, sedangkan gejala batuk pilek biasa cenderung ringan dan muncul secara bertahap."
+    ]
+  }
+]

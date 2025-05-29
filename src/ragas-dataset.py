@@ -10,7 +10,7 @@ from langchain_core.documents import Document
 
 # Konfigurasi
 PERSIST_DIR = './embeddings'
-QUESTIONS_FILE = 'Data/ragas_dataset.json'
+QUESTIONS_FILE = 'Data/ragas-dataset.json'
 OUTPUT_CSV = 'Data/evaluated-qa.csv'
 MODEL_NAME = 'llama3.2:3b'
 

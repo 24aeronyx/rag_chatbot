@@ -1,143 +1,171 @@
-import asyncio
-import csv
+import os
+import json
 import requests
-import time
-
-from ragas.metrics import (
-    LLMContextPrecisionWithReference,
-    LLMContextRecall,
-    AnswerRelevancy,
-    Faithfulness,
-)
-from ragas.dataset_schema import SingleTurnSample
-
+from datetime import datetime
 from sentence_transformers import SentenceTransformer
-from langchain.chat_models.base import BaseChatModel
-from langchain.schema import (
-    Generation,
-    LLMResult,
-)
+from chromadb import PersistentClient
+
+# Konfigurasi
+PERSIST_DIR = './embeddings'
+COLLECTION_NAME = 'penyakit_embeddings'
+OLLAMA_URL = 'http://localhost:11434/api/generate'
+MODEL_NAME = 'llama3.2:3b'
+TOP_K = 5
+WINDOW = 2
+TIMEOUT_SEC = 15
+HISTORY_DIR = 'history'
+MAX_HISTORY = 3
+
+# Inisialisasi
+client = PersistentClient(path=PERSIST_DIR)
+collection = client.get_or_create_collection(name=COLLECTION_NAME)
+embedder = SentenceTransformer('all-MiniLM-L6-v2')
+
+history = []
+history_filepath = None
+
+def save_history():
+    if history_filepath and history:
+        with open(history_filepath, 'w', encoding='utf-8') as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+
+def create_history_file():
+    global history_filepath
+    os.makedirs(HISTORY_DIR, exist_ok=True)
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    filename = f'history_{timestamp}.json'
+    history_filepath = os.path.join(HISTORY_DIR, filename)
+
+def query_context_with_history(question, recent_history, top_k=TOP_K, window=WINDOW):
+    # Gabungkan beberapa pertanyaan terakhir plus pertanyaan terbaru
+    texts_to_embed = [turn['question'] for turn in recent_history[-2:]] + [question]
+    combined_text = " ".join(texts_to_embed)
+
+    embedding = embedder.encode(combined_text).tolist()
+    results = collection.query(query_embeddings=[embedding], n_results=top_k)
+
+    if not results['documents'] or not results['metadatas']:
+        return []
+
+    unique_chunks = {}
+    for doc, meta in zip(results['documents'][0], results['metadatas'][0]):
+        idx = meta.get('chunk_index')
+        href = meta.get('href')
+        name = meta.get('name')
+
+        related = collection.get(where={"href": href})
+        docs = related['documents']
+        metas = related['metadatas']
+
+        for offset in range(-window, window + 1):
+            j = idx + offset
+            if 0 <= j < len(docs):
+                key = (href, metas[j]['chunk_index'])
+                if key not in unique_chunks:
+                    unique_chunks[key] = {
+                        "name": name,
+                        "href": href,
+                        "text": docs[j].strip()
+                    }
+    return list(unique_chunks.values())
 
 
-# Konfigurasi endpoint dan model Ollama
-OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "llama3.2:3b"
+def build_prompt(context_docs, question, recent_history):
+    if not context_docs:
+        question_clean = ''.join(c for c in question if c.isalnum() or c.isspace()).strip()
+        return f"Maaf, saya tidak memiliki informasi yang cukup tentang {question_clean}"
 
+    # Buat blok konteks
+    context_lines = []
+    for i, doc in enumerate(context_docs, 1):
+        snippet = doc['text'][:300].replace('\n', ' ').strip()
+        context_lines.append(f"[{i}] {doc['name']} - {doc['href']}\n{snippet}\n")
+    context_block = "\n".join(context_lines)
 
-# Custom Langchain LLM client untuk Ollama API
-class OllamaAPIClient(BaseChatModel):
-    model_name: str = MODEL_NAME
-    base_url: str = OLLAMA_URL
+    # Buat dialog history natural
+    history_lines = []
+    for turn in recent_history:
+        q = turn.get('question', '').strip()
+        a = turn.get('answer', '').strip()
+        history_lines.append(f"User: {q}\nAssistant: {a}")
+    history_block = "\n".join(history_lines)
 
-    def _call(self, messages, stop=None) -> str:
-        # Gabungkan isi pesan sebagai prompt teks
-        prompt_parts = [m.content for m in messages]
-        prompt = "\n".join(prompt_parts)
+    prompt = f"""
+Kamu adalah asisten kesehatan profesional yang ramah dan jelas. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara lengkap dan profesional. Gunakan konteks dan riwayat percakapan sebelumnya untuk menjaga kesinambungan dialog.
 
-        try:
-            response = requests.post(
-                self.base_url,
-                json={
-                    "model": self.model_name,
-                    "prompt": prompt,
-                    "stream": False
-                }
-            )
-            response.raise_for_status()
-            data = response.json()
-            # Parsing response sesuai format Ollama API
-            content = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
-            if content:
-                return content
-            else:
-                return "⚠️ Model tidak memberikan respons."
-        except Exception as e:
-            return f"⚠️ Error saat menghubungi Ollama API: {str(e)}"
+=== Informasi yang kamu miliki ===
+{context_block}
+=== Akhir Informasi ===
 
-    async def _acall(self, messages, stop=None) -> str:
-        return await asyncio.to_thread(self._call, messages, stop)
+=== Riwayat Percakapan ===
+{history_block}
+=== Akhir Riwayat ===
 
-    @property
-    def _llm_type(self) -> str:
-        return "ollama_api"
+User: {question}
+Assistant:
+""".strip()
 
-    def _generate(self, messages, stop=None):
-        text = self._call(messages, stop)
-        generation = Generation(text=text)
-        return LLMResult(generations=[[generation]], llm_output={})
+    return prompt
 
-    async def _agenerate(self, messages, stop=None):
-        text = await self._acall(messages, stop)
-        generation = Generation(text=text)
-        return LLMResult(generations=[[generation]], llm_output={})
+def ask_llama(prompt):
+    try:
+        response = requests.post(OLLAMA_URL, json={
+            "model": MODEL_NAME,
+            "prompt": prompt,
+            "stream": False
+        }, timeout=TIMEOUT_SEC)
 
+        if response.status_code == 200:
+            return response.json().get("response", "").strip()
+        else:
+            return f"⚠️ Error {response.status_code}: {response.text}"
+    except Exception as e:
+        return f"⚠️ Gagal menghubungi LLaMA: {str(e)}"
 
-async def evaluate_samples(samples):
-    # Embedding (kalau kamu perlu untuk indexing/penyiapan, tapi TIDAK dipakai di konstruktor metrik)
-    embedder = SentenceTransformer('all-MiniLM-L6-v2')
+def show_references(context_docs):
+    # Filter supaya setiap href hanya muncul sekali
+    seen = set()
+    lines = []
+    for doc in context_docs:
+        if doc['href'] not in seen:
+            seen.add(doc['href'])
+            lines.append(f"{doc['name']} - {doc['href']}")
+    return "\n".join(lines) if lines else "Tidak ada referensi."
 
-    # Inisialisasi LLM client Ollama
-    llm = OllamaAPIClient()
+def start_chat():
+    print("\n🩺 Chatbot Kesehatan (Berbasis LLaMA + ChromaDB + History)")
+    print("Ketik 'exit' untuk keluar.\n")
 
-    # Inisialisasi metrik RAGAS, tanpa embedding argument
-    context_precision = LLMContextPrecisionWithReference(llm=llm)
-    context_recall = LLMContextRecall(llm=llm)
-    answer_relevance = AnswerRelevancy(llm=llm)
-    faithfulness = Faithfulness(llm=llm)
+    create_history_file()
 
-    results = []
+    while True:
+        question = input("❓ Pertanyaan: ").strip()
+        if question.lower() in ['exit', 'quit']:
+            print("👋 Sampai jumpa!\n")
+            save_history()
+            break
 
-    for idx, sample in enumerate(samples, start=1):
-        print(f"Evaluating sample #{idx}...")
+        if not question:
+            continue
 
-        cp = await context_precision.single_turn_ascore(sample)
-        cr = await context_recall.single_turn_ascore(sample)
-        ar = await answer_relevance.single_turn_ascore(sample)
-        fh = await faithfulness.single_turn_ascore(sample)
+        print("🤖 Sedang mencari jawaban...\n")
+        context = query_context_with_history(question, history[-MAX_HISTORY:])
+        prompt = build_prompt(context, question, history[-MAX_HISTORY:])
 
-        results.append({
-            "index": idx,
-            "user_input": sample.user_input,
-            "response": sample.response,
-            "context_precision": cp,
-            "context_recall": cr,
-            "answer_relevance": ar,
-            "faithfulness": fh,
-        })
+        if prompt.startswith("Maaf, saya tidak memiliki informasi"):
+            answer = prompt
+        else:
+            answer = ask_llama(prompt)
 
-    return results
+        print("🤖 Jawaban:\n" + answer + "\n")
 
+        if context:
+            print("📚 Referensi:")
+            print(show_references(context))
+            print()
 
-def save_results_to_csv(results, filepath="evaluation_results.csv"):
-    keys = results[0].keys()
-    with open(filepath, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=keys)
-        writer.writeheader()
-        writer.writerows(results)
-    print(f"Saved evaluation results to {filepath}")
-
-
-async def main():
-    # Contoh data evaluasi, ganti sesuai datasetmu
-    samples = [
-        SingleTurnSample(
-            user_input="Apa itu flu burung?",
-            response="Flu burung adalah penyakit menular pada unggas...",
-            retrieved_contexts=[
-                "Flu burung adalah penyakit yang disebabkan oleh virus influenza tipe A...",
-                "Virus ini biasanya menular dari unggas ke manusia..."
-            ],
-            reference_contexts=[
-                "Flu burung adalah penyakit yang disebabkan virus influenza tipe A...",
-                "Penyakit ini dapat menular dari unggas ke manusia..."
-            ],
-        ),
-        # Tambahkan samples lain bila perlu
-    ]
-
-    results = await evaluate_samples(samples)
-    save_results_to_csv(results)
-
+        history.append({"question": question, "answer": answer})
+        save_history()
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    start_chat()

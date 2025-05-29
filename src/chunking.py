@@ -15,11 +15,6 @@ def chunk_data(input_path, output_path):
         href = entry["href"]
         paragraphs = entry["paragraphs"]
 
-        # Optional: hapus paragraf terakhir jika ingin
-        if paragraphs:
-            paragraphs = paragraphs[:-1]
-
-        # Setiap paragraf menjadi satu chunk
         chunks = [p.strip() for p in paragraphs if p.strip()]
 
         chunked_data.append({

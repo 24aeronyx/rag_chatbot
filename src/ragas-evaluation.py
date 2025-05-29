@@ -1,9 +1,12 @@
 import requests
 import json
 import csv
+import os
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "llama3.2:3b"
+INPUT_FILE = "Data/ragas-dataset.json"
+OUTPUT_FILE = "Data/ragas_results.csv"
 
 def create_prompt(sample):
     prompt = f"""
@@ -26,7 +29,7 @@ Konteks yang diambil:
 {chr(10).join(sample['contexts'])}
 
 Referensi kebenaran:
-{chr(10).join(sample['ground_truths'])}
+{chr(10).join([ref for ref in sample['ground_truths'] if ref.strip()])}
 
 Berikan hasil dalam format JSON persis seperti ini (tanpa tambahan teks atau penjelasan):
 
@@ -53,15 +56,11 @@ def evaluate_sample(sample):
         return {"error": f"HTTP request error: {str(e)}"}
 
     data = response.json()
-
-    # Ollama response biasanya berisi kunci 'response' dengan teks output
     raw_output = data.get("response", "")
 
     try:
-        # parsing JSON output langsung
         result = json.loads(raw_output)
     except json.JSONDecodeError:
-        # Jika gagal parse, coba cari JSON di dalam teks menggunakan trik sederhana
         import re
         match = re.search(r"\{.*\}", raw_output, re.DOTALL)
         if match:
@@ -74,64 +73,82 @@ def evaluate_sample(sample):
 
     return result
 
-def save_results_to_csv(results, filename="evaluation_results.csv"):
+def save_results_to_csv(results, filename=OUTPUT_FILE):
     if not results:
         print("No results to save.")
         return
-    keys = results[0].keys()
+
+    keys = [
+        "question",
+        "answer",
+        "contexts",
+        "ground_truths",
+        "faithfulness",
+        "answer_relevance",
+        "context_precision",
+        "context_recall",
+        "mean_score",
+    ]
+
     with open(filename, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=keys)
+        writer = csv.DictWriter(f, fieldnames=keys, extrasaction="ignore")
         writer.writeheader()
-        writer.writerows(results)
+        for row in results:
+            ordered_row = {key: row.get(key, "") for key in keys}
+            writer.writerow(ordered_row)
+
     print(f"Saved results to {filename}")
 
+def load_samples_from_json(file_path):
+    if not os.path.exists(file_path):
+        print(f"File not found: {file_path}")
+        return []
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data
+
 def main():
-    # Contoh data sample evaluasi
-    samples = [
-        {
-            "question": "Apa itu flu burung?",
-            "answer": "Flu burung adalah penyakit yang disebabkan oleh virus influenza tipe A yang biasanya menular dari unggas ke manusia.",
-            "contexts": [
-                "Flu burung adalah penyakit yang disebabkan oleh virus influenza tipe A.",
-                "Virus ini biasanya menular dari unggas ke manusia."
-            ],
-            "ground_truths": [
-                "Flu burung disebabkan virus influenza tipe A yang menyerang unggas.",
-                "Penyakit ini bisa menular ke manusia melalui kontak dengan unggas yang terinfeksi."
-            ],
-        },
-        {
-            "question": "Bagaimana cara mengobati Malaria?",
-            "answer": "Mengobati malaria dengan obat antimalaria seperti klorokuin dan menghindari gigitan nyamuk.",
-            "contexts": [
-                "Malaria adalah penyakit infeksi yang ditularkan oleh nyamuk Anopheles.",
-                "Pengobatan utama malaria adalah dengan obat antimalaria."
-            ],
-            "ground_truths": [
-                "Malaria harus segera ditangani dengan obat antimalaria.",
-                "Pencegahan termasuk menghindari gigitan nyamuk Anopheles."
-            ],
-        },
-    ]
+    samples = load_samples_from_json(INPUT_FILE)
+    if not samples:
+        print("No data to evaluate.")
+        return
 
     results = []
     for i, sample in enumerate(samples, 1):
         print(f"Evaluating sample #{i}...")
         result = evaluate_sample(sample)
+
         if "error" in result:
             print(f"Error: {result['error']}")
+            faithfulness = answer_relevance = context_precision = context_recall = mean_score = None
         else:
-            print("Evaluation result:", result)
-        # Gabungkan hasil dengan sample info untuk simpan CSV
+            faithfulness = result.get("faithfulness", None)
+            answer_relevance = result.get("answer_relevance", None)
+            context_precision = result.get("context_precision", None)
+            context_recall = result.get("context_recall", None)
+
+            if None not in (faithfulness, answer_relevance, context_precision, context_recall):
+                mean_score = round(
+                    (faithfulness + answer_relevance + context_precision + context_recall) / 4, 4
+                )
+            else:
+                mean_score = None
+
         record = {
-            "index": i,
             "question": sample["question"],
             "answer": sample["answer"],
-            **result
+            "contexts": json.dumps(sample["contexts"], ensure_ascii=False),
+            "ground_truths": json.dumps(sample["ground_truths"], ensure_ascii=False),
+            "faithfulness": faithfulness,
+            "answer_relevance": answer_relevance,
+            "context_precision": context_precision,
+            "context_recall": context_recall,
+            "mean_score": mean_score,
         }
         results.append(record)
 
     save_results_to_csv(results)
+
 
 if __name__ == "__main__":
     main()
