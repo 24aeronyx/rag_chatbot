@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Apa itu sakit kepala?",
+    "answer": "Sakit kepala adalah rasa sakit atau nyeri di kepala yang bisa muncul secara bertahap atau mendadak. Nyeri akibat sakit kepala dapat muncul di salah satu sisi kepala, terpusat di titik tertentu, atau menyebar hingga ke seluruh bagian kepala.\n\nSakit kepala bisa terasa ringan hingga berat dan dapat berlangsung beberapa jam hingga berhari-hari atau sering kambuh. Karakteristik nyeri pada sakit kepala bisa dari nyeri tajam yang menusuk, nyeri tumpul, nyeri konstan, sampai nyeri yang disertai dengan sensasi berdenyut.\n\nSakit kepala umumnya dapat diobati dengan pola hidup sehat, relaksasi, atau konsumsi obat pereda nyeri yang dijual bebas. Namun, sakit kepala terkadang juga bisa terkait dengan penyakit atau cedera serius sehingga memerlukan penanganan lebih lanjut.\n\nApakah Anda memiliki gejala-gejala tertentu seperti rasa sakit di kepala yang tidak terasa berat, nyeri di satu sisi kepala, atau sensitivitas terhadap cahaya dan suara? Mungkin perlu kita diskusikan lebih lanjut untuk menentukan penyebabnya."
+  },
+  {
+    "question": "apakah ada hubungannya dengan hipertensi?",
+    "answer": "⚠️ Gagal menghubungi LLaMA: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)"
+  },
+  {
+    "question": "Apakah ada hubungan antara COVID-19 dengan corona virus?",
+    "answer": "Ya, ada hubungan antara COVID-19 dan korona virus. COVID-19 adalah penyakit yang disebabkan oleh virus SARS-CoV-2, yang termasuk dalam famili korona virus. Korona virus adalah kelompok virus yang berbeda dari coronavirus lainnya, seperti MERS-CoV dan SARS-CoV.\n\nCOVID-19 terjadi karena pandemik korona virus yang disebabkan oleh mutasi virus SARS-CoV-2. Virus ini pertama kali ditemukan di Wuhan, Tiongkok pada tahun 2019 dan telah menyebar ke seluruh dunia.\n\nNamun, perlu diingat bahwa tidak semua korona virus dapat menyebabkan COVID-19. Virus lainnya dalam famili korona virus juga dapat menyebabkan penyakit yang berbeda, seperti MERS-CoV dan SARS-CoV.\n\nGejala COVID-19 umumnya serupa dengan gejala korona virus lainnya, termasuk demam, batuk, sesak napas, dan diare. Namun, gejala COVID-19 dapat lebih parah dan berat dibandingkan dengan penyakit korona virus lainnya.\n\nUntuk membedakan COVID-19 dari penyakit korona virus lainnya, dokter akan melakukan tes yang spesifik untuk menentukan apakah seseorang terinfeksi virus SARS-CoV-2 atau tidak."
+  }
+]
