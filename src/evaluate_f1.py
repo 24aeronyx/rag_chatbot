@@ -55,17 +55,15 @@ def build_prompt_with_context(question, context_docs):
         context_block = "\n".join(context_lines)
 
     prompt = f"""
-Kamu adalah asisten yang sangat teliti dan kritis dalam menentukan relevansi pertanyaan dengan topik kesehatan manusia.
+Tugas kamu adalah menentukan apakah pertanyaan ini relevan dengan topik kesehatan manusia.
 
-Gunakan konteks berikut dengan seksama untuk menentukan apakah pertanyaan ini benar-benar relevan.
+Gunakan informasi di bawah ini sebagai konteks referensi untuk menilai relevansi pertanyaan.
 
-Jika konteks tidak cukup mendukung atau ada keraguan, jawab dengan tegas "Tidak".
-
-=== KONTEKS ===
+=== Informasi Konteks ===
 {context_block}
-=== AKHIR KONTEKS ===
+=== Akhir Informasi ===
 
-Jawablah hanya dengan satu kata, tepat "Ya" jika pertanyaan sangat relevan dengan konteks kesehatan manusia, atau "Tidak" jika tidak relevan atau ada keraguan.
+Jawab hanya dengan satu kata: "Ya" jika pertanyaan relevan dengan konteks kesehatan manusia, atau "Tidak" jika tidak relevan.
 
 Pertanyaan: {question}
 Jawaban:
@@ -102,7 +100,7 @@ def main():
     y_true = []
     y_pred = []
 
-    for i, entry in enumerate(data):
+    for entry in data:
         q = entry["question"]
         label = entry["label"]
         y_true.append(label)
@@ -114,16 +112,6 @@ def main():
         print(f"🤖 Jawaban (klasifikasi): {answer}\n")
 
         pred_label = is_relevant(answer)
-
-        # Jika prediksi Ya tapi label sebenarnya 0 → ubah prediksi jadi Tidak (0)
-        if label == 0 and pred_label == 1:
-            print(f"⚠️ False Positive: Prediksi 'Ya' padahal label = 0, ubah prediksi jadi 'Tidak'")
-            pred_label = 0
-
-        # Jika prediksi Tidak tapi label 1 → tetap catat false negative seperti biasa
-        if label == 1 and pred_label == 0:
-            print(f"⚠️ False Negative: Prediksi 'Tidak' padahal label = 1")
-
         y_pred.append(pred_label)
 
     precision = precision_score(y_true, y_pred)

@@ -1,8 +1,9 @@
+import os
 import json
 import requests
+from datetime import datetime
 from sentence_transformers import SentenceTransformer
 from chromadb import PersistentClient
-from sklearn.metrics import precision_score, recall_score, f1_score
 
 # Konfigurasi
 PERSIST_DIR = './embeddings'
@@ -12,14 +13,35 @@ MODEL_NAME = 'llama3.2:3b'
 TOP_K = 5
 WINDOW = 2
 TIMEOUT_SEC = 15
+HISTORY_DIR = 'history'
+MAX_HISTORY = 3
 
 # Inisialisasi
 client = PersistentClient(path=PERSIST_DIR)
 collection = client.get_or_create_collection(name=COLLECTION_NAME)
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
 
-def query_context(question, top_k=TOP_K, window=WINDOW):
-    embedding = embedder.encode(question).tolist()
+history = []
+history_filepath = None
+
+def save_history():
+    if history_filepath and history:
+        with open(history_filepath, 'w', encoding='utf-8') as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+
+def create_history_file():
+    global history_filepath
+    os.makedirs(HISTORY_DIR, exist_ok=True)
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    filename = f'history_{timestamp}.json'
+    history_filepath = os.path.join(HISTORY_DIR, filename)
+
+def query_context_with_history(question, recent_history, top_k=TOP_K, window=WINDOW):
+    # Gabungkan beberapa pertanyaan terakhir plus pertanyaan terbaru
+    texts_to_embed = [turn['question'] for turn in recent_history[-2:]] + [question]
+    combined_text = " ".join(texts_to_embed)
+
+    embedding = embedder.encode(combined_text).tolist()
     results = collection.query(query_embeddings=[embedding], n_results=top_k)
 
     if not results['documents'] or not results['metadatas']:
@@ -30,9 +52,11 @@ def query_context(question, top_k=TOP_K, window=WINDOW):
         idx = meta.get('chunk_index')
         href = meta.get('href')
         name = meta.get('name')
+
         related = collection.get(where={"href": href})
         docs = related['documents']
         metas = related['metadatas']
+
         for offset in range(-window, window + 1):
             j = idx + offset
             if 0 <= j < len(docs):
@@ -45,29 +69,42 @@ def query_context(question, top_k=TOP_K, window=WINDOW):
                     }
     return list(unique_chunks.values())
 
-def build_prompt_with_context(question, context_docs):
-    context_block = ""
-    if context_docs:
-        context_lines = []
-        for i, doc in enumerate(context_docs, 1):
-            snippet = doc['text'][:300].replace('\n', ' ').strip()
-            context_lines.append(f"[{i}] {doc['name']} - {doc['href']}\n{snippet}\n")
-        context_block = "\n".join(context_lines)
+
+def build_prompt(context_docs, question, recent_history):
+    if not context_docs:
+        question_clean = ''.join(c for c in question if c.isalnum() or c.isspace()).strip()
+        return f"Maaf, saya tidak memiliki informasi yang cukup tentang {question_clean}"
+
+    # Buat blok konteks
+    context_lines = []
+    for i, doc in enumerate(context_docs, 1):
+        snippet = doc['text'][:300].replace('\n', ' ').strip()
+        context_lines.append(f"[{i}] {doc['name']} - {doc['href']}\n{snippet}\n")
+    context_block = "\n".join(context_lines)
+
+    # Buat dialog history natural
+    history_lines = []
+    for turn in recent_history:
+        q = turn.get('question', '').strip()
+        a = turn.get('answer', '').strip()
+        history_lines.append(f"User: {q}\nAssistant: {a}")
+    history_block = "\n".join(history_lines)
 
     prompt = f"""
-Tugas kamu adalah menentukan apakah pertanyaan ini relevan dengan topik kesehatan manusia.
+Kamu adalah asisten kesehatan profesional yang ramah dan jelas. Berdasarkan informasi berikut, bantu jawab pertanyaan pengguna secara lengkap dan profesional. Gunakan konteks dan riwayat percakapan sebelumnya untuk menjaga kesinambungan dialog.
 
-Gunakan informasi di bawah ini sebagai konteks referensi untuk menilai relevansi pertanyaan.
-
-=== Informasi Konteks ===
+=== Informasi yang kamu miliki ===
 {context_block}
 === Akhir Informasi ===
 
-Jawab hanya dengan satu kata: "Ya" jika pertanyaan relevan dengan konteks kesehatan manusia, atau "Tidak" jika tidak relevan.
+=== Riwayat Percakapan ===
+{history_block}
+=== Akhir Riwayat ===
 
-Pertanyaan: {question}
-Jawaban:
+User: {question}
+Assistant:
 """.strip()
+
     return prompt
 
 def ask_llama(prompt):
@@ -81,47 +118,54 @@ def ask_llama(prompt):
         if response.status_code == 200:
             return response.json().get("response", "").strip()
         else:
-            return ""
-    except Exception:
-        return ""
+            return f"⚠️ Error {response.status_code}: {response.text}"
+    except Exception as e:
+        return f"⚠️ Gagal menghubungi LLaMA: {str(e)}"
 
-def is_relevant(answer):
-    answer = answer.strip().lower()
-    if answer.startswith("ya"):
-        return 1
-    elif answer.startswith("tidak"):
-        return 0
-    return 0  # fallback: anggap tidak relevan
+def show_references(context_docs):
+    # Filter supaya setiap href hanya muncul sekali
+    seen = set()
+    lines = []
+    for doc in context_docs:
+        if doc['href'] not in seen:
+            seen.add(doc['href'])
+            lines.append(f"{doc['name']} - {doc['href']}")
+    return "\n".join(lines) if lines else "Tidak ada referensi."
 
-def main():
-    with open("Data/questions_f1_eval.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
+def start_chat():
+    print("\n🩺 Chatbot Kesehatan (Berbasis LLaMA + ChromaDB + History)")
+    print("Ketik 'exit' untuk keluar.\n")
 
-    y_true = []
-    y_pred = []
+    create_history_file()
 
-    for entry in data:
-        q = entry["question"]
-        label = entry["label"]
-        y_true.append(label)
+    while True:
+        question = input("❓ Pertanyaan: ").strip()
+        if question.lower() in ['exit', 'quit']:
+            print("👋 Sampai jumpa!\n")
+            save_history()
+            break
 
-        context = query_context(q)
-        prompt = build_prompt_with_context(q, context)
-        print(f"\n❓ Pertanyaan: {q}")
-        answer = ask_llama(prompt)
-        print(f"🤖 Jawaban (klasifikasi): {answer}\n")
+        if not question:
+            continue
 
-        pred_label = is_relevant(answer)
-        y_pred.append(pred_label)
+        print("🤖 Sedang mencari jawaban...\n")
+        context = query_context_with_history(question, history[-MAX_HISTORY:])
+        prompt = build_prompt(context, question, history[-MAX_HISTORY:])
 
-    precision = precision_score(y_true, y_pred)
-    recall = recall_score(y_true, y_pred)
-    f1 = f1_score(y_true, y_pred)
+        if prompt.startswith("Maaf, saya tidak memiliki informasi"):
+            answer = prompt
+        else:
+            answer = ask_llama(prompt)
 
-    print("\n📊 Evaluasi:")
-    print(f"Precision: {precision:.3f}")
-    print(f"Recall:    {recall:.3f}")
-    print(f"F1 Score:  {f1:.3f}")
+        print("🤖 Jawaban:\n" + answer + "\n")
+
+        if context:
+            print("📚 Referensi:")
+            print(show_references(context))
+            print()
+
+        history.append({"question": question, "answer": answer})
+        save_history()
 
 if __name__ == "__main__":
-    main()
+    start_chat()
