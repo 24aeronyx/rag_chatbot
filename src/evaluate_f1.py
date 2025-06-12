@@ -1,4 +1,5 @@
 import json
+import csv
 import requests
 from sentence_transformers import SentenceTransformer
 from chromadb import PersistentClient
@@ -12,6 +13,7 @@ MODEL_NAME = 'llama3.2:3b'
 TOP_K = 5
 WINDOW = 2
 TIMEOUT_SEC = 15
+OUTPUT_CSV = "Data/evaluasi_f1.csv"
 
 # Inisialisasi
 client = PersistentClient(path=PERSIST_DIR)
@@ -63,7 +65,7 @@ Gunakan informasi di bawah ini sebagai konteks referensi untuk menilai relevansi
 {context_block}
 === Akhir Informasi ===
 
-Jawab hanya dengan satu kata: "Ya" jika pertanyaan relevan dengan konteks kesehatan manusia, atau "Tidak" jika tidak relevan.
+Jawab hanya dengan satu kata: "Ya" jika pertanyaan relevan dengan referensi informasi yang telah diberikan, atau "Tidak" jika tidak relevan.
 
 Pertanyaan: {question}
 Jawaban:
@@ -91,7 +93,7 @@ def is_relevant(answer):
         return 1
     elif answer.startswith("tidak"):
         return 0
-    return 0  # fallback: anggap tidak relevan
+    return 0  # fallback
 
 def main():
     with open("Data/questions_f1_eval.json", "r", encoding="utf-8") as f:
@@ -100,19 +102,25 @@ def main():
     y_true = []
     y_pred = []
 
-    for entry in data:
-        q = entry["question"]
-        label = entry["label"]
-        y_true.append(label)
+    with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["question", "label", "predicted", "llm_answer"])
 
-        context = query_context(q)
-        prompt = build_prompt_with_context(q, context)
-        print(f"\n❓ Pertanyaan: {q}")
-        answer = ask_llama(prompt)
-        print(f"🤖 Jawaban (klasifikasi): {answer}\n")
+        for entry in data:
+            q = entry["question"]
+            label = entry["label"]
+            y_true.append(label)
 
-        pred_label = is_relevant(answer)
-        y_pred.append(pred_label)
+            context = query_context(q)
+            prompt = build_prompt_with_context(q, context)
+            print(f"\n❓ Pertanyaan: {q}")
+            answer = ask_llama(prompt)
+            print(f"🤖 Jawaban (klasifikasi): {answer}\n")
+
+            pred_label = is_relevant(answer)
+            y_pred.append(pred_label)
+
+            writer.writerow([q, label, pred_label, answer])
 
     precision = precision_score(y_true, y_pred)
     recall = recall_score(y_true, y_pred)

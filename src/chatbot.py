@@ -37,7 +37,6 @@ def create_history_file():
     history_filepath = os.path.join(HISTORY_DIR, filename)
 
 def query_context_with_history(question, recent_history, top_k=TOP_K, window=WINDOW):
-    # Gabungkan beberapa pertanyaan terakhir plus pertanyaan terbaru
     texts_to_embed = [turn['question'] for turn in recent_history[-2:]] + [question]
     combined_text = " ".join(texts_to_embed)
 
@@ -133,7 +132,7 @@ def show_references(context_docs):
     return "\n".join(lines) if lines else "Tidak ada referensi."
 
 def start_chat():
-    print("\n🩺 Chatbot Kesehatan (Berbasis LLaMA + ChromaDB + History)")
+    print("\n🩺 Chatbot Kesehatan Alodokter")
     print("Ketik 'exit' untuk keluar.\n")
 
     create_history_file()

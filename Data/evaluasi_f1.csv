@@ -1,0 +1,11 @@
+question,label,predicted,llm_answer
+Apa itu ADHD?,1,1,Ya.
+Apa yang menyebabkan stroke?,1,1,Ya.
+Bagaimana cara mendiagnosa amnesia?,1,1,Ya.
+Apakah kamu mengetahui tentang penyakit rubella?,1,1,Ya.
+Apakah flu merupakan penyakit yang berbahaya?,1,1,Ya.
+Apakah kamu mengenal penyakit Laryngo-onycho-cutaneous Syndrome?,0,0,Tidak.
+"Sekarang lagi pandemi penyakit Vexas, saya juga terkena, apakah kamu bisa bantu mengobatinya?",0,0,Tidak.
+Apa yang menyebabkan Sindrom Alström?,0,0,Tidak.
+Apa saja gejala penyakit Vexas?,0,0,Tidak.
+Apa yang menyebabkan Schinzel–Giedion Syndrome?,0,0,Tidak.

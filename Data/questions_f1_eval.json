@@ -1,42 +1,42 @@
 [
   {
-    "question": "Saya demam, batuk kering, dan sesak napas. Kira-kira kenapa ya?",
+    "question": "Apa itu ADHD?",
     "label": 1
   },
   {
-    "question": "Apakah peradangan lambung yang berlangsung lama dan menyebabkan nyeri ulu hati serta mual bisa berubah menjadi komplikasi serius?",
+    "question": "Apa yang menyebabkan stroke?",
     "label": 1
   },
   {
-    "question": "Apakah kebiasaan merokok dalam jangka panjang bisa memicu pertumbuhan sel tidak normal di paru-paru?",
+    "question": "Bagaimana cara mendiagnosa amnesia?",
     "label": 1
   },
   {
-    "question": "Kulit saya sering mengelupas, disertai kemerahan dan gatal yang muncul terus-menerus, apa yang mungkin jadi penyebabnya?",
+    "question": "Apakah kamu mengetahui tentang penyakit rubella?",
     "label": 1
   },
   {
-    "question": "Kalau saya mengalami demam, hidung tersumbat, dan nyeri tenggorokan, bagaimana saya tahu apakah itu flu atau hanya pilek biasa?",
+    "question": "Apakah flu merupakan penyakit yang berbahaya?",
     "label": 1
   },
   {
-    "question": "Pasien mengalami gangguan penglihatan sejak kecil, kehilangan pendengaran progresif, obesitas sejak masa kanak-kanak, dan kardiomiopati. Kira-kira apa kemungkinan diagnosisnya?",
+    "question": "Apakah kamu mengenal penyakit Laryngo-onycho-cutaneous Syndrome?",
     "label": 0
   },
   {
-    "question": "Jika seseorang mengalami kombinasi demam kronis, anemia, dan peradangan kulit, penyakit apa yang mungkin diderita?",
+    "question": "Sekarang lagi pandemi penyakit Vexas, saya juga terkena, apakah kamu bisa bantu mengobatinya?",
     "label": 0
   },
   {
-    "question": "Apakah unicorn membutuhkan vaksinasi?",
+    "question": "Apa yang menyebabkan Sindrom Alström?",
     "label": 0
   },
   {
-    "question": "Bagaimana cara membuat roket dari garam?",
+    "question": "Apa saja gejala penyakit Vexas?",
     "label": 0
   },
   {
-    "question": "Apakah alien bisa terkena flu?",
+    "question": "Apa yang menyebabkan Schinzel–Giedion Syndrome?",
     "label": 0
   }
 ]
